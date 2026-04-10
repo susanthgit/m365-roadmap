@@ -19,6 +19,7 @@ CATEGORIES_FILE = SCRIPT_DIR / "categories.json"
 SITE_DIR = SCRIPT_DIR / ".." / "site"
 OUTPUT_FILE = SITE_DIR / "items.json"
 PREVIOUS_STATE_FILE = SITE_DIR / "previous_state.json"
+CHANGELOG_FILE = SITE_DIR / "changelog.json"
 
 API_URL = "https://www.microsoft.com/releasecommunications/api/v1/m365"
 REQUEST_TIMEOUT = 30
@@ -199,6 +200,14 @@ def transform_item(item, product_map, status_config):
 
     ga_date_raw = item.get("publicDisclosureAvailabilityDate", "")
     preview_date_raw = item.get("publicPreviewDate", "")
+    ga_parsed = parse_ga_date(ga_date_raw)
+
+    # Delay detection: GA date is in the past but item isn't Launched
+    is_delayed = False
+    if ga_parsed and status not in ("Launched", "Cancelled"):
+        now_month = datetime.now(timezone.utc).strftime("%Y-%m")
+        if len(ga_parsed) >= 7 and ga_parsed < now_month:
+            is_delayed = True
 
     return {
         "id": item["id"],
@@ -212,8 +221,9 @@ def transform_item(item, product_map, status_config):
         "change_type": item.get("change_type"),
         "previous_status": item.get("previous_status"),
         "previous_ga_date": item.get("previous_ga_date"),
+        "is_delayed": is_delayed,
         "ga_date": ga_date_raw,
-        "ga_date_parsed": parse_ga_date(ga_date_raw),
+        "ga_date_parsed": ga_parsed,
         "preview_date": preview_date_raw,
         "preview_date_parsed": parse_ga_date(preview_date_raw),
         "products": product_names,
@@ -230,6 +240,55 @@ def transform_item(item, product_map, status_config):
         "created": item.get("created", ""),
         "modified": item.get("modified", ""),
     }
+
+
+def update_changelog(items):
+    """Accumulate a per-item changelog across runs."""
+    # Load existing changelog
+    changelog = {}
+    if CHANGELOG_FILE.exists():
+        try:
+            with open(CHANGELOG_FILE, "r", encoding="utf-8") as f:
+                changelog = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            changelog = {}
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    added = 0
+
+    for item in items:
+        change_type = item.get("change_type")
+        if not change_type:
+            continue
+
+        item_id = str(item["id"])
+        if item_id not in changelog:
+            changelog[item_id] = []
+
+        # Don't duplicate entries for the same day + event
+        existing_dates = {e["date"] + e["event"] for e in changelog[item_id]}
+        key = today + change_type
+        if key in existing_dates:
+            continue
+
+        entry = {
+            "date": today,
+            "event": change_type,
+            "status": item.get("status", ""),
+            "ga_date": item.get("ga_date", ""),
+        }
+        if change_type == "status_changed" and item.get("previous_status"):
+            entry["from_status"] = item["previous_status"]
+        if change_type == "date_changed" and item.get("previous_ga_date"):
+            entry["from_ga_date"] = item["previous_ga_date"]
+
+        changelog[item_id].append(entry)
+        added += 1
+
+    with open(CHANGELOG_FILE, "w", encoding="utf-8") as f:
+        json.dump(changelog, f, ensure_ascii=False)
+
+    print(f"📜 Changelog: {added} new entries, {len(changelog)} items tracked → {CHANGELOG_FILE}")
 
 
 def main():
@@ -327,10 +386,12 @@ def main():
     product_categories.sort(key=lambda x: x["count"], reverse=True)
 
     active_items = [i for i in items if i["status"] != "Launched"]
+    delayed_items = [i for i in items if i.get("is_delayed")]
 
     print(f"\n📊 Summary:")
     print(f"  Total items: {len(items)}")
     print(f"  Active (non-Launched): {len(active_items)}")
+    print(f"  ⚠️  Delayed (past GA date): {len(delayed_items)}")
     for status, count in sorted(status_counts.items(), key=lambda x: -x[1]):
         print(f"  {status}: {count}")
 
@@ -341,6 +402,7 @@ def main():
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "total_items": len(items),
         "active_items": len(active_items),
+        "delayed_items": len(delayed_items),
         "changes_summary": changes_summary,
         "product_categories": product_categories,
         "status_counts": status_counts,
@@ -352,7 +414,6 @@ def main():
     print(f"\n💾 Saved {len(items)} items → {OUTPUT_FILE}")
 
     # Save current raw state for next run's diff
-    # Store minimal fields needed for comparison
     state_items = []
     for raw in raw_items:
         state_items.append({
@@ -367,6 +428,9 @@ def main():
     with open(PREVIOUS_STATE_FILE, "w", encoding="utf-8") as f:
         json.dump(state_items, f, indent=2, ensure_ascii=False)
     print(f"💾 Saved previous state ({len(state_items)} items) → {PREVIOUS_STATE_FILE}")
+
+    # Accumulate changelog (historical record of changes per item)
+    update_changelog(items)
 
     if removed_ids:
         print(f"\n⚠️  {len(removed_ids)} item(s) removed from roadmap: {sorted(removed_ids)[:10]}...")

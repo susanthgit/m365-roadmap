@@ -72,6 +72,7 @@ def slim_item(item):
         "change_type": item.get("change_type"),
         "previous_status": item.get("previous_status"),
         "previous_ga_date": item.get("previous_ga_date"),
+        "is_delayed": item.get("is_delayed", False),
         "ga_date": item.get("ga_date", ""),
         "ga_date_parsed": item.get("ga_date_parsed"),
         "products": item.get("products", []),
@@ -257,7 +258,74 @@ def main():
     print("\n📊 Monthly:")
     generate_monthly(data)
 
+    # 5. Generate RSS feed
+    print("\n📡 RSS:")
+    generate_rss(data)
+
     print("\n🎉 Data generation complete!")
+
+
+def generate_rss(data):
+    """Generate an RSS feed of roadmap items for subscribers."""
+    from xml.sax.saxutils import escape as xml_escape
+
+    items = data.get("items", [])
+    # Focus on active items with changes, then newest active items
+    changed = [i for i in items if i.get("change_type")]
+    active = [i for i in items if i["status"] != "Launched"]
+    # Combine: changed first, then recent active, capped at 100
+    seen = set()
+    rss_items = []
+    for i in changed + active:
+        if i["id"] not in seen:
+            seen.add(i["id"])
+            rss_items.append(i)
+        if len(rss_items) >= 100:
+            break
+
+    xml_items = ""
+    for item in rss_items:
+        title = xml_escape(item.get("title", ""))
+        link = xml_escape(item.get("roadmap_url", f"https://www.microsoft.com/microsoft-365/roadmap?id={item['id']}"))
+        status = xml_escape(item.get("status", ""))
+        summary = xml_escape(item.get("ai_summary", "") or item.get("description", "")[:300])
+        ga_date = xml_escape(item.get("ga_date", ""))
+        products = ", ".join(item.get("products", []))
+        change = item.get("change_type", "")
+        change_prefix = f"[{change.upper()}] " if change else ""
+
+        desc = f"{change_prefix}{summary}"
+        if ga_date:
+            desc += f" (GA: {ga_date})"
+        if products:
+            desc += f" — {xml_escape(products)}"
+
+        xml_items += f"""    <item>
+      <title>{xml_escape(change_prefix)}{title}</title>
+      <link>{link}</link>
+      <description>{xml_escape(desc)}</description>
+      <category>{xml_escape(status)}</category>
+      <category>{xml_escape(item.get('product_category_name', ''))}</category>
+      <guid isPermaLink="false">{item['id']}</guid>
+    </item>\n"""
+
+    now_str = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S +0000")
+    rss = f"""<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>M365 Roadmap Tracker — A Guide to Cloud &amp; AI</title>
+    <link>https://www.aguidetocloud.com/m365-roadmap/</link>
+    <description>Daily Microsoft 365 roadmap updates — new features, status changes, and AI summaries</description>
+    <language>en</language>
+    <lastBuildDate>{now_str}</lastBuildDate>
+    <atom:link href="https://www.aguidetocloud.com/data/roadmap/feed.xml" rel="self" type="application/rss+xml"/>
+{xml_items}  </channel>
+</rss>"""
+
+    rss_path = SITE_DIR / "feed.xml"
+    with open(rss_path, "w", encoding="utf-8") as f:
+        f.write(rss)
+    print(f"  ✅ RSS feed ({len(rss_items)} items) → {rss_path}")
 
 
 if __name__ == "__main__":
