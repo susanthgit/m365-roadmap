@@ -61,6 +61,29 @@ def get_archived_dates():
     return dates
 
 
+def slim_item(item):
+    """Strip heavy fields for the frontend JSON. Keep only what the JS needs."""
+    return {
+        "id": item["id"],
+        "title": item.get("title", ""),
+        "ai_summary": item.get("ai_summary", ""),
+        "status": item.get("status", ""),
+        "status_order": item.get("status_order", 99),
+        "change_type": item.get("change_type"),
+        "previous_status": item.get("previous_status"),
+        "previous_ga_date": item.get("previous_ga_date"),
+        "ga_date": item.get("ga_date", ""),
+        "ga_date_parsed": item.get("ga_date_parsed"),
+        "products": item.get("products", []),
+        "product_category": item.get("product_category", ""),
+        "product_category_name": item.get("product_category_name", ""),
+        "all_categories": item.get("all_categories", []),
+        "platforms": item.get("platforms", []),
+        "roadmap_url": item.get("roadmap_url", ""),
+        "modified": item.get("modified", ""),
+    }
+
+
 def generate_latest(data):
     """Generate latest.json — the main data file for the frontend."""
     items = data.get("items", [])
@@ -80,12 +103,12 @@ def generate_latest(data):
         "changes_summary": data.get("changes_summary", {}),
         "product_categories": data.get("product_categories", []),
         "status_counts": data.get("status_counts", {}),
-        "items": items,
+        "items": [slim_item(i) for i in items],
     }
 
     output_path = SITE_DIR / "latest.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, ensure_ascii=False)
 
     active_count = output["active_items"]
     print(f"  ✅ Latest ({len(items)} total, {active_count} active) → {output_path}")
@@ -139,12 +162,12 @@ def generate_weekly(data):
         "total_items": len(weekly_items),
         "changed_items_count": len(changed_items),
         "product_categories": data.get("product_categories", []),
-        "items": weekly_items,
+        "items": [slim_item(i) for i in weekly_items],
     }
 
     output_path = SITE_DIR / "weekly.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, ensure_ascii=False)
 
     print(f"  ✅ Weekly ({len(weekly_items)} items, {len(changed_items)} changed) → {output_path}")
     return output_path
@@ -190,12 +213,12 @@ def generate_monthly(data):
         "period": month_display,
         "total_items": len(monthly_items),
         "product_categories": data.get("product_categories", []),
-        "items": monthly_items,
+        "items": [slim_item(i) for i in monthly_items],
     }
 
     output_path = SITE_DIR / "monthly.json"
     with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, ensure_ascii=False)
 
     print(f"  ✅ Monthly ({len(monthly_items)} items) → {output_path}")
     return output_path
