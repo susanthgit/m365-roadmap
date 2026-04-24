@@ -59,8 +59,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PERSONAL_PAT }}
         run: |
-          git clone https://github.com/susanthgit/aguidetocloud-revamp.git /tmp/main-site
-          git -C /tmp/main-site config http.https://github.com/.extraheader "Authorization: bearer ${GH_TOKEN}"
+          git clone https://x-access-token:${GH_TOKEN}@github.com/susanthgit/aguidetocloud-revamp.git /tmp/main-site
           mkdir -p /tmp/main-site/static/data/roadmap
           cp site/latest.json /tmp/main-site/static/data/roadmap/latest.json
           [ -f site/weekly.json ] && cp site/weekly.json /tmp/main-site/static/data/roadmap/weekly.json
@@ -89,4 +88,3 @@ jobs:
             --repo susanthgit/m365-roadmap \
             --title "🚨 Roadmap pipeline failed — $(date -u +%Y-%m-%d)" \
             --body "The daily M365 Roadmap workflow failed. Check the [workflow run](https://github.com/susanthgit/m365-roadmap/actions) for details." \
-            --label "bug"
