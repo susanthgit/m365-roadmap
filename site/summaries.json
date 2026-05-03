@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-05-02T07:02:22.252958+00:00",
-  "total_items": 1910,
+  "generated_at": "2026-05-03T07:20:48.444717+00:00",
+  "total_items": 1892,
   "active_items": 950,
   "delayed_items": 540,
   "changes_summary": {
     "new_items": 0,
-    "status_changes": 8,
-    "date_changes": 3,
+    "status_changes": 0,
+    "date_changes": 0,
     "updated_items": 0,
-    "removed_items": 0,
-    "unchanged": 1899
+    "removed_items": 18,
+    "unchanged": 1892
   },
   "product_categories": [
     {
@@ -17,35 +17,35 @@
       "name": "Copilot",
       "emoji": "🤖",
       "color": "#7B68EE",
-      "count": 344
-    },
-    {
-      "id": "purview",
-      "name": "Purview & Security",
-      "emoji": "🛡️",
-      "color": "#E74856",
-      "count": 334
+      "count": 338
     },
     {
       "id": "teams",
       "name": "Teams",
       "emoji": "💬",
       "color": "#6264A7",
-      "count": 332
+      "count": 331
+    },
+    {
+      "id": "purview",
+      "name": "Purview & Security",
+      "emoji": "🛡️",
+      "color": "#E74856",
+      "count": 329
     },
     {
       "id": "outlook",
       "name": "Outlook & Exchange",
       "emoji": "📧",
       "color": "#0078D4",
-      "count": 221
+      "count": 219
     },
     {
       "id": "admin",
       "name": "Admin & Platform",
       "emoji": "⚙️",
       "color": "#5C2D91",
-      "count": 173
+      "count": 171
     },
     {
       "id": "office-apps",
@@ -59,14 +59,14 @@
       "name": "Viva",
       "emoji": "🏢",
       "color": "#6C33A3",
-      "count": 141
+      "count": 140
     },
     {
       "id": "sharepoint",
       "name": "SharePoint & OneDrive",
       "emoji": "📂",
       "color": "#038387",
-      "count": 101
+      "count": 100
     },
     {
       "id": "edge-media",
@@ -92,493 +92,10 @@
   ],
   "status_counts": {
     "Rolling out": 223,
-    "Launched": 960,
-    "In development": 727
+    "In development": 727,
+    "Launched": 942
   },
   "items": [
-    {
-      "id": 559991,
-      "title": "Outlook: Account Selector in Outlook Copilot Side Pane",
-      "description": "When users have more than one Copilot-enabled account added to new Outlook, the Copilot side pane in Calendar will include an account dropdown that makes it clear which Copilot-enabled account you’re using and lets you switch accounts without relying on Outlook UI’s account context.",
-      "ai_summary": "Outlook adds an account selector in the Copilot side pane for users with multiple accounts, simplifying account management. This change affects users with multiple Copilot-enabled accounts.",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "April CY2026",
-      "preview_date_parsed": "2026-04",
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559991",
-      "created": "2026-04-14T23:00:25",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 559611,
-      "title": "Microsoft Teams: Annotations on Teams Single Window Sharing on macOS",
-      "description": "Presenters can now share a single application window and enable participants to annotate directly on top of that content, without exposing their entire desktop. This means cleaner presentations, protected privacy, and more engaging discussions across training sessions, workshops, and client meetings.",
-      "ai_summary": "Teams on macOS will allow presenters to share a single application window and enable participant annotations, enhancing privacy and engagement during presentations. This affects Teams users on macOS.",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559611",
-      "created": "2026-04-02T23:15:15",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 557180,
-      "title": "Microsoft Teams: Consecutive interpretation in Interpreter",
-      "description": "Consecutive interpretation enables turn-based interpretation for everyone in the meeting. Interpretation happens after each speaker finishes talking, creating a turn-based flow that supports interactive discussions across two languages. ",
-      "ai_summary": "Microsoft Teams will introduce consecutive interpretation, allowing turn-based interpretation during meetings for better interaction across languages. This change affects all Teams users participating in multilingual meetings.",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "copilot",
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557180",
-      "created": "2026-02-13T00:15:26",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 541830,
-      "title": "Microsoft Teams: Branded Meeting Reactions",
-      "description": "With new branded reactions, organizations can now extend their visual identity directly into meetings. IT admins simply upload custom reaction icons reflecting brand elements or event themes, and these instantly become available for meeting participants.  A simple way to create more cohesive, on-brand meeting experiences.",
-      "ai_summary": "Microsoft Teams will allow organizations to upload custom branded meeting reactions for participants. This change affects meeting experiences by enhancing brand visibility during meetings.",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=541830",
-      "created": "2025-12-16T00:15:28",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 560322,
-      "title": "Microsoft Purview: eDiscovery - review set limit increase",
-      "description": "Review set limit per case is increased from 20 per case to 100 per case.",
-      "ai_summary": "Microsoft Purview increases the review set limit from 20 to 100 per case for eDiscovery. This change affects legal and compliance teams managing eDiscovery cases.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=560322",
-      "created": "2026-04-13T23:15:13",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 558858,
-      "title": "Microsoft Purview: eDiscovery - review set limit increase",
-      "description": "Review set limit per case is increased from 20 per case to 100 per case.",
-      "ai_summary": "Microsoft Purview's eDiscovery review set limit will increase from 20 to 100 per case, allowing for more extensive case management.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "Rolling out",
-      "previous_ga_date": "April CY2026",
-      "is_delayed": false,
-      "ga_date": "April CY2026",
-      "ga_date_parsed": "2026-04",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558858",
-      "created": "2026-03-17T22:45:46",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 557977,
-      "title": "Microsoft Purview: Data Loss Prevention- Security Store now available within Purview DLP to browse, purchase, and enable partner integrations",
-      "description": "Microsoft Security Store is now integrated into the Microsoft Purview DLP experience, giving admins an in‑product way to discover a curated set of integrations that extend Purview capabilities, including data security capabilities for the network. Purchasing and management are completed through Security Store, simplifying how organizations procure partner integrations.",
-      "ai_summary": "Microsoft Purview DLP integrates the Microsoft Security Store, allowing admins to discover and manage partner integrations directly within the DLP experience. This simplifies procurement for enhanced data security.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "Rolling out",
-      "previous_ga_date": "March CY2026",
-      "is_delayed": false,
-      "ga_date": "March CY2026",
-      "ga_date_parsed": "2026-03",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557977",
-      "created": "2026-02-27T23:15:13",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "medium"
-    },
-    {
-      "id": 493757,
-      "title": "Microsoft Purview compliance portal: Insider Risk Management- Multi selectable DLP policies as an IRM triggering event",
-      "description": "Insider Risk Management is releasing the ability to select multiple Data Loss Prevention (DLP) policies as triggering events in a policy. Previously, admins could only select one DLP policy as a triggering event within Insider Risk Management policies. Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
-      "ai_summary": "Insider Risk Management will allow multiple DLP policies to be selected as triggering events, enhancing risk detection capabilities.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "December CY2025",
-      "is_delayed": false,
-      "ga_date": "December CY2025",
-      "ga_date_parsed": "2025-12",
-      "preview_date": "August CY2025",
-      "preview_date_parsed": "2025-08",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=493757",
-      "created": "2025-05-21T23:15:06",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "high"
-    },
-    {
-      "id": 557178,
-      "title": "Microsoft Teams: Sensitivity label inheritance for meeting recordings",
-      "description": "Meeting recordings now automatically inherit the meeting’s sensitivity label. When label inheritance is enabled in sensitivity label policies, a labeled meeting applies the same label to its MP4 recording, ensuring access controls, data handling rules, and Copilot or agent responses based on transcripts consistently respect the meeting’s sensitivity end to end.",
-      "ai_summary": "Microsoft Teams meeting recordings will now automatically inherit the meeting's sensitivity label, ensuring consistent access controls and data handling. This change affects all users who record meetings.",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557178",
-      "created": "2026-02-12T00:15:53",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "high"
-    },
-    {
-      "id": 555857,
-      "title": "Microsoft Teams: Sensitivity label inheritance for Loop meeting notes",
-      "description": "Loop meeting notes now automatically inherit your meeting’s sensitivity label. When admins enable label inheritance in the sensitivity label policy, any labeled meeting applies the same label to its Loop meeting notes, ensuring protections like encryption, access controls, and data handling rules carry forward consistently. This also ensures that Copilot and agent responses based on Loop meeting notes accurately reflect the meeting’s sensitivity, keeping confidential content protected end to end.",
-      "ai_summary": "Loop meeting notes in Microsoft Teams will automatically inherit the meeting's sensitivity label, maintaining consistent protections for confidential content. This impacts users who utilize Loop meeting notes.",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555857",
-      "created": "2026-02-06T23:00:02",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "high"
-    },
-    {
-      "id": 552592,
-      "title": "Microsoft Copilot (Microsoft 365): Simplifying Content in the Input Box",
-      "description": "When users insert content in a prompt using 'Add Work Content' under the Plus menu, the content will only appear as a pill in the Input Box UI and will not be repeated as part of the user's prompt. This helps to simplify the Input Box and reserve it for prompt creation. Updated April 22, 2026: We are moving this item back to In Development and will be relaunching after further updates. We apologize for any inconvenience. ",
-      "ai_summary": "The Input Box in Microsoft 365 Copilot will simplify content insertion by displaying it as a pill, not repeating it in prompts. This affects users of the Copilot app.",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "February CY2026",
-      "is_delayed": false,
-      "ga_date": "May CY2026",
-      "ga_date_parsed": "2026-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=552592",
-      "created": "2026-01-28T00:00:53",
-      "modified": "2026-05-01T21:45:13",
-      "impact": "low"
-    },
     {
       "id": 382643,
       "title": "Microsoft Viva: Search in Viva Connections on iOS and Android tablet",
@@ -784,8 +301,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "admin",
-        "teams"
+        "teams",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -2009,8 +1526,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop"
@@ -2462,8 +1979,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop",
@@ -4460,8 +3977,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "copilot",
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -4865,9 +4382,9 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "outlook",
         "copilot",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Desktop"
@@ -6292,8 +5809,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -6336,8 +5853,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -6695,8 +6212,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -7648,8 +7165,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -7832,9 +7349,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
+        "office-apps",
         "sharepoint",
-        "admin",
-        "office-apps"
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -8189,8 +7706,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -8329,8 +7846,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -8958,9 +8475,9 @@
       "product_category_color": "#D83B01",
       "all_categories": [
         "purview",
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -10382,6 +9899,183 @@
       "impact": "medium"
     },
     {
+      "id": 559991,
+      "title": "Outlook: Account Selector in Outlook Copilot Side Pane",
+      "description": "When users have more than one Copilot-enabled account added to new Outlook, the Copilot side pane in Calendar will include an account dropdown that makes it clear which Copilot-enabled account you’re using and lets you switch accounts without relying on Outlook UI’s account context.",
+      "ai_summary": "Outlook adds an account selector in the Copilot side pane for users with multiple accounts, simplifying account management. This change affects users with multiple Copilot-enabled accounts.",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
+      "preview_date": "April CY2026",
+      "preview_date_parsed": "2026-04",
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559991",
+      "created": "2026-04-14T23:00:25",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 559611,
+      "title": "Microsoft Teams: Annotations on Teams Single Window Sharing on macOS",
+      "description": "Presenters can now share a single application window and enable participants to annotate directly on top of that content, without exposing their entire desktop. This means cleaner presentations, protected privacy, and more engaging discussions across training sessions, workshops, and client meetings.",
+      "ai_summary": "Teams on macOS will allow presenters to share a single application window and enable participant annotations, enhancing privacy and engagement during presentations. This affects Teams users on macOS.",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559611",
+      "created": "2026-04-02T23:15:15",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 557180,
+      "title": "Microsoft Teams: Consecutive interpretation in Interpreter",
+      "description": "Consecutive interpretation enables turn-based interpretation for everyone in the meeting. Interpretation happens after each speaker finishes talking, creating a turn-based flow that supports interactive discussions across two languages. ",
+      "ai_summary": "Microsoft Teams will introduce consecutive interpretation, allowing turn-based interpretation during meetings for better interaction across languages. This change affects all Teams users participating in multilingual meetings.",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "copilot",
+        "teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557180",
+      "created": "2026-02-13T00:15:26",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 541830,
+      "title": "Microsoft Teams: Branded Meeting Reactions",
+      "description": "With new branded reactions, organizations can now extend their visual identity directly into meetings. IT admins simply upload custom reaction icons reflecting brand elements or event themes, and these instantly become available for meeting participants.  A simple way to create more cohesive, on-brand meeting experiences.",
+      "ai_summary": "Microsoft Teams will allow organizations to upload custom branded meeting reactions for participants. This change affects meeting experiences by enhancing brand visibility during meetings.",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=541830",
+      "created": "2025-12-16T00:15:28",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
       "id": 396287,
       "title": "Microsoft Viva: Copilot assisted goal authoring with Context IQ grounding",
       "description": "When generating goals, users will be able to add more than one file from context IQ suggestions as references in their prompts to Copilot.",
@@ -10803,8 +10497,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -10847,8 +10541,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -10978,8 +10672,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "entra"
+        "entra",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -11023,8 +10717,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -11409,8 +11103,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -12461,8 +12155,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -12938,8 +12632,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "iOS"
@@ -14943,8 +14637,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -14987,8 +14681,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -15076,8 +14770,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Developer",
@@ -17868,8 +17562,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -17997,8 +17691,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -18394,8 +18088,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -18570,8 +18264,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -19823,8 +19517,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -20250,8 +19944,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Mac"
@@ -20467,8 +20161,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -20512,8 +20206,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -20643,8 +20337,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -20904,8 +20598,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android"
@@ -21212,8 +20906,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "iOS"
@@ -21726,8 +21420,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -21770,8 +21464,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -23333,8 +23027,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -23377,8 +23071,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -23421,8 +23115,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -23821,8 +23515,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -24211,8 +23905,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Mac",
@@ -25175,8 +24869,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -25262,8 +24956,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -25563,8 +25257,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -25863,8 +25557,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -25907,8 +25601,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -26867,8 +26561,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Desktop",
@@ -27302,8 +26996,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -27699,8 +27393,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -27744,8 +27438,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -27788,8 +27482,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Desktop",
@@ -28270,8 +27964,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -29449,8 +29143,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -29493,8 +29187,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -30144,9 +29838,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -30193,9 +29887,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -30325,8 +30019,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -30675,8 +30369,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -30719,8 +30413,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -30763,8 +30457,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [],
       "cloud_instances": [
@@ -30848,8 +30542,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -31115,8 +30809,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -31829,9 +31523,9 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
         "copilot",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -32225,8 +31919,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "iOS"
@@ -33825,8 +33519,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -34352,8 +34046,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -35805,9 +35499,9 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
         "copilot",
-        "purview"
+        "purview",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -36158,8 +35852,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Teams and Surface Devices"
@@ -36247,8 +35941,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -36429,9 +36123,9 @@
       "product_category_color": "#0078D4",
       "all_categories": [
         "admin",
-        "sharepoint",
+        "teams",
         "outlook",
-        "teams"
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -36738,8 +36432,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -37041,8 +36735,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -37262,8 +36956,8 @@
       "product_category_color": "#D83B01",
       "all_categories": [
         "sharepoint",
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -37583,8 +37277,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -38885,8 +38579,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -39370,8 +39064,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -39415,8 +39109,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "admin",
-        "teams"
+        "teams",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -39725,8 +39419,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -40460,8 +40154,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -40862,8 +40556,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -40949,8 +40643,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -41444,8 +41138,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -41530,8 +41224,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -41576,8 +41270,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -41807,8 +41501,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -42105,20 +41799,20 @@
       "impact": "medium"
     },
     {
-      "id": 491010,
-      "title": "Microsoft Teams: Teams Meeting Audit Events in GCC",
-      "description": "Teams Audit Events for Meetings, including MeetingDetail and MeetingParticipantDetail, will soon be available in GCC. This enhancement will provide administrators with comprehensive insights into meeting activities, helping to ensure compliance and improve operational efficiency. MeetingDetail: Captures detailed information about meetings, including start and end times, meeting subject, and organizer details. MeetingParticipantDetail: Logs participant information, including join and leave times, participant roles, and any changes in participant status during the meeting. Audit logs are accessible through the Microsoft Purview portal, where administrators can search, filter, and export audit data for detailed analysis. These logs are essential for maintaining compliance, investigating incidents, and ensuring the security of Teams activities.\n",
-      "ai_summary": "Teams Meeting Audit Events will be available in GCC, providing detailed insights into meeting activities for administrators. This impacts Teams administrators in GCC.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
+      "id": 557178,
+      "title": "Microsoft Teams: Sensitivity label inheritance for meeting recordings",
+      "description": "Meeting recordings now automatically inherit the meeting’s sensitivity label. When label inheritance is enabled in sensitivity label policies, a labeled meeting applies the same label to its MP4 recording, ensuring access controls, data handling rules, and Copilot or agent responses based on transcripts consistently respect the meeting’s sensitivity end to end.",
+      "ai_summary": "Microsoft Teams meeting recordings will now automatically inherit the meeting's sensitivity label, ensuring consistent access controls and data handling. This change affects all users who record meetings.",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
       "change_type": null,
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
@@ -42132,669 +41826,55 @@
         "teams"
       ],
       "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=491010",
-      "created": "2025-04-28T23:15:36",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "high"
-    },
-    {
-      "id": 487854,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot can generate an audio overview of a notebook",
-      "description": "Copilot can turn the referenced files in a notebook into a dynamic audio overview, transforming them into a listening experience that’s easy to follow. To generate an audio overview in Copilot Notebooks, select ‘Generate audio overview’ at the top of the notebook. This capability is only available in English currently.",
-      "ai_summary": "Microsoft Copilot can now generate an audio overview of notebook files, enhancing accessibility for users. This feature currently supports English only.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "OneNote"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot",
-        "office-apps"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=487854",
-      "created": "2025-04-23T16:15:28",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "medium"
-    },
-    {
-      "id": 485767,
-      "title": "Microsoft Purview compliance portal: Data Security Posture Management for AI - Data Assessments",
-      "description": "Data assessments in Microsoft Purview Data Security Posture Management for AI provides a way for admins to drive data security outcomes by viewing default assessments, reviewing the data sensitivity and user accesses on locations, and performing remediation actions to mitigate risk. ",
-      "ai_summary": "Admins can perform data assessments in Microsoft Purview for AI, reviewing data sensitivity and user access to improve data security. This affects compliance and security administrators.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Purview"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "purview",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=485767",
-      "created": "2025-04-05T00:00:03",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "high"
-    },
-    {
-      "id": 484059,
-      "title": "Outlook: Move to in the pop-out ribbon in New Outlook and Outlook for Web",
-      "description": "The \"Move To\" option is now available in the pop-out ribbon in New Outlook and Outlook for Web, making it easier to organize emails. Quickly move messages to any folder without switching back to the main window. This update ensures a seamless and consistent email management experience.  #newoutlookforwindows",
-      "ai_summary": "The 'Move To' option is now available in the pop-out ribbon in New Outlook and Outlook for Web, simplifying email organization. This affects all Outlook users.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "July CY2025",
-      "ga_date_parsed": "2025-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
+        "Android",
         "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=484059",
-      "created": "2025-03-21T23:15:06",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "low"
-    },
-    {
-      "id": 484058,
-      "title": "Outlook: Move to in the pop-out ribbon in New Outlook and Outlook for Web",
-      "description": "The \"Move To\" option is now available in the pop-out ribbon in New Outlook and Outlook for Web, making it easier to organize emails. Quickly move messages to any folder without switching back to the main window. This update ensures a seamless and consistent email management experience.  #newoutlookforwindows",
-      "ai_summary": "The 'Move To' option is now available in the pop-out ribbon in New Outlook and Outlook for Web, simplifying email organization. This affects all Outlook users.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "July CY2025",
-      "ga_date_parsed": "2025-07",
-      "preview_date": "June CY2025",
-      "preview_date_parsed": "2025-06",
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=484058",
-      "created": "2025-03-06T22:45:53",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "low"
-    },
-    {
-      "id": 481829,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Extensibility - Admins can manage Copilot extensibility under Copilot tab in Microsoft 365 admin center",
-      "description": "Admins have options to manage Copilot extensibility under Copilot tab including agent management for IT published agents and shared agents. ",
-      "ai_summary": "Admins can now manage Copilot extensibility options, including agent management, under the Copilot tab in the Microsoft 365 admin center.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft 365 Admin Center",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [
-        "admin",
-        "copilot"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=481829",
-      "created": "2025-02-28T21:45:15",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "medium"
-    },
-    {
-      "id": 481343,
-      "title": "Microsoft Purview compliance portal: Data Loss Prevention: Enrich the details of the auto forwarded emails in the Exchange DLP",
-      "description": "We are excited to introduce an enhancement to our system that will provide more accurate and detailed information for forwarded emails. This new feature will ensure that the correct user, recipient information, and email evidence are displayed in the alert generated. This improvement will help admins accurately trace the origin and intended recipient of forwarded emails, reducing confusion and minimizing the risk of false positives. The update will be reflected in our audit logs, alerts page, and activity explorer page",
-      "ai_summary": "Exchange DLP will provide more detailed information for auto forwarded emails, helping admins trace the origin and recipient accurately.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "April CY2025",
-      "preview_date_parsed": "2025-04",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=481343",
-      "created": "2025-02-14T00:15:58",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "high"
-    },
-    {
-      "id": 476073,
-      "title": "Microsoft Purview compliance portal: Endpoint Data Loss Prevention - Paste to Browser prevention support on macOS device with endpoint DLP",
-      "description": "Microsoft Purview Endpoint Data Loss Prevention adds support for instances where users try to paste sensitive content into a web browser on macOS devices using Edge, Safari, and other browsers.",
-      "ai_summary": "Endpoint Data Loss Prevention now prevents users on macOS from pasting sensitive content into web browsers like Edge and Safari.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "April CY2025",
-      "ga_date_parsed": "2025-04",
-      "preview_date": "February CY2025",
-      "preview_date_parsed": "2025-02",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=476073",
-      "created": "2025-01-17T23:15:23",
-      "modified": "2025-07-01T23:15:03",
-      "impact": "medium"
-    },
-    {
-      "id": 491638,
-      "title": "Microsoft Viva: Viva Glint - User Schema Enhancements- Create and Edit Hierarchies",
-      "description": "This feature enables Viva Glint admins to create and edit hierarchies directly within the platform. It empowers admins to easily update and maintain the structure of user data without requiring support.",
-      "ai_summary": "Viva Glint admins can create and edit user hierarchies directly within the platform, simplifying data management.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Viva"
-      ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
-      "all_categories": [
-        "viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=491638",
-      "created": "2025-05-13T23:00:09",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "medium"
-    },
-    {
-      "id": 490155,
-      "title": "Microsoft Copilot (Microsoft 365): Updated UI for Microsoft 365 Copilot App",
-      "description": "The Microsoft 365 Copilot app is your starting place for AI at work, offering quick access to secure AI chat, search, files, and content creation in one seamless app.",
-      "ai_summary": "The Microsoft 365 Copilot app has an updated user interface for easier access to AI tools, chat, and content creation.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=490155",
-      "created": "2025-04-23T16:15:28",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "low"
-    },
-    {
-      "id": 489216,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot in Excel with Python for GCC",
-      "description": "Copilot in Excel gains powerful new insights and visualizations with Advanced Analysis. Explore your data in a natural, conversational way, while Copilot does the heavy lifting using Python, a rich programming language that supercharges what is possible in your spreadsheets.",
-      "ai_summary": "Copilot in Excel for GCC now includes Python support for advanced data analysis and visualizations.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [
-        "admin",
-        "copilot"
-      ],
-      "platforms": [
+        "iOS",
         "Mac"
       ],
       "cloud_instances": [
-        "GCC"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=489216",
-      "created": "2025-04-16T23:15:19",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "medium"
-    },
-    {
-      "id": 485771,
-      "title": "Microsoft Purview compliance portal: Data Security Posture Management for AI",
-      "description": "Microsoft Purview AI Hub has been rebranded to Microsoft Purview Data Security Posture Management for AI (DSPM for AI). Microsoft Purview Data Security Posture Management for AI is a centralized location to gain insights into generative AI activity including the sensitive data flowing in AI prompts.  ",
-      "ai_summary": "Microsoft Purview AI Hub is now called Data Security Posture Management for AI, providing insights into generative AI activity and sensitive data.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Purview"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "purview",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=485771",
-      "created": "2025-04-05T00:00:03",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "medium"
-    },
-    {
-      "id": 483520,
-      "title": "Microsoft Purview compliance portal: New email indicators to alert on exfiltration of business sensitive data to free public ",
-      "description": "In this update, we are adding two new email indicators to Insider Risk Management.\n1.  Sending email with attachments to free public domains: This alerts when business-sensitive data is potentially leaked from a work email account to a free public domain email, potentially leading to a data security incident. \n\n2. Sending email with attachments to self: This alerts when business-sensitive data is potentially leaked from a work email account to user's personal email account or emailing self, potentially leading to a data security incident. \nAdmins with appropriate permissions can enable these indicators from the settings page and use these new indicators in the data leaks or data theft policy template.\n\nMicrosoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
-      "ai_summary": "New email indicators in Insider Risk Management alert admins when sensitive data is sent to free public domains or personal accounts.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
-      "preview_date": "March CY2025",
-      "preview_date_parsed": "2025-03",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
         "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
-        "General Availability",
-        "Preview"
+        "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=483520",
-      "created": "2025-03-10T23:30:35",
-      "modified": "2025-07-02T23:15:48",
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557178",
+      "created": "2026-02-12T00:15:53",
+      "modified": "2026-05-01T21:45:13",
       "impact": "high"
     },
     {
-      "id": 483158,
-      "title": " Microsoft Purview compliance portal: Data Loss Prevention - New predicate in Email DLP - Detect number of domains/Recipients",
-      "description": "The \"Recipient/Domain Count Over\" feature, designed to address a critical need for managing and controlling the distribution of sensitive information via email. This feature allows organizations to set specific policies that trigger alerts or actions when the number of recipients or domains in outgoing emails exceeds a defined threshold. By implementing this feature, organizations can enhance data security, ensure compliance with regulatory requirements, and prevent unauthorized data dissemination, providing peace of mind and safeguarding sensitive information.",
-      "ai_summary": "A new feature in Email DLP allows organizations to set alerts based on the number of recipients or domains in outgoing emails.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
+      "id": 555857,
+      "title": "Microsoft Teams: Sensitivity label inheritance for Loop meeting notes",
+      "description": "Loop meeting notes now automatically inherit your meeting’s sensitivity label. When admins enable label inheritance in the sensitivity label policy, any labeled meeting applies the same label to its Loop meeting notes, ensuring protections like encryption, access controls, and data handling rules carry forward consistently. This also ensures that Copilot and agent responses based on Loop meeting notes accurately reflect the meeting’s sensitivity, keeping confidential content protected end to end.",
+      "ai_summary": "Loop meeting notes in Microsoft Teams will automatically inherit the meeting's sensitivity label, maintaining consistent protections for confidential content. This impacts users who utilize Loop meeting notes.",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
       "change_type": null,
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "May CY2025",
-      "ga_date_parsed": "2025-05",
-      "preview_date": "April CY2025",
-      "preview_date_parsed": "2025-04",
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
       "products": [
-        "Microsoft Purview"
+        "Microsoft Teams"
       ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
       "all_categories": [
-        "purview"
+        "teams"
       ],
       "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=483158",
-      "created": "2025-03-04T23:15:18",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "medium"
-    },
-    {
-      "id": 88870,
-      "title": "OneDrive: Sync admin reports - bulk data export",
-      "description": "<div>Support for bulk export of device status, including username, sync app version, known folders, last sync date, and sync errors. </div>",
-      "ai_summary": "OneDrive now supports bulk export of sync admin reports, including device status and sync errors.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
-      "preview_date": "July CY2024",
-      "preview_date_parsed": "2024-07",
-      "products": [
-        "OneDrive"
-      ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
-      "platforms": [
+        "Android",
         "Desktop",
-        "Mac",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=88870",
-      "created": "2022-01-21T00:11:40",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "low"
-    },
-    {
-      "id": 397096,
-      "title": "Word: Automatic summary of documents on file-open in Word",
-      "description": "When you open a document, Copilot will generate a summary in the Word window. You can hide the summary or open the Copilot chat pane to ask specific questions about the document.",
-      "ai_summary": "Word will now generate an automatic summary when a document is opened, allowing users to hide it or ask questions via Copilot. This change affects all Word users.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2024",
-      "ga_date_parsed": "2024-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Word"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot",
-        "office-apps"
-      ],
-      "platforms": [
-        "Web"
+        "iOS",
+        "Mac"
       ],
       "cloud_instances": [
         "Worldwide (Standard Multi-Tenant)"
@@ -42803,26 +41883,26 @@
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=397096",
-      "created": "2024-06-05T23:15:07",
-      "modified": "2025-07-02T23:15:48",
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555857",
+      "created": "2026-02-06T23:00:02",
+      "modified": "2026-05-01T21:45:13",
       "impact": "high"
     },
     {
-      "id": 464984,
-      "title": "Microsoft Copilot (Microsoft 365) Microsoft 365 Copilot Chat general availability for GCC",
-      "description": "Microsoft 365 Copilot Chat Copilot is available at no additional cost for Microsoft 365 GCC users who sign in with their Microsoft Entra account (no Microsoft 365 Copilot license required). Microsoft 365 Copilot Chat offers enterprise data protection (EDP), and secure AI chat designed for work, powered by the latest large language models with optional web grounding. The general availability of this release will be delivered to the users with web grounding OFF by default to meet US Government requirements. This will help protect sensitive information which should not leave the GCC compliance boundary.",
-      "ai_summary": "Microsoft 365 Copilot Chat is now available for GCC users without needing a Copilot license, ensuring secure AI chat for enterprise data. This affects Microsoft 365 GCC users.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
+      "id": 552592,
+      "title": "Microsoft Copilot (Microsoft 365): Simplifying Content in the Input Box",
+      "description": "When users insert content in a prompt using 'Add Work Content' under the Plus menu, the content will only appear as a pill in the Input Box UI and will not be repeated as part of the user's prompt. This helps to simplify the Input Box and reserve it for prompt creation. Updated April 22, 2026: We are moving this item back to In Development and will be relaunching after further updates. We apologize for any inconvenience. ",
+      "ai_summary": "The Input Box in Microsoft 365 Copilot will simplify content insertion by displaying it as a pill, not repeating it in prompts. This affects users of the Copilot app.",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
       "change_type": null,
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "June CY2025",
-      "ga_date_parsed": "2025-06",
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
@@ -42840,60 +41920,16 @@
         "Web"
       ],
       "cloud_instances": [
-        "GCC"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": "https://learn.microsoft.com/en-us/copilot/overview",
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=464984",
-      "created": "2024-10-31T23:30:09",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "high"
-    },
-    {
-      "id": 416481,
-      "title": "Microsoft Purview compliance portal: Endpoint Data Loss Prevention - Enhanced content extraction and file type coverage for DLP on Windows devices",
-      "description": "With this release, the file type coverage to scan, classify and protect sensitive content on windows endpoint devices with Microsoft Purview Data Loss Prevention policies will increase from current ~40 file types to 100+ file types. This release will make the coverage of file types on endpoint consistent with other locations such as Exchange, SharePoint and OneDrive. This will also include other enhancements like detecting label from pfile, detecting sensitive content in metadata, and detecting sensitive content in PDF forms.",
-      "ai_summary": "Data Loss Prevention policies in Microsoft Purview will expand file type coverage on Windows devices from about 40 to over 100 types. This impacts users managing sensitive content on endpoints.",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "March CY2025",
-      "ga_date_parsed": "2025-03",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
+        "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=416481",
-      "created": "2024-09-13T22:15:36",
-      "modified": "2025-07-02T23:15:48",
-      "impact": "high"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=552592",
+      "created": "2026-01-28T00:00:53",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "low"
     },
     {
       "id": 486697,
@@ -43046,8 +42082,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -43091,8 +42127,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -44989,8 +44025,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -45383,8 +44419,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -46350,8 +45386,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -47060,8 +46096,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -47589,8 +46625,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -47767,8 +46803,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -48473,8 +47509,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -49262,8 +48298,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -49854,8 +48890,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -51671,8 +50707,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "office-apps"
+        "office-apps",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop"
@@ -51985,8 +51021,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop",
@@ -52032,8 +51068,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -52082,8 +51118,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Mobile",
@@ -52218,8 +51254,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop"
@@ -52579,8 +51615,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -53234,8 +52270,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -53279,9 +52315,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
+        "copilot",
         "intune",
-        "admin",
-        "copilot"
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -53324,8 +52360,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -53637,8 +52673,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -53862,8 +52898,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -53994,8 +53030,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -54042,8 +53078,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -54263,8 +53299,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -54881,9 +53917,9 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
+        "teams",
         "copilot",
-        "teams"
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -55283,9 +54319,9 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
         "copilot",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -55329,9 +54365,9 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
         "copilot",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -56149,8 +55185,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -56728,8 +55764,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -57383,8 +56419,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -57428,8 +56464,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "edge-media",
-        "purview"
+        "purview",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -58348,8 +57384,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -58888,8 +57924,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -59150,8 +58186,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -59848,8 +58884,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -60602,8 +59638,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -61806,8 +60842,8 @@
       "product_category_color": "#5C2D91",
       "all_categories": [
         "purview",
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -61897,8 +60933,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "admin",
-        "teams"
+        "teams",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -62072,8 +61108,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -62287,8 +61323,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Mac"
@@ -62908,8 +61944,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -63004,8 +62040,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop",
@@ -63183,8 +62219,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "edge-media",
-        "purview"
+        "purview",
+        "edge-media"
       ],
       "platforms": [
         "Desktop"
@@ -63271,8 +62307,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -64020,8 +63056,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -64065,8 +63101,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -64110,8 +63146,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -64908,8 +63944,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -65305,8 +64341,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -65837,8 +64873,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -67374,8 +66410,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Desktop",
@@ -67509,8 +66545,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Web"
@@ -67642,9 +66678,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
+        "copilot",
         "sharepoint",
-        "admin",
-        "copilot"
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -67826,8 +66862,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -67966,8 +67002,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -68705,8 +67741,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -69155,9 +68191,9 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -69242,8 +68278,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -69894,8 +68930,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -70032,8 +69068,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -70465,8 +69501,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -71859,8 +70895,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -72600,8 +71636,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -73472,8 +72508,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Mac"
@@ -74129,8 +73165,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -74703,8 +73739,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -75431,8 +74467,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -75698,8 +74734,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Web"
@@ -76003,8 +75039,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -76716,8 +75752,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "teams"
+        "teams",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -76991,8 +76027,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -77040,8 +76076,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -77224,8 +76260,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -77315,8 +76351,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "teams"
+        "teams",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -77411,8 +76447,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -77725,8 +76761,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -77905,8 +76941,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -78422,8 +77458,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -78906,8 +77942,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -79654,8 +78690,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -80057,8 +79093,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -80146,8 +79182,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -80367,8 +79403,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -80411,8 +79447,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -81018,8 +80054,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -82082,8 +81118,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -83659,8 +82695,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -83879,8 +82915,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Android",
@@ -84340,7 +83376,180 @@
       "created": "2026-01-28T00:00:53",
       "modified": "2026-04-30T23:30:16",
       "impact": "medium"
+    },
+    {
+      "id": 560322,
+      "title": "Microsoft Purview: eDiscovery - review set limit increase",
+      "description": "Review set limit per case is increased from 20 per case to 100 per case.",
+      "ai_summary": "Microsoft Purview increases the review set limit from 20 to 100 per case for eDiscovery. This change affects legal and compliance teams managing eDiscovery cases.",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "May CY2026",
+      "ga_date_parsed": "2026-05",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=560322",
+      "created": "2026-04-13T23:15:13",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 558858,
+      "title": "Microsoft Purview: eDiscovery - review set limit increase",
+      "description": "Review set limit per case is increased from 20 per case to 100 per case.",
+      "ai_summary": "Microsoft Purview's eDiscovery review set limit will increase from 20 to 100 per case, allowing for more extensive case management.",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "April CY2026",
+      "ga_date_parsed": "2026-04",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558858",
+      "created": "2026-03-17T22:45:46",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 557977,
+      "title": "Microsoft Purview: Data Loss Prevention- Security Store now available within Purview DLP to browse, purchase, and enable partner integrations",
+      "description": "Microsoft Security Store is now integrated into the Microsoft Purview DLP experience, giving admins an in‑product way to discover a curated set of integrations that extend Purview capabilities, including data security capabilities for the network. Purchasing and management are completed through Security Store, simplifying how organizations procure partner integrations.",
+      "ai_summary": "Microsoft Purview DLP integrates the Microsoft Security Store, allowing admins to discover and manage partner integrations directly within the DLP experience. This simplifies procurement for enhanced data security.",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "March CY2026",
+      "ga_date_parsed": "2026-03",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557977",
+      "created": "2026-02-27T23:15:13",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "medium"
+    },
+    {
+      "id": 493757,
+      "title": "Microsoft Purview compliance portal: Insider Risk Management- Multi selectable DLP policies as an IRM triggering event",
+      "description": "Insider Risk Management is releasing the ability to select multiple Data Loss Prevention (DLP) policies as triggering events in a policy. Previously, admins could only select one DLP policy as a triggering event within Insider Risk Management policies. Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
+      "ai_summary": "Insider Risk Management will allow multiple DLP policies to be selected as triggering events, enhancing risk detection capabilities.",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "December CY2025",
+      "ga_date_parsed": "2025-12",
+      "preview_date": "August CY2025",
+      "preview_date_parsed": "2025-08",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=493757",
+      "created": "2025-05-21T23:15:06",
+      "modified": "2026-05-01T21:45:13",
+      "impact": "high"
     }
   ],
-  "summarised": 1910
+  "summarised": 1892
 }
