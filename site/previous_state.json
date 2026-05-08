@@ -1,5 +1,45 @@
 [
   {
+    "id": 561652,
+    "title": "Microsoft Edge: Passkey Sync for Enterprise Users",
+    "description": "Microsoft Edge is introducing support for passkey synchronization for enterprise users, enabling secure, passwordless authentication across devices. Passkeys created in Edge can now be synced seamlessly, improving sign-in experience while maintaining strong security standards.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 561604,
+    "title": "Microsoft Teams: Chat panel open by default in the gallery view on Teams Rooms on Android",
+    "description": "The chat panel will open by default in gallery view, allowing participants in Teams Room on Android to quickly see ongoing meeting chat when they join. Admins can configure this default device behavior, and users can close the panel in one tap during meetings. \n \n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 561493,
+    "title": "Microsoft Teams: Upload custom backgrounds for Teams events",
+    "description": "Organizers and presenters who have access to production tools can now upload custom backgrounds in the \"Manage what attendees see\" experience for Teams events. This enhancement allows organizations to display their brand identity by replacing the default backgrounds with their own images, such as company logos, event-specific artwork, or themed visuals. Custom backgrounds appear behind presenters and content, giving attendees a polished viewing experience. This feature is available for Teams events organizers with a Teams Premium license. This feature is available on Teams for Windows desktop and Mac desktop.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 561327,
+    "title": "Microsoft Purview: Information Protection- File Labeler and File Viewer for MacOS",
+    "description": "This feature is bringing the Information Protection Filer Labeler and Viewer applications to the MacOS platform. Enabling customers to have the same capabilities available on Mac. Core functionality will be available with the exception of the Advanced label-based protection feature.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": "May CY2026"
+  },
+  {
+    "id": 560601,
+    "title": "Microsoft Purview: Insider Risk Management – Reduce temporary file noise for Endpoint activities in IRM",
+    "description": "When files are opened in Windows, the operating system, and applications (for example, Microsoft Office and browsers) can create, rename, and delete temporary files as part of normal behavior. The Endpoint client audits these activities, resulting in high-volume, low-signal events that appear as “noise” for Insider Risk Management (IRM) customers. While global exclusions exist (file type, keyword, file path, etc.), some temporary file naming patterns are not easily captured with the current exclusions, leaving customers without a practical way to reduce noise without over-excluding. This feature introduces built-in filtering for well-known temporary file name patterns so that Endpoint file operations are excluded from IRM activity explorer and scoring reducing noise allowing customers to focus on the most relevant alerts. Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.\n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": "June CY2026"
+  },
+  {
     "id": 561648,
     "title": "Microsoft Teams: Town hall media optimization for VDI attendees",
     "description": "What’s new\nTeams now supports audio and video offloading for Town hall attendees in VDI environments that are using the new optimization. Media streams are offloaded directly to the user’s local device, improving performance and delivering a high definition viewing experience while reducing virtual desktop resource usage.\nWho it applies to\n•\tWindows endpoints only using the new VDI optimization\n•\tSupported VDI platforms:\no\tAzure Virtual Desktop and Windows 365\no\tCitrix\no\tOmnissa\no\tAmazon WorkSpaces\nWhat stays the same\nAll attendee interactivity features remain supported, including captions, DVR, reactions, streaming chat, and Q&A.\nAdditional details\nFirst party and third party eCDNs are supported. When enabled, the attendee’s endpoint establishes a direct peer to peer connection using the local device network, avoiding virtual desktop double hop traffic.\nAction required\nNo action is required if the new optimization for Microsoft Teams is already enabled.\n",
@@ -1089,7 +1129,7 @@
   },
   {
     "id": 559106,
-    "title": "Microsoft Purview: Data Loss Prevention - Apply default SharePoint library labels to data at rest",
+    "title": "Microsoft Purview: Data Loss Prevention - DLP Policy Change Insights with Security Copilot",
     "description": "Introduce an AI-powered capability leveraging Microsoft Security Copilot to automatically generate natural language explanations of changes made to DLP policies after each update within Microsoft Purview. This feature will analyze policy version deltas (pre-update vs. post-update) and produce a structured, human-readable summary that clearly explains: What changed Where the change occurred (rule, condition, action, location, etc.) The impact of the change The potential enforcement implications The goal is to eliminate manual policy diff analysis, reduce configuration ambiguity, and improve governance transparency for compliance and security administrators.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "August CY2026",
@@ -1673,9 +1713,9 @@
   },
   {
     "id": 558249,
-    "title": "Microsoft 365 Apps: Cloud Update - Descriptive Errors",
+    "title": "Microsoft 365 Apps: Cloud Update - Update Health",
     "description": "Use enhanced error reporting in Cloud Update for Microsoft 365 Apps updates to access clear, descriptive error messages that help you easily identify why an update did not complete successfully. Admins can review comprehensive insights across all Cloud Update-managed devices and drill down into individual devices for detailed information. This improved feature expands on the existing upgrade progress insights by grouping issues according to error codes and providing straightforward descriptions. These advancements enable admins to diagnose problems more efficiently, reduce support escalations, and take decisive corrective actions to boost monthly compliance rates.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "May CY2026",
     "publicPreviewDate": "April CY2026"
   },
@@ -1795,7 +1835,7 @@
     "id": 558256,
     "title": "Microsoft Edge: Copilot New Tab Page",
     "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the new, refreshed Copilot New Tab Page. Users can also view personalized news and activities.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "May CY2026",
     "publicPreviewDate": "November CY2025"
   },
@@ -1803,7 +1843,7 @@
     "id": 558108,
     "title": "Microsoft Teams: Catch up on conversations in Microsoft Teams mobile",
     "description": "Catch up in Teams mobile provides a unified view of all directed and followed conversations across chats, meeting chats, channels and threads. The mobile-optimized card view supports swipe actions, helping you quickly review and triage lists of important items.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "May CY2026",
     "publicPreviewDate": ""
   },
@@ -1932,7 +1972,7 @@
     "title": "Microsoft Teams: Centralized notification settings for channels",
     "description": "Centralized notification settings streamline channel notification setup and management. Available in Teams settings, users have a single place to review and adjust notifications for all visible channels, instead of managing each individually.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -3732,7 +3772,7 @@
     "title": "Microsoft Edge: Adding contextual nudges to the Microsoft 365 Copilot Chat icon",
     "description": "Edge for Business will soon help users quickly take contextual action on their open pages using contextual nudges attached to the Copilot icon in the toolbar",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "May CY2026",
+    "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -4124,7 +4164,7 @@
     "title": "Microsoft Edge: Tracking prevention when browsing InPrivate ",
     "description": "Microsoft Edge is unifying the tracking prevention experience for non-InPrivate and InPrivate browsing windows.  Microsoft Edge will use the same tracking prevention setting as a normal browsing window when in InPrivate mode. ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "May CY2026",
+    "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -5028,8 +5068,8 @@
     "title": "Universal Print: audit logging",
     "description": "I can access Universal Print audit records of key administrator and user activities, such as print job submissions, configuration changes, and printer registrations. Audit records will be available in Microsoft Purview’s Unified Audit Log for compliance and long-term record-keeping. ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
-    "publicPreviewDate": "April CY2026"
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "June CY2026"
   },
   {
     "id": 509112,
@@ -5412,8 +5452,8 @@
     "title": "Universal Print: Scan with Universal Print",
     "description": "I can scan documents using my regular scanning capable multi-functional-printer and will get an email notification that my scan is ready to download.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
-    "publicPreviewDate": "July CY2026"
+    "publicDisclosureAvailabilityDate": "June CY2027",
+    "publicPreviewDate": "December CY2026"
   },
   {
     "id": 518291,
@@ -10184,14 +10224,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 490547,
-    "title": "Microsoft Copilot (Microsoft 365): Updates to Copilot Chat response output",
-    "description": "Easily interact with Microsoft Graph content represented by bolder references, new action bar, and more.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "May CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 485725,
     "title": "Microsoft 365 app: Use Copilot in PDFs within the Microsoft 365 Copilot mobile app",
     "description": "Use Copilot with PDF files for summaries and key insights.",
@@ -12680,14 +12712,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 475967,
-    "title": "Microsoft Copilot (Microsoft 365): Read aloud available in Microsoft 365 Copilot Chat",
-    "description": "Play back Copilot responses as audio with read aloud in Copilot Chat.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "May CY2025",
-    "publicPreviewDate": "March CY2025"
-  },
-  {
     "id": 475062,
     "title": "Microsoft Purview compliance portal: Information Protection - Scan cold files in SharePoint and OneDrive for sensitive information",
     "description": "This new capability will enable admins to scan existing files at rest in SharePoint or OneDrive for Business for sensitive data and classify and/or label them accordingly. This includes files that have never been scanned or scanned in some time. #copilotcontrolsystem",
@@ -12747,14 +12771,6 @@
     "id": 369345,
     "title": "Microsoft Teams: ‘Add emoji’ updated keyboard shortcut",
     "description": "Insert emojis directly from your keyboard without any distractions. Use colons (e.g. :smile:) in the compose box to add any emoji, even your custom ones, making it quicker to express yourself.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "June CY2025",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 475968,
-    "title": "Microsoft Copilot (Microsoft 365): Dictate your prompts in Copilot Chat",
-    "description": "Use the dictation button to input your prompts with speech.",
     "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2025",
     "publicPreviewDate": ""
@@ -13097,10 +13113,10 @@
   },
   {
     "id": 472031,
-    "title": "Data Loss Prevention- Gain DLP policy insights with Security Copilot",
+    "title": "Data Loss Prevention- DLP Policy Change Insights with Security Copilot",
     "description": "Copilot for Security in DLP can summarize DLP policies. This enhancement enables DLP admins to gain insights on coverage of policies viz. location, classifiers and notifications, and more. \n \nDLP admins can get these insights on all the policies or on few selected policies. They will be able to use prompts to gain deeper level view of how a policy is configured for their digital landscape. This helps them align their data posture on a regular basis and make corrections to policy posture as needed. #copilotcontrolsystem",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2025",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -14232,14 +14248,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 468289,
-    "title": "Microsoft Clipchamp: Unified video branded start page",
-    "description": "This creates a unified Clipchamp and Stream start page that serves as a single video destination of creation, consumption, and discovery.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "December CY2024",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 429870,
     "title": "Microsoft Viva: Microsoft Copilot Dashboard Scope Filter enhancements",
     "description": "Introducing exciting new features to help you better understand and improve adoption and impact of Copilot for Microsoft 365 through the Copilot Dashboard. Enhancements include supporting multi-select capabilities for Scope filters to facilitate group comparisons and the ability to upload HR organizational data for Scope filter updates.",
@@ -15204,8 +15212,8 @@
     "title": "Universal Print: Logs and alerts",
     "description": "With a new Azure Monitor integration, Universal Print customers can send detailed diagnostic logs to a Log Analytics workspace to conduct troubleshooting and configure custom alerts.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
-    "publicPreviewDate": "March CY2026"
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "June CY2026"
   },
   {
     "id": 381749,
