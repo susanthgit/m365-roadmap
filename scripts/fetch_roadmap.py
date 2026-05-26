@@ -13,6 +13,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 SCRIPT_DIR = Path(__file__).parent
 CATEGORIES_FILE = SCRIPT_DIR / "categories.json"
@@ -23,6 +25,26 @@ CHANGELOG_FILE = SITE_DIR / "changelog.json"
 
 API_URL = "https://www.microsoft.com/releasecommunications/api/v1/m365"
 REQUEST_TIMEOUT = 30
+
+
+def make_session_with_retries():
+    """Build a requests.Session with retry-on-transient-error.
+
+    Added 2026-05-26 after the May 23/24/25 morning runs failed transiently
+    on the MS releasecommunications API and there was no retry layer.
+    Retries 3 times with exponential backoff (2s, 4s, 8s) on 429 + 5xx.
+    """
+    session = requests.Session()
+    retry = Retry(
+        total=3,
+        backoff_factor=2,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET", "HEAD"],
+        raise_on_status=False,
+    )
+    session.mount("https://", HTTPAdapter(max_retries=retry))
+    session.mount("http://", HTTPAdapter(max_retries=retry))
+    return session
 
 
 def load_categories():
@@ -307,16 +329,17 @@ def main():
     else:
         print(f"📊 Previous state: {len(previous_state)} items")
 
-    # Fetch from API
+    # Fetch from API (with retry-on-transient-error — see make_session_with_retries above)
     print(f"\n📡 Fetching from M365 Roadmap API...")
+    session = make_session_with_retries()
     try:
-        resp = requests.get(API_URL, timeout=REQUEST_TIMEOUT, headers={
+        resp = session.get(API_URL, timeout=REQUEST_TIMEOUT, headers={
             "User-Agent": "M365RoadmapTracker/1.0 (aguidetocloud.com)",
         })
         resp.raise_for_status()
         raw_items = resp.json()
     except requests.RequestException as e:
-        print(f"❌ API fetch failed: {e}")
+        print(f"❌ API fetch failed after retries: {e}")
         sys.exit(1)
 
     print(f"✅ Fetched {len(raw_items)} items from API")
