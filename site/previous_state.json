@@ -1,8 +1,48 @@
 [
   {
+    "id": 564615,
+    "title": "Microsoft Purview: Data Security Triage Agent - Sensitive Data Remediation through Microsoft Teams",
+    "description": "The Data Security Triage Agent in Data Loss Prevention now offers a new sensitive data remediation function, which empowers organizations to proactively identify and remediate sensitive information—such as Social Security Numbers, passwords, and credit card data—across thousands of files stored in SharePoint or OneDrive locations, dramatically increasing the percentage of remediated files with sensitive information, resulting in reduced compliance risk. Seamlessly integrated with Microsoft Purview, this new agent function automatically detects file(s) with a Data Loss Prevention (DLP) policy match “Needs Attention” alerts and pushes a remediation notification to the end user who last modified the file guiding them to remove sensitive data through targeted Microsoft Teams messages. Its’ closed-loop workflow ensures that remediation progress is tracked and confirmed, giving admins real-time visibility and control via the Data Security Posture Management dashboard. By streamlining sensitive data cleanup and automating user engagement, this agent helps organizations achieve their remediation goals at scale. Let the Data Security Triage Agent handle the heavy lifting of pushing remediation requests directly to the end user, so Purview admins don't have to!\n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "June CY2026"
+  },
+  {
+    "id": 565424,
+    "title": "Microsoft Teams: Improved request flows for apps and agents blocked by admins",
+    "description": "We are improving how users request access to apps and agents blocked by admins in Teams by introducing a clear, guided, and end-to-end request experience. This work reduces end-user friction by driving clarity into the request process and notifying users when there's been an update to their request. In addition to enhancements in Teams, we've also improved the admin experience in Teams Admin Center, to simplify the process for admins to review requests and take action. Additionally, we're introducing a new capability to increase admin awareness of new requests, ensuring that user requests don't get stalled.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 565370,
+    "title": "Microsoft Teams: Emoji shortcuts with autocomplete on mobile",
+    "description": "Teams brings desktop-style emoji shortcuts to mobile (iOS and Android), allowing you to insert emojis by typing colon-based commands like :smile:. Real-time autocomplete suggestions help you quickly find the right emoji as you type, while support for custom emojis enables more personalized and expressive communication on the go.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 565220,
+    "title": "Microsoft Teams: Open message links in new window",
+    "description": "Teams now enables links within chat and channel messages to open in a new window, so you can compare information side by side without losing the context of your ongoing conversation. Access this capability through the More options menu or by using Ctrl/Cmd + click.\n \n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 564912,
+    "title": "Microsoft Teams: New room optimization mode user experience in Teams desktop",
+    "description": "Users can more easily use their laptop for meetings and collaboration in spaces like focus or huddle rooms that don’t yet have a Teams Rooms system. The new room optimization mode replaces shared display mode, has a new location, and enables or disables room-specific features. When room peripherals are connected, Teams can automatically select audio and video devices, enable speaker recognition and shared display, and disable voice isolation.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 565217,
     "title": "Microsoft Teams: Tenant-level dashboard for Interpreter",
-    "description": "Get a clear, centralized view of how Interpreter is used across your organization. Monitor adoption, track usage trends, and understand costs—all in one place. Designed for tenant admins, it helps you stay in control, optimize performance, and confidently scale Interpreter across your teams.",
+    "description": "Admins now have a dedicated dashboard in the Teams Admin Center to view Interpreter usage across their organization. Track adoption and usage trends in one place to better understand how Interpreter is being used.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
@@ -428,7 +468,7 @@
     "title": "Microsoft Purview: Data Lifecycle Management - Archive OneDrive and SharePoint files under retention",
     "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs with no compromise on Compliance, keeping data discoverable and making Copilot results highly relevant.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -796,8 +836,8 @@
     "title": "Microsoft Purview: Insider Risk Management – Reduce temporary file noise for Endpoint activities in IRM",
     "description": "When files are opened in Windows, the operating system, and applications (for example, Microsoft Office and browsers) can create, rename, and delete temporary files as part of normal behavior. The Endpoint client audits these activities, resulting in high-volume, low-signal events that appear as “noise” for Insider Risk Management (IRM) customers. While global exclusions exist (file type, keyword, file path, etc.), some temporary file naming patterns are not easily captured with the current exclusions, leaving customers without a practical way to reduce noise without over-excluding. This feature introduces built-in filtering for well-known temporary file name patterns so that Endpoint file operations are excluded from IRM activity explorer and scoring reducing noise allowing customers to focus on the most relevant alerts. Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.\n",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
-    "publicPreviewDate": "June CY2026"
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "October CY2026"
   },
   {
     "id": 561648,
@@ -827,7 +867,7 @@
     "id": 561329,
     "title": "Microsoft Edge: Enterprise WebView2 runtime downgrade via Downgrade Version policy",
     "description": "Administrators can temporarily roll back specific applications to a previous WebView2 Evergreen Runtime version (N-1 or N-2) using the new Downgrade Version policy in msedgewebview2.admx. This policy allows enterprises to mitigate critical regressions by specifying per-application exe-to-version mappings. The Edge Updater installs the target version side-by-side, and the WebView2 Loader redirects targeted apps accordingly. Downgrades auto-expire with each new WebView2 release: apps pinned to N-1 remain on the same version (now N-2) and auto-update in the next release, while apps pinned to N-2 revert to the current Evergreen version. The policy applies only to enterprise-managed devices (domain-joined or MDM-enrolled).",
-    "status": "In development",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -916,15 +956,15 @@
     "title": "Microsoft Purview: Data Lifecycle Management – Archive OneDrive and SharePoint files under retention",
     "description": "Retention based file archiving moves inactive content to low-cost storage, lowering costs without compromising on Compliance - while keeping data discoverable and Copilot results highly relevant.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
-    "publicPreviewDate": ""
+    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicPreviewDate": "June CY2026"
   },
   {
     "id": 561034,
     "title": "Microsoft Purview: Data Lifecycle Management – Hard delete capability for OneDrive and SharePoint through secure priority cleanup workflows",
     "description": "Ability to select hard delete configuration for a Priority cleanup policy for OneDrive and SharePoint content and skip recycle bins.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -1341,7 +1381,7 @@
     "description": "You can ask AI in SharePoint to create a Word, Excel or PowerPoint file based on the information you've gathered within SharePoint",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "December CY2026",
-    "publicPreviewDate": ""
+    "publicPreviewDate": "June CY2026"
   },
   {
     "id": 559993,
@@ -1700,7 +1740,7 @@
     "title": "Microsoft Purview: Insider Risk Management- IRM alerts in XDR",
     "description": "With this feature, IRM alerts and other supporting data will be available in the following Microsoft Defender XDR experiences:\n\n1. IRM alerts will be surfaced in unified alert and Incident queue in Microsoft Defender XDR.\n2. IRM alerts, Indicators and enriched events will be available in Microsoft Defender XDR advanced hunting. Analysts can leverage KQL queries to identify potentially hidden risky patterns in data security related user activity.\n3. IRM alert, Indicators and enriched events will be exposed through Graph API.\n\nThis feature can be enabled through “Share data with Microsoft Defender XDR” within Microsoft Insider Risk Management settings\n\nIRM data in Microsoft Defender XDR does not honor anonymization. This is to enable effective correlation of IRM alerts with alerts from other solutions in Microsoft Defender XDR platform (such as Defender for Endpoint, Defender for Cloud apps, etc.).\n\nMicrosoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.  ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -2052,7 +2092,7 @@
     "title": "Microsoft Teams: Intelligent meeting recap available without saving transcript",
     "description": "Intelligent recap can now be generated without retaining a transcript after the meeting. Meeting organizers can choose this setting from the meeting options before the meeting, or organizers and eligible participants can enable it during the meeting. After the meeting, the AI Summary will be available, but other elements of the recap may not be available (Chapters, Topics, Mentions, Audio recap).",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -2508,8 +2548,8 @@
     "title": "Microsoft Purview: Data Lifecycle Management– Hard delete capability for OneDrive and SharePoint through secure priority cleanup workflows",
     "description": "Ability to select hard delete configuration for a Priority cleanup policy for OneDrive and SharePoint content and skip recycle bins.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "May CY2026",
-    "publicPreviewDate": ""
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": "July CY2026"
   },
   {
     "id": 557557,
@@ -4618,7 +4658,7 @@
   {
     "id": 537269,
     "title": "Microsoft Teams: Express voice enrollment in Microsoft Teams",
-    "description": "Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you haven't enrolled, you’ll get an in-product prompt to opt-in and enroll your voice profile simply by speaking in a meeting. Admins can enable or disable this feature for their organization.",
+    "description": "Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, just go to the recognition tab in Teams settings and opt-in to enroll your voice simply by speaking during a meeting.  Admins can enable or disable this feature.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
@@ -11347,7 +11387,7 @@
     "id": 488800,
     "title": "Microsoft Teams: Workplace check-in via Wi-Fi allows easy coordination in the office",
     "description": "Workplace Check-in via Wi-Fi acts as an extension of existing capabilities to check in to a building or a reserved desk, providing more flexibility and ease of use to help coordinate with co-workers. When users connect to their organization's Wi-Fi, Teams will soon be able to update their work location to reflect the building they're working from. This feature will be off by default. Tenant admins will decide whether to enable it or not and end-users always have the choice to opt-in or opt-out of sharing this information.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -12900,7 +12940,7 @@
     "title": "Microsoft Teams: Ability to separate out the Townhall attendee invites",
     "description": "This backend change will now address the 'separation of attendee' invites from the events crew. This feature allows the organizers of Townhalls to maintain separate invites for attendees.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -13572,8 +13612,8 @@
     "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Retention based on Last Accessed for files in OneDrive and SharePoint",
     "description": "This creates the ability to apply Retention to each SharePoint or OneDrive item based on when it was last accessed by a user. #copilotcontrolsystem",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
-    "publicPreviewDate": "May CY2026"
+    "publicDisclosureAvailabilityDate": "July CY2026",
+    "publicPreviewDate": "June CY2026"
   },
   {
     "id": 471447,
