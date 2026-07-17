@@ -1,5 +1,21 @@
 [
   {
+    "id": 567304,
+    "title": "Microsoft Teams: Explicit recording consent for PSTN participants now available in GCC High and DoD",
+    "description": "We are introducing explicit recording consent support for PSTN participants joining Microsoft Teams meetings in GCC High and DoD environments. This feature is already available in Public and GCC clouds and is now being extended to sovereign environments. After this rollout, when a meeting is being recorded or transcribed, PSTN participants will be prompted to provide explicit consent before they can unmute and participate. If consent is not provided, participants will remain muted for the duration of the meeting. This update aligns PSTN behavior with the existing consent experience in Teams clients and enhances compliance by ensuring all participants actively acknowledge recording and transcription. This rollout may impact PSTN users joining meetings where recording or transcription is enabled. We recommend informing users about this change so they are prepared to provide consent when prompted.\n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 562353,
+    "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
+    "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.\n",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 567465,
     "title": "Microsoft Teams: Teams shared display mode and peripheral detection available for DoD environments",
     "description": "Shared display mode in Teams is now available in government DOD environments, enabling more seamless and private meeting hosting from your PC. Additionally, peripheral detection for bring-your-own-device spaces is available for inventory management and reporting through the Pro Management portal.",
@@ -426,7 +442,7 @@
   {
     "id": 566695,
     "title": "OneDrive: Block screen capture for sensitivity-labeled PDFs in the OneDrive and SharePoint web viewer",
-    "description": "The OneDrive and SharePoint web PDF viewer will block screenshots and screen capture in Microsoft Edge when users open PDFs whose sensitivity (MIP) label includes the Do Not Allow Screen Capture permission. ",
+    "description": "The OneDrive and SharePoint web PDF viewer will block screen capture in Microsoft Edge when users open PDFs whose sensitivity (MIP) label without Copy (EXTRACT) permission.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
@@ -501,7 +517,7 @@
     "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "September CY2026",
-    "publicPreviewDate": "July CY2026"
+    "publicPreviewDate": "August CY2026"
   },
   {
     "id": 566699,
@@ -891,7 +907,7 @@
     "id": 565218,
     "title": "Microsoft Teams: Queues app for Microsoft Teams in GCC High and DoD",
     "description": "We’re excited to announce that the Queues app is now available in the GCC High and DoD clouds. This Teams-native app helps organizations manage customer engagements more efficiently by bringing advanced call queue and auto attendant capabilities directly into Teams. Queues app is a Teams Premium feature. For more information about Queues app, including licensing information, please see Manage Queues app for Microsoft Teams in your organization.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -908,7 +924,7 @@
     "title": "Microsoft Teams: Granular channel notification controls",
     "description": "Microsoft Teams introduces flexible presets for channel notifications, allowing you to choose between All new messages, @mentions and replies, or Mute. You can further customize alerts for unfollowed threads, tags, and channel or team mentions, as well as control banner notifications for the channel. This added flexibility enables you to set notifications to match to your work style and reduce unnecessary distractions.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10592,14 +10608,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 494998,
-    "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 Copilot app for DoD environments",
-    "description": "The Microsoft 365 app will be updated to the Microsoft 365 Copilot app for DoD environments. This update includes a UI refresh, a new icon, and quick access to key modules like Chat, Search, Create, Notebooks, and Apps. ",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "July CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 494835,
     "title": "Microsoft Edge: Use Primary work profile as default profile to open external links",
     "description": "Following further review, this feature has returned to the development phase. We apologize for any inconvenience. Microsoft Edge currently opens external links using the “Last Used” profile by default. While for enterprise users, the Primary Work Profile (signed in with a Microsoft Entra ID for enrolling the device) is normally the best profile for opening external links. With this feature, for Windows, Edge will check if it the Primary Work Profile exists and make it the default profile for opening external links if available. For Mac and Linux, if only one work profile signed in with a Microsoft Entra ID account is found, it’s treated as the Primary Work Profile. Admins can config the policy “EdgeOpenExternalLinksWithPrimaryWorkProfileEnabled” to turn this feature off.",
@@ -12892,7 +12900,7 @@
     "title": "Microsoft Teams: Ability to separate out the Townhall attendee invites",
     "description": "This backend change will now address the 'separation of attendee' invites from the events crew. This feature allows the organizers of Townhalls to maintain separate invites for attendees.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -13154,8 +13162,8 @@
   {
     "id": 325873,
     "title": "Microsoft Teams: Copilot in Teams can analyze content shared on-screen during a meeting",
-    "description": "Copilot in Teams can analyze content shared on-screen during a meeting when recording is enabled. This, along with meeting transcript and meeting chat, enables users to ask Copilot to summarize or find specific information from screen-shared content (e.g., ‘Which products had the highest sales?’), consolidate insights across both the conversation and presentation (e.g., 'What was the feedback per slide?'), and draft new content based on the entire meeting (e.g., 'Rewrite the paragraph shared on the screen incorporating the feedback from the chat’). This works for any content shared while sharing your desktop screen (including but not limited to documents, slides, spreadsheets, and websites, irrespective of platform or app). Support for PowerPoint Live and Whiteboard in Teams will be available at a later date.",
-    "status": "In development",
+    "description": "Copilot in Teams can analyze content shared on-screen during a meeting when recording is enabled. This, along with meeting transcript and meeting chat, enables users to ask Copilot to summarize or find specific information from screen-shared content (e.g., ‘Which products had the highest sales?’), consolidate insights across both the conversation and presentation (e.g., 'What was the feedback per slide?'), and draft new content based on the entire meeting (e.g., 'Rewrite the paragraph shared on the screen incorporating the feedback from the chat’). This works for any content shared while sharing your desktop screen (including but not limited to documents, slides, spreadsheets, and websites, irrespective of platform or app). Support for PowerPoint Live and Whiteboard in Teams will be available at a later date. Updated July 16, 2026: We have decided not to move forward with this change at this time. We apologize for any inconvenience. ",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },

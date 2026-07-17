@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-07-16T07:24:01.808374+00:00",
-  "total_items": 1844,
-  "active_items": 940,
+  "generated_at": "2026-07-17T07:19:34.721253+00:00",
+  "total_items": 1845,
+  "active_items": 942,
   "delayed_items": 555,
   "changes_summary": {
-    "new_items": 1,
-    "status_changes": 5,
-    "date_changes": 9,
-    "updated_items": 0,
-    "removed_items": 0,
-    "unchanged": 1829
+    "new_items": 2,
+    "status_changes": 2,
+    "date_changes": 2,
+    "updated_items": 2,
+    "removed_items": 1,
+    "unchanged": 1837
   },
   "product_categories": [
     {
@@ -17,7 +17,7 @@
       "name": "Teams",
       "emoji": "💬",
       "color": "#6264A7",
-      "count": 355
+      "count": 356
     },
     {
       "id": "purview",
@@ -92,15 +92,15 @@
   ],
   "status_counts": {
     "In development": 689,
-    "Rolling out": 246,
-    "Launched": 904,
-    "Cancelled": 5
+    "Rolling out": 247,
+    "Cancelled": 6,
+    "Launched": 903
   },
   "items": [
     {
-      "id": 567465,
-      "title": "Microsoft Teams: Teams shared display mode and peripheral detection available for DoD environments",
-      "description": "Shared display mode in Teams is now available in government DOD environments, enabling more seamless and private meeting hosting from your PC. Additionally, peripheral detection for bring-your-own-device spaces is available for inventory management and reporting through the Pro Management portal.",
+      "id": 567304,
+      "title": "Microsoft Teams: Explicit recording consent for PSTN participants now available in GCC High and DoD",
+      "description": "We are introducing explicit recording consent support for PSTN participants joining Microsoft Teams meetings in GCC High and DoD environments. This feature is already available in Public and GCC clouds and is now being extended to sovereign environments. After this rollout, when a meeting is being recorded or transcribed, PSTN participants will be prompted to provide explicit consent before they can unmute and participate. If consent is not provided, participants will remain muted for the duration of the meeting. This update aligns PSTN behavior with the existing consent experience in Teams clients and enhances compliance by ensuring all participants actively acknowledge recording and transcription. This rollout may impact PSTN users joining meetings where recording or transcription is enabled. We recommend informing users about this change so they are prepared to provide consent when prompted.\n",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -125,53 +125,56 @@
         "teams"
       ],
       "platforms": [
+        "Android",
         "Desktop",
-        "Mac"
+        "iOS",
+        "Mac",
+        "Web"
       ],
       "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
+        "GCC High",
         "DoD"
       ],
       "release_phases": [
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567465",
-      "created": "2026-07-15T22:55:27",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567304",
+      "created": "2026-07-16T23:08:19",
+      "modified": "2026-07-16T23:08:19"
     },
     {
-      "id": 553219,
-      "title": "Microsoft 365: New profile cards for buildings, rooms and desks ",
-      "description": "Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points. ",
+      "id": 562353,
+      "title": "Microsoft Copilot (Microsoft 365): Session and Response Sharing in M365 Copilot",
+      "description": "Session and Response Sharing let Microsoft 365 Copilot users share Copilot chat content through a link. Session Sharing shares a full chat session, while Response Sharing shares a single Copilot response. The shared content opens as a read-only view, and recipients can continue from it in their own Copilot chat. This gives Copilot users an easier and more controlled way to share useful Copilot outputs with coworkers instead of copying and pasting. It helps teams reuse work, share context, and collaborate more efficiently while keeping sharing within organizational controls.\n",
       "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "June CY2026",
-      "is_delayed": true,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "Microsoft 365",
-        "Microsoft 365 app",
         "Microsoft Copilot (Microsoft 365)"
       ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
         "copilot"
       ],
       "platforms": [
+        "Android",
         "Desktop",
+        "Mac",
+        "Teams and Surface Devices",
         "Web"
       ],
       "cloud_instances": [
@@ -181,37 +184,81 @@
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=553219",
-      "created": "2026-01-30T23:15:49",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562353",
+      "created": "2026-07-16T23:08:19",
+      "modified": "2026-07-16T23:08:19"
     },
     {
-      "id": 563806,
-      "title": "Outlook: Emails marked with External to be supported as Rules conditions",
-      "description": "The External tag on an email, set by the ExternalInOutlook feature, will now be usable as a condition in Outlook Inbox Rules. This change also makes available the ability to create or modify these Rules on the new Outlook for Windows, Outlook Web, and Outlook for Mac.",
+      "id": 565218,
+      "title": "Microsoft Teams: Queues app for Microsoft Teams in GCC High and DoD",
+      "description": "We’re excited to announce that the Queues app is now available in the GCC High and DoD clouds. This Teams-native app helps organizations manage customer engagements more efficiently by bringing advanced call queue and auto attendant capabilities directly into Teams. Queues app is a Teams Premium feature. For more information about Queues app, including licensing information, please see Manage Queues app for Microsoft Teams in your organization.",
       "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
       "change_type": "status_changed",
-      "previous_status": "Rolling out",
-      "previous_ga_date": "June CY2026",
+      "previous_status": "In development",
+      "previous_ga_date": "July CY2026",
       "is_delayed": false,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
+      "ga_date": "July CY2026",
+      "ga_date_parsed": "2026-07",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "Exchange",
-        "Outlook"
+        "Microsoft Teams"
       ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
       "all_categories": [
-        "outlook"
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565218",
+      "created": "2026-06-09T20:46:16",
+      "modified": "2026-07-16T23:08:19"
+    },
+    {
+      "id": 325873,
+      "title": "Microsoft Teams: Copilot in Teams can analyze content shared on-screen during a meeting",
+      "description": "Copilot in Teams can analyze content shared on-screen during a meeting when recording is enabled. This, along with meeting transcript and meeting chat, enables users to ask Copilot to summarize or find specific information from screen-shared content (e.g., ‘Which products had the highest sales?’), consolidate insights across both the conversation and presentation (e.g., 'What was the feedback per slide?'), and draft new content based on the entire meeting (e.g., 'Rewrite the paragraph shared on the screen incorporating the feedback from the chat’). This works for any content shared while sharing your desktop screen (including but not limited to documents, slides, spreadsheets, and websites, irrespective of platform or app). Support for PowerPoint Live and Whiteboard in Teams will be available at a later date. Updated July 16, 2026: We have decided not to move forward with this change at this time. We apologize for any inconvenience. ",
+      "ai_summary": "",
+      "status": "Cancelled",
+      "status_emoji": "🔴",
+      "status_color": "#F44336",
+      "status_order": 3,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "August CY2026",
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)",
+        "Microsoft Teams"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -221,123 +268,129 @@
         "Web"
       ],
       "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=325873",
+      "created": "2024-11-20T00:15:49",
+      "modified": "2026-07-16T23:08:19"
+    },
+    {
+      "id": 565132,
+      "title": "Microsoft Teams: Granular channel notification controls",
+      "description": "Microsoft Teams introduces flexible presets for channel notifications, allowing you to choose between All new messages, @mentions and replies, or Mute. You can further customize alerts for unfollowed threads, tags, and channel or team mentions, as well as control banner notifications for the channel. This added flexibility enables you to set notifications to match to your work style and reduce unnecessary distractions.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "August CY2026",
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Web"
+      ],
+      "cloud_instances": [
         "Worldwide (Standard Multi-Tenant)",
         "GCC",
         "GCC High",
         "DoD"
       ],
       "release_phases": [
-        "General Availability"
+        "General Availability",
+        "Targeted Release"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=563806",
-      "created": "2026-05-21T23:15:57",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565132",
+      "created": "2026-06-09T20:46:16",
+      "modified": "2026-07-16T23:08:19"
     },
     {
-      "id": 561920,
-      "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
-      "description": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.",
+      "id": 476488,
+      "title": "Microsoft Teams: Ability to separate out the Townhall attendee invites",
+      "description": "This backend change will now address the 'separation of attendee' invites from the events crew. This feature allows the organizers of Townhalls to maintain separate invites for attendees.",
       "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
       "previous_status": "In development",
-      "previous_ga_date": "June CY2026",
+      "previous_ga_date": "August CY2026",
       "is_delayed": false,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "Microsoft Copilot (Microsoft 365)"
+        "Microsoft Teams"
       ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
       "all_categories": [
-        "copilot"
+        "teams"
       ],
       "platforms": [
         "Desktop",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561920",
-      "created": "2026-05-12T23:00:33",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 559110,
-      "title": "Microsoft Copilot (Microsoft 365): Find meetings based on topics and keywords",
-      "description": "Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat and transcription.",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "June CY2026",
-      "is_delayed": false,
-      "ga_date": "June CY2026",
-      "ga_date_parsed": "2026-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
         "Mac"
       ],
       "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High"
       ],
       "release_phases": [
-        "General Availability"
+        "General Availability",
+        "Targeted Release"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559110",
-      "created": "2026-04-10T21:45:06",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=476488",
+      "created": "2025-01-23T00:15:18",
+      "modified": "2026-07-16T23:08:19"
     },
     {
-      "id": 477371,
-      "title": " SharePoint: Microsoft 365 Archive file-level archiving",
-      "description": "This introduces archiving at the file level for Microsoft 365 Archive. ",
+      "id": 566695,
+      "title": "OneDrive: Block screen capture for sensitivity-labeled PDFs in the OneDrive and SharePoint web viewer",
+      "description": "The OneDrive and SharePoint web PDF viewer will block screen capture in Microsoft Edge when users open PDFs whose sensitivity (MIP) label without Copy (EXTRACT) permission.",
       "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "updated",
       "previous_status": "In development",
-      "previous_ga_date": "July CY2026",
+      "previous_ga_date": "August CY2026",
       "is_delayed": false,
-      "ga_date": "July CY2026",
-      "ga_date_parsed": "2026-07",
-      "preview_date": "March CY2026",
-      "preview_date_parsed": "2026-03",
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
       "products": [
+        "OneDrive",
         "SharePoint"
       ],
       "product_category": "sharepoint",
@@ -351,133 +404,6 @@
         "Web"
       ],
       "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=477371",
-      "created": "2025-02-19T00:00:11",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 567667,
-      "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights ",
-      "description": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "July CY2026",
-      "ga_date_parsed": "2026-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Viva"
-      ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
-      "all_categories": [
-        "viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567667",
-      "created": "2026-07-14T22:41:38",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 564616,
-      "title": "Microsoft Purview: Data Loss Prevention - AI Powered Data Loss Prevention Policy Optimizer",
-      "description": "DLP Policy Optimizer uses AI to analyze your organization’s DLP policies, rule structure, and activity signals to identify optimization opportunities that are difficult to detect manually. It highlights overlapping rules, redundant conditions, misconfigurations, and sources of excessive noise, and presents prioritized recommendations with supporting evidence and suggested actions. This enables you to reduce false positives and alert noise, improve policy precision, and simplify policy management with confidence.\n",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
-      "preview_date": "December CY2026",
-      "preview_date_parsed": "2026-12",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564616",
-      "created": "2026-06-02T23:15:28",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 562340,
-      "title": "Microsoft Teams: Preloaded video for Teams Events and Meetings",
-      "description": "Users can now upload videos directly into a Teams event or meeting from OneDrive from the \"Manage view\" options when an organizer has turned on Manage What Attendees See mode. This ensures a smoother high quality video playback with a more consistent experience for attendees.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "August CY2026",
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "cloud_instances": [
         "Worldwide (Standard Multi-Tenant)",
         "GCC",
         "GCC High",
@@ -488,124 +414,38 @@
         "Targeted Release"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562340",
-      "created": "2026-05-14T23:15:59",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566695",
+      "created": "2026-07-01T23:03:18",
+      "modified": "2026-07-16T23:08:19"
     },
     {
-      "id": 561648,
-      "title": "Microsoft Teams: Town hall media optimization for VDI attendees",
-      "description": "What’s new\nTeams now supports audio and video offloading for Town hall attendees in VDI environments that are using the new optimization. Media streams are offloaded directly to the user’s local device, improving performance and delivering a high definition viewing experience while reducing virtual desktop resource usage.\nWho it applies to\n•\tWindows endpoints only using the new VDI optimization\n•\tSupported VDI platforms:\no\tAzure Virtual Desktop and Windows 365\no\tCitrix\no\tOmnissa\no\tAmazon WorkSpaces\nWhat stays the same\nAll attendee interactivity features remain supported, including captions, DVR, reactions, streaming chat, and Q&A.\nAdditional details\nFirst party and third party eCDNs are supported. When enabled, the attendee’s endpoint establishes a direct peer to peer connection using the local device network, avoiding virtual desktop double hop traffic.\nAction required\nNo action is required if the new optimization for Microsoft Teams is already enabled.\n",
+      "id": 566703,
+      "title": "Microsoft Edge: Upgraded Copilot new tab page",
+      "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
       "status_color": "#FF9800",
       "status_order": 2,
-      "change_type": "date_changed",
+      "change_type": "updated",
       "previous_status": "In development",
-      "previous_ga_date": "August CY2026",
+      "previous_ga_date": "September CY2026",
       "is_delayed": false,
       "ga_date": "September CY2026",
       "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
+      "preview_date": "August CY2026",
+      "preview_date_parsed": "2026-08",
       "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561648",
-      "created": "2026-05-06T23:15:10",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 560705,
-      "title": "Microsoft Viva: Copilot Analytics - Power user insights in Copilot dashboard",
-      "description": "Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "May CY2026",
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Viva",
+        "Microsoft Edge",
         "Microsoft Copilot (Microsoft 365)"
       ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
+      "product_category": "edge-media",
+      "product_category_name": "Edge & Media",
+      "product_category_emoji": "🌐",
+      "product_category_color": "#3C8527",
       "all_categories": [
-        "viva",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=560705",
-      "created": "2026-04-21T23:00:01",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 558682,
-      "title": "Microsoft Purview: Data Loss Prevention – Reduce policy sync status SLA on the Purview UI from 2 hours to 30 mins",
-      "description": "Admin should be able to see the Endpoint DLP policy sync status on the Purview portal within 30 mins.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "July CY2026",
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "July CY2026",
-      "preview_date_parsed": "2026-07",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -618,137 +458,9 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558682",
-      "created": "2026-03-24T23:15:57",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 553594,
-      "title": "Built‑in AI Interpreter for Calls on Teams Phone Devices",
-      "description": "With AI Interpreter, Teams Phone Devices provide real‑time language interpretation directly within the call experience. Users can participate naturally in multilingual conversations while the device interprets spoken audio, reducing language barriers and supporting clearer communication in everyday calling scenarios.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "August CY2026",
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=553594",
-      "created": "2026-02-11T00:15:04",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 534607,
-      "title": "Microsoft Viva: Engage: Detect moderated themes in images",
-      "description": "Engages theme moderation feature is a powerful AI tool to monitor and moderate content. With this update, images can now match to themes, just like text.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "June CY2026",
-      "is_delayed": false,
-      "ga_date": "June CY2027",
-      "ga_date_parsed": "2027-06",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Viva"
-      ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
-      "all_categories": [
-        "viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=534607",
-      "created": "2025-11-27T00:45:06",
-      "modified": "2026-07-15T22:55:27"
-    },
-    {
-      "id": 380721,
-      "title": "Microsoft Purview compliance portal: Data Loss Prevention - Trigger Power automate workflows as outcome of DLP rule match",
-      "description": "This introduces a new DLP rule action to trigger custom Power automate workflows when a DLP rule is violated.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "March CY2026",
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=380721",
-      "created": "2024-01-31T01:00:33",
-      "modified": "2026-07-15T22:55:27"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566703",
+      "created": "2026-06-26T22:01:51",
+      "modified": "2026-07-16T23:08:19"
     },
     {
       "id": 382643,
@@ -1831,8 +1543,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -2102,8 +1814,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Desktop"
@@ -2499,8 +2211,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Desktop",
@@ -4100,8 +3812,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -4192,8 +3904,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -4322,8 +4034,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop"
@@ -5500,8 +5212,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -6658,10 +6370,10 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "purview",
-        "admin",
         "copilot",
-        "office-apps"
+        "purview",
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -6926,8 +6638,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -7103,8 +6815,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Mac"
@@ -7939,8 +7651,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -8029,8 +7741,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -8072,8 +7784,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -8817,8 +8529,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -9306,8 +9018,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -9397,8 +9109,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -9918,8 +9630,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -11237,8 +10949,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -11511,6 +11223,51 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=486828",
       "created": "2025-04-01T23:15:44",
       "modified": "2026-07-14T22:41:38"
+    },
+    {
+      "id": 553219,
+      "title": "Microsoft 365: New profile cards for buildings, rooms and desks ",
+      "description": "Buildings, rooms and desks that are added to the Places directory will have new profile cards, accessible from Copilot Chat and across other Microsoft 365 entry points. ",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": true,
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [
+        "copilot",
+        "admin"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=553219",
+      "created": "2026-01-30T23:15:49",
+      "modified": "2026-07-15T22:55:27"
     },
     {
       "id": 396287,
@@ -11841,8 +11598,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -11884,8 +11641,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -12012,8 +11769,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "entra"
+        "entra",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -12056,8 +11813,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -12433,8 +12190,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -13243,8 +13000,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -13924,8 +13681,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -13967,8 +13724,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -14179,8 +13936,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -15410,8 +15167,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -15453,8 +15210,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -15540,8 +15297,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Developer",
@@ -17713,8 +17470,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -18247,54 +18004,6 @@
       "modified": "2025-10-15T22:45:29"
     },
     {
-      "id": 325873,
-      "title": "Microsoft Teams: Copilot in Teams can analyze content shared on-screen during a meeting",
-      "description": "Copilot in Teams can analyze content shared on-screen during a meeting when recording is enabled. This, along with meeting transcript and meeting chat, enables users to ask Copilot to summarize or find specific information from screen-shared content (e.g., ‘Which products had the highest sales?’), consolidate insights across both the conversation and presentation (e.g., 'What was the feedback per slide?'), and draft new content based on the entire meeting (e.g., 'Rewrite the paragraph shared on the screen incorporating the feedback from the chat’). This works for any content shared while sharing your desktop screen (including but not limited to documents, slides, spreadsheets, and websites, irrespective of platform or app). Support for PowerPoint Live and Whiteboard in Teams will be available at a later date.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Microsoft Teams"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "teams",
-        "copilot"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=325873",
-      "created": "2024-11-20T00:15:49",
-      "modified": "2025-10-15T23:45:33"
-    },
-    {
       "id": 503767,
       "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users will be able to upload files stored locally or in one drive to custom engine agents",
       "description": "Users will be able to upload files stored locally or in one drive to custom engine agents.",
@@ -18444,8 +18153,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -19319,8 +19028,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -19609,8 +19318,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Mac"
@@ -19821,8 +19530,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -19865,8 +19574,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -19993,8 +19702,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -20423,8 +20132,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "iOS"
@@ -20675,8 +20384,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -20718,8 +20427,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -20846,8 +20555,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -20893,8 +20602,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "viva"
+        "viva",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -21610,8 +21319,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -21952,8 +21661,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Mac",
@@ -22124,8 +21833,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -22334,8 +22043,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -22377,8 +22086,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -22463,8 +22172,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -22506,8 +22215,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -22894,8 +22603,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Desktop",
@@ -23280,8 +22989,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Desktop",
@@ -23367,8 +23076,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -23706,8 +23415,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -23875,8 +23584,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -23918,8 +23627,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [],
       "cloud_instances": [
@@ -24174,8 +23883,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -24657,8 +24366,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -25650,9 +25359,9 @@
       "product_category_color": "#0078D4",
       "all_categories": [
         "teams",
-        "admin",
         "sharepoint",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -26158,8 +25867,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -26248,8 +25957,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -26458,8 +26167,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -26595,8 +26304,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -26639,8 +26348,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -26683,8 +26392,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -26727,8 +26436,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -27208,8 +26917,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -27811,8 +27520,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -28022,8 +27731,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -28235,8 +27944,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -28448,8 +28157,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -28705,8 +28414,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -29615,8 +29324,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android"
@@ -29700,8 +29409,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -30251,8 +29960,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -31113,8 +30822,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -31330,8 +31039,8 @@
       "product_category_color": "#D83B01",
       "all_categories": [
         "sharepoint",
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -31700,51 +31409,6 @@
       "modified": "2026-06-10T23:00:02"
     },
     {
-      "id": 476488,
-      "title": "Microsoft Teams: Ability to separate out the Townhall attendee invites",
-      "description": "This backend change will now address the 'separation of attendee' invites from the events crew. This feature allows the organizers of Townhalls to maintain separate invites for attendees.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=476488",
-      "created": "2025-01-23T00:15:18",
-      "modified": "2026-06-10T23:00:02"
-    },
-    {
       "id": 472030,
       "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Retention based on Last Accessed for files in OneDrive and SharePoint",
       "description": "This creates the ability to apply Retention to each SharePoint or OneDrive item based on when it was last accessed by a user. #copilotcontrolsystem",
@@ -31770,8 +31434,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -32602,49 +32266,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565217",
       "created": "2026-06-09T23:15:32",
-      "modified": "2026-06-16T23:00:10"
-    },
-    {
-      "id": 565218,
-      "title": "Microsoft Teams: Queues app for Microsoft Teams in GCC High and DoD",
-      "description": "We’re excited to announce that the Queues app is now available in the GCC High and DoD clouds. This Teams-native app helps organizations manage customer engagements more efficiently by bringing advanced call queue and auto attendant capabilities directly into Teams. Queues app is a Teams Premium feature. For more information about Queues app, including licensing information, please see Manage Queues app for Microsoft Teams in your organization.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "July CY2026",
-      "ga_date_parsed": "2026-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565218",
-      "created": "2026-06-09T20:46:16",
       "modified": "2026-06-16T23:00:10"
     },
     {
@@ -34011,54 +33632,6 @@
       "modified": "2026-06-23T23:15:39"
     },
     {
-      "id": 565132,
-      "title": "Microsoft Teams: Granular channel notification controls",
-      "description": "Microsoft Teams introduces flexible presets for channel notifications, allowing you to choose between All new messages, @mentions and replies, or Mute. You can further customize alerts for unfollowed threads, tags, and channel or team mentions, as well as control banner notifications for the channel. This added flexibility enables you to set notifications to match to your work style and reduce unnecessary distractions.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565132",
-      "created": "2026-06-09T20:46:16",
-      "modified": "2026-06-23T23:15:39"
-    },
-    {
       "id": 562017,
       "title": "Microsoft Viva: Fresh Copilot Metrics in Custom Person Queries & Reports- Viva Advanced Analysis",
       "description": "Key Microsoft 365 Copilot metrics in custom person queries and reports will have values up to 2-3 days old from the current date. This will provide fresher copilot usage analysis to analysts in Viva Advanced analysis.",
@@ -34084,8 +33657,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -34809,8 +34382,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -34998,50 +34571,6 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=420335",
       "created": "2024-10-03T23:30:37",
       "modified": "2026-06-25T23:15:45"
-    },
-    {
-      "id": 566703,
-      "title": "Microsoft Edge: Upgraded Copilot new tab page",
-      "description": "Search, chat, and explore the web from one search box with Copilot-suggested actions and curated work content to help your users get things done faster on the Copilot new tab page. Users will see upgraded Copilot new tab page functionality and features.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "July CY2026",
-      "preview_date_parsed": "2026-07",
-      "products": [
-        "Microsoft Edge",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566703",
-      "created": "2026-06-26T22:01:51",
-      "modified": "2026-06-26T22:01:51"
     },
     {
       "id": 566699,
@@ -35588,8 +35117,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -35676,8 +35205,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -36297,8 +35826,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -36311,52 +35840,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566864",
-      "created": "2026-07-01T23:03:18",
-      "modified": "2026-07-01T23:03:18"
-    },
-    {
-      "id": 566695,
-      "title": "OneDrive: Block screen capture for sensitivity-labeled PDFs in the OneDrive and SharePoint web viewer",
-      "description": "The OneDrive and SharePoint web PDF viewer will block screenshots and screen capture in Microsoft Edge when users open PDFs whose sensitivity (MIP) label includes the Do Not Allow Screen Capture permission. ",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "OneDrive",
-        "SharePoint"
-      ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566695",
       "created": "2026-07-01T23:03:18",
       "modified": "2026-07-01T23:03:18"
     },
@@ -36602,8 +36085,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Teams and Surface Devices"
@@ -36865,8 +36348,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -37664,8 +37147,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -38002,8 +37485,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -38172,8 +37655,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -38797,49 +38280,6 @@
       "modified": "2026-07-09T23:00:39"
     },
     {
-      "id": 567470,
-      "title": "OneDrive: Exclude specific folders from syncing",
-      "description": "OneDrive for Windows and Mac will let users exclude specific folders from syncing, so folders that do not belong in the cloud, such as developer tooling folders like PowerShell modules, Visual Studio configuration, and node modules, stay local on the device instead of uploading to OneDrive. Administrators can define folder exclusion rules for their organization.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "OneDrive"
-      ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567470",
-      "created": "2026-07-09T23:00:39",
-      "modified": "2026-07-09T23:00:39"
-    },
-    {
       "id": 567317,
       "title": "Minecraft Education: Learning Cubed Update with Cross-Tenant Multiplayer and Latest Bedrock Features",
       "description": "The Learning Cubed Update introduces cross-tenant multiplayer for dedicated servers and key features from the latest Bedrock updates.",
@@ -38954,8 +38394,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android"
@@ -39449,8 +38889,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -39791,8 +39231,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -39922,8 +39362,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -40407,6 +39847,91 @@
       "modified": "2026-07-14T22:41:38"
     },
     {
+      "id": 567465,
+      "title": "Microsoft Teams: Teams shared display mode and peripheral detection available for DoD environments",
+      "description": "Shared display mode in Teams is now available in government DOD environments, enabling more seamless and private meeting hosting from your PC. Additionally, peripheral detection for bring-your-own-device spaces is available for inventory management and reporting through the Pro Management portal.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567465",
+      "created": "2026-07-15T22:55:27",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 567667,
+      "title": "Microsoft Viva: Copilot Analytics - Agent 365 Dashboard in Insights ",
+      "description": "Customers can now access their Agent 365 data through the Agent Dashboard in Copilot Analytics (Insights), enabling leaders to understand activity across all agents registered through Agent 365. Customers with Agent 365 and Copilot will now see the Agent 365 Dashboard with the ability to view historical data in Agent Dashboard.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "July CY2026",
+      "ga_date_parsed": "2026-07",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Viva"
+      ],
+      "product_category": "viva",
+      "product_category_name": "Viva",
+      "product_category_emoji": "🏢",
+      "product_category_color": "#6C33A3",
+      "all_categories": [
+        "viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567667",
+      "created": "2026-07-14T22:41:38",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
       "id": 567467,
       "title": "Microsoft Teams: Expand presenter visibility in 'Manage what attendees see' for Teams events",
       "description": "Users will now be able to resize and expand the presenter panel in 'Manage what attendees see' options for Teams events. This feature helps make it easier to view, manage, and switch between presenters during events.",
@@ -40640,6 +40165,394 @@
       "modified": "2026-07-15T22:55:27"
     },
     {
+      "id": 564616,
+      "title": "Microsoft Purview: Data Loss Prevention - AI Powered Data Loss Prevention Policy Optimizer",
+      "description": "DLP Policy Optimizer uses AI to analyze your organization’s DLP policies, rule structure, and activity signals to identify optimization opportunities that are difficult to detect manually. It highlights overlapping rules, redundant conditions, misconfigurations, and sources of excessive noise, and presents prioritized recommendations with supporting evidence and suggested actions. This enables you to reduce false positives and alert noise, improve policy precision, and simplify policy management with confidence.\n",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "December CY2026",
+      "preview_date_parsed": "2026-12",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564616",
+      "created": "2026-06-02T23:15:28",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 562340,
+      "title": "Microsoft Teams: Preloaded video for Teams Events and Meetings",
+      "description": "Users can now upload videos directly into a Teams event or meeting from OneDrive from the \"Manage view\" options when an organizer has turned on Manage What Attendees See mode. This ensures a smoother high quality video playback with a more consistent experience for attendees.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562340",
+      "created": "2026-05-14T23:15:59",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 561648,
+      "title": "Microsoft Teams: Town hall media optimization for VDI attendees",
+      "description": "What’s new\nTeams now supports audio and video offloading for Town hall attendees in VDI environments that are using the new optimization. Media streams are offloaded directly to the user’s local device, improving performance and delivering a high definition viewing experience while reducing virtual desktop resource usage.\nWho it applies to\n•\tWindows endpoints only using the new VDI optimization\n•\tSupported VDI platforms:\no\tAzure Virtual Desktop and Windows 365\no\tCitrix\no\tOmnissa\no\tAmazon WorkSpaces\nWhat stays the same\nAll attendee interactivity features remain supported, including captions, DVR, reactions, streaming chat, and Q&A.\nAdditional details\nFirst party and third party eCDNs are supported. When enabled, the attendee’s endpoint establishes a direct peer to peer connection using the local device network, avoiding virtual desktop double hop traffic.\nAction required\nNo action is required if the new optimization for Microsoft Teams is already enabled.\n",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561648",
+      "created": "2026-05-06T23:15:10",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 560705,
+      "title": "Microsoft Viva: Copilot Analytics - Power user insights in Copilot dashboard",
+      "description": "Understand who is building a habit using Copilot with the new power user insights in Copilot dashboard",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "viva",
+      "product_category_name": "Viva",
+      "product_category_emoji": "🏢",
+      "product_category_color": "#6C33A3",
+      "all_categories": [
+        "copilot",
+        "viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=560705",
+      "created": "2026-04-21T23:00:01",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 558682,
+      "title": "Microsoft Purview: Data Loss Prevention – Reduce policy sync status SLA on the Purview UI from 2 hours to 30 mins",
+      "description": "Admin should be able to see the Endpoint DLP policy sync status on the Purview portal within 30 mins.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "July CY2026",
+      "preview_date_parsed": "2026-07",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558682",
+      "created": "2026-03-24T23:15:57",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 553594,
+      "title": "Built‑in AI Interpreter for Calls on Teams Phone Devices",
+      "description": "With AI Interpreter, Teams Phone Devices provide real‑time language interpretation directly within the call experience. Users can participate naturally in multilingual conversations while the device interprets spoken audio, reducing language barriers and supporting clearer communication in everyday calling scenarios.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Android"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=553594",
+      "created": "2026-02-11T00:15:04",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 534607,
+      "title": "Microsoft Viva: Engage: Detect moderated themes in images",
+      "description": "Engages theme moderation feature is a powerful AI tool to monitor and moderate content. With this update, images can now match to themes, just like text.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "June CY2027",
+      "ga_date_parsed": "2027-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Viva"
+      ],
+      "product_category": "viva",
+      "product_category_name": "Viva",
+      "product_category_emoji": "🏢",
+      "product_category_color": "#6C33A3",
+      "all_categories": [
+        "viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=534607",
+      "created": "2025-11-27T00:45:06",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 380721,
+      "title": "Microsoft Purview compliance portal: Data Loss Prevention - Trigger Power automate workflows as outcome of DLP rule match",
+      "description": "This introduces a new DLP rule action to trigger custom Power automate workflows when a DLP rule is violated.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=380721",
+      "created": "2024-01-31T01:00:33",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 567470,
+      "title": "OneDrive: Exclude specific folders from syncing",
+      "description": "OneDrive for Windows and Mac will let users exclude specific folders from syncing, so folders that do not belong in the cloud, such as developer tooling folders like PowerShell modules, Visual Studio configuration, and node modules, stay local on the device instead of uploading to OneDrive. Administrators can define folder exclusion rules for their organization.",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "OneDrive"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567470",
+      "created": "2026-07-09T23:00:39",
+      "modified": "2026-07-16T23:08:19"
+    },
+    {
       "id": 408533,
       "title": "Microsoft Purview compliance portal: Communication Compliance- Customize communication compliance policies with language-specific trainable classifier conditions",
       "description": "Tailor your policy conditions to run Trainable Classifiers for specific languages. By restricting the languages for classifiers, you can reduce false positives and bring precision to your policy conditions. Update your existing policies with ease for a more language-specific compliance approach. Updated June 29, 2026: We have decided not to move forward with this change at this time. We apologize for any inconvenience. ",
@@ -40860,47 +40773,6 @@
       "modified": "2026-07-14T22:41:38"
     },
     {
-      "id": 494998,
-      "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 Copilot app for DoD environments",
-      "description": "The Microsoft 365 app will be updated to the Microsoft 365 Copilot app for DoD environments. This update includes a UI refresh, a new icon, and quick access to key modules like Chat, Search, Create, Notebooks, and Apps. ",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "July CY2025",
-      "ga_date_parsed": "2025-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=494998",
-      "created": "2025-05-23T22:15:52",
-      "modified": "2025-09-16T23:00:14"
-    },
-    {
       "id": 491439,
       "title": "Microsoft Teams: Remote log collection in Teams admin center​",
       "description": "Teams Administrators will have the ability to remotely collect client diagnostics logs for troubleshooting from users' devices, aiming to minimize or eliminate the need for user intervention and workflow disruption previously required for collecting diagnostics logs.",
@@ -40969,8 +40841,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -41573,9 +41445,9 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
+        "copilot",
         "teams",
-        "sharepoint",
-        "copilot"
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -41705,8 +41577,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -41967,8 +41839,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -42012,8 +41884,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -42138,8 +42010,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -42812,8 +42684,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -43026,8 +42898,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Web"
@@ -43160,8 +43032,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -43205,8 +43077,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -43378,8 +43250,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -43892,8 +43764,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -44018,8 +43890,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -44106,8 +43978,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -44702,8 +44574,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -44961,8 +44833,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -45005,8 +44877,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -45136,8 +45008,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -45489,8 +45361,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -45745,8 +45617,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -46427,8 +46299,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -47164,8 +47036,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -48340,9 +48212,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
+        "copilot",
         "purview",
-        "admin",
-        "copilot"
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -48601,8 +48473,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -48811,8 +48683,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Mac"
@@ -49194,8 +49066,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -49418,8 +49290,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -49512,8 +49384,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Desktop",
@@ -49773,8 +49645,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -50164,8 +50036,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -50209,8 +50081,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -50505,8 +50377,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -50682,8 +50554,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -50940,8 +50812,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -51373,8 +51245,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -51545,8 +51417,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -51589,8 +51461,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -52281,8 +52153,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -52667,8 +52539,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -52713,8 +52585,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -53486,8 +53358,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -53784,8 +53656,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Desktop",
@@ -54046,9 +53918,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
+        "copilot",
         "sharepoint",
-        "admin",
-        "copilot"
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -54363,8 +54235,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "admin",
-        "outlook"
+        "outlook",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -55085,8 +54957,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -55525,9 +55397,9 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -55610,8 +55482,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -55778,8 +55650,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Teams and Surface Devices",
@@ -56114,8 +55986,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -56203,8 +56075,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -56382,8 +56254,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -56805,8 +56677,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -56853,8 +56725,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -58167,8 +58039,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -58678,8 +58550,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -58891,8 +58763,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -59103,8 +58975,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -59743,8 +59615,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Mac"
@@ -60085,8 +59957,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -60385,8 +60257,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -60946,8 +60818,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -61657,8 +61529,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -62046,8 +61918,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop"
@@ -62216,8 +62088,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -62913,8 +62785,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "teams",
-        "copilot"
+        "copilot",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -63005,8 +62877,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "intune"
+        "intune",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -63230,8 +63102,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -63593,8 +63465,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -63766,8 +63638,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "viva"
+        "viva",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -63900,8 +63772,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -64076,8 +63948,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -64581,8 +64453,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -64624,8 +64496,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -65054,8 +64926,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -65785,8 +65657,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Android",
@@ -66179,8 +66051,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -66266,8 +66138,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -66394,8 +66266,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Teams and Surface Devices",
@@ -66482,8 +66354,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -67033,8 +66905,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -67943,8 +67815,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -68073,8 +67945,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -68587,8 +68459,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -69307,8 +69179,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -69485,8 +69357,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -69700,8 +69572,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Android",
@@ -70091,8 +69963,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -70737,8 +70609,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
         "copilot",
+        "outlook",
         "office-apps"
       ],
       "platforms": [
@@ -70868,8 +70740,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -71126,9 +70998,9 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
+        "copilot",
         "purview",
-        "edge-media",
-        "copilot"
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -71388,8 +71260,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -71477,8 +71349,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -71604,8 +71476,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -72800,8 +72672,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -72846,8 +72718,8 @@
       "product_category_color": "#5C2D91",
       "all_categories": [
         "sharepoint",
-        "admin",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -73406,8 +73278,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -74182,8 +74054,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "sharepoint",
-        "copilot"
+        "copilot",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -74267,8 +74139,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -74314,8 +74186,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -75443,8 +75315,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "iOS"
@@ -75486,8 +75358,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -76227,8 +76099,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -76270,8 +76142,8 @@
       "product_category_emoji": "🌐",
       "product_category_color": "#3C8527",
       "all_categories": [
-        "edge-media",
-        "copilot"
+        "copilot",
+        "edge-media"
       ],
       "platforms": [
         "Web"
@@ -76570,8 +76442,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -76619,9 +76491,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -76710,8 +76582,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -77143,9 +77015,9 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "admin"
       ],
       "platforms": [
         "Desktop",
@@ -77358,8 +77230,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -77526,8 +77398,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Teams and Surface Devices",
@@ -77612,8 +77484,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -77702,8 +77574,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -78626,8 +78498,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -78714,8 +78586,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Web"
@@ -78921,8 +78793,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -79093,8 +78965,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin",
-        "copilot"
+        "copilot",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -79303,8 +79175,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -79619,6 +79491,183 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=553218",
       "created": "2026-01-30T00:15:33",
       "modified": "2026-07-14T22:41:38"
+    },
+    {
+      "id": 563806,
+      "title": "Outlook: Emails marked with External to be supported as Rules conditions",
+      "description": "The External tag on an email, set by the ExternalInOutlook feature, will now be usable as a condition in Outlook Inbox Rules. This change also makes available the ability to create or modify these Rules on the new Outlook for Windows, Outlook Web, and Outlook for Mac.",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Exchange",
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=563806",
+      "created": "2026-05-21T23:15:57",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 561920,
+      "title": "Microsoft Copilot (Microsoft 365): SharePoint list support in Agent Builder",
+      "description": "Agent Builder now supports using a SharePoint list as a knowledge source for agents in Microsoft 365 Copilot. Makers can ground an agent in structured list data so users can ask questions and get responses based on information stored in a selected SharePoint list. For this release, each agent can reference one SharePoint list with up to 20,000 items, alongside other knowledge source types. Support for list attachments and lookup columns is not yet available.",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Desktop",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561920",
+      "created": "2026-05-12T23:00:33",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 559110,
+      "title": "Microsoft Copilot (Microsoft 365): Find meetings based on topics and keywords",
+      "description": "Copilot will be able to find meetings based on topics or keywords from relevant data like meeting body, chat and transcription.",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "June CY2026",
+      "ga_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559110",
+      "created": "2026-04-10T21:45:06",
+      "modified": "2026-07-15T22:55:27"
+    },
+    {
+      "id": 477371,
+      "title": " SharePoint: Microsoft 365 Archive file-level archiving",
+      "description": "This introduces archiving at the file level for Microsoft 365 Archive. ",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "July CY2026",
+      "ga_date_parsed": "2026-07",
+      "preview_date": "March CY2026",
+      "preview_date_parsed": "2026-03",
+      "products": [
+        "SharePoint"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=477371",
+      "created": "2025-02-19T00:00:11",
+      "modified": "2026-07-15T22:55:27"
     }
   ]
 }
