@@ -1,5 +1,101 @@
 [
   {
+    "id": 570444,
+    "title": "Microsoft Viva: Viva Glint - New Survey Owner role provides access to survey results",
+    "description": "When a new program is being set up in Glint, there is now an option to designate Survey Owners. Those added as Survey Owners will be able to view and manage certain aspects of the program, as well as see the results when a survey in the program closes.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570435,
+    "title": "Microsoft Copilot Studio: Streamlining experiences from Copilot Studio Agents in Microsoft 365 Copilot",
+    "description": "This update is meant to bridge the experience of using Copilot Studio agents in M365 Copilot with the Copilot Chat experience. With these updates, agent responses in Copilot Chat will look (similar formatting, compressed chain of thought), feel (smoother streaming, resume/retry and voice dictation) and behave (deliver clickable citations and tool execution traces) very similarly to Copilot Chat responses themselves.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570434,
+    "title": "Microsoft Copilot Studio: Enabling makers to require human approval for tool calls",
+    "description": "Copilot Studio now let’s makers require human approval before an agent runs specific tools. With a per-tool, per-agent toggle, any gated tool call pauses and shows an approval request describing what the agent intends to do, so a person can approve, approve for the session, or deny before the action runs. This gives organizations a deterministic guardrail for high-stakes or sensitive operations like sending emails, closing tickets, or processing payments, independent of the agent's instructions. Approval requests appear inline in the channel where the agent is deployed, including Microsoft Teams and Microsoft 365 Copilot.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570431,
+    "title": "Microsoft 365: Organizational Data Service is now available in GCC-High",
+    "description": "We’re excited to announce that Microsoft 365 Organizational Data Service is now available in the GCC-High (GCC-H) environment! Microsoft 365 Organizational Data Service enables rapid ingestion of organizational/HR data through connectors from multiple HRIS systems using a single unified ingestion point. This service also provides organizational data for use across Microsoft Copilot and Microsoft 365 apps to power various features with robust data quality framework that detects, communicates, and provides solutions for data quality issues before data is used.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570428,
+    "title": "Microsoft Viva: Viva Insights and Copilot Analytics in GCC-High",
+    "description": "Microsoft Viva Insights and Copilot Analytics are coming to Microsoft 365 Government Community Cloud High (GCC High), providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the GCC High environment.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 569720,
+    "title": "SharePoint: PowerShell support for brand fonts deletion",
+    "description": "Microsoft SharePoint is introducing PowerShell support for deleting brand font files from the Brand Fonts library used by the SharePoint Brand Center. With the new Remove-SPOFontFile cmdlet, SharePoint administrators can remove brand font files that are no longer approved, licensed, or needed across their organization in SharePoint.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 569477,
+    "title": "Microsoft Purview: Data Loss Prevention – Default Protection Controls for Exchange Online in the event of classification failure ",
+    "description": "Default protection controls for Exchange Online is available in public preview. This release gives administrators fine-grained control to create DLP policies based on specific classification or text extraction failure types — such as timeout, throttling and other scan errors — rather than one blanket policy for all failure conditions. ",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 569446,
+    "title": "Microsoft Entra: Enhanced Security Accounts Manager (sAM) Account Name support for Microsoft Entra Domain Services",
+    "description": "Enhanced support for synchronizing the Security Accounts Manager account name (sAMAccountName) with Microsoft Entra Domain Services is now in Public Preview. This feature allows sAMAccountName to be populated from the onPremisesSamAccountName attribute in Microsoft Entra ID. Existing managed domains can enable the new synchronization behavior, while it is enabled by default for new managed domains. When enabled, existing hybrid users are updated during synchronization; cloud-only users without an onPremisesSamAccountName value continue to use mailNickname-based generation. The feature is available for Enterprise and Premium SKUs.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "August CY2026"
+  },
+  {
+    "id": 569424,
+    "title": "Excel: Excel canvas",
+    "description": "A Copilot-generated canvas that turns workbook data into a polished, interactive view of key visualizations, metrics, and insights. As workbook data changes, it automatically updates to reflect the latest information. Users can modify the canvas by chatting with Copilot.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 569214,
+    "title": "Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD",
+    "description": "Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 568784,
+    "title": "Microsoft Defender for Identity: Unified identity timeline on the Identity page",
+    "description": "The updated identity timeline provides security teams with a single chronological view of activity and alerts associated with an identity and its linked accounts. It normalizes activity from integrated Microsoft security products, including Microsoft Entra sign-ins, Microsoft Graph audit events, SaaS and cloud activity, and device logons. New fields and filters include Source table, Session ID, and Unique token identifier, with expanded Conditional Access and event context.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 567885,
+    "title": "Microsoft 365: Entra ID Backup & Recovery",
+    "description": "Enable extended 30-day backup and recovery for a tenant's Entra objects via the Microsoft 365 Backup native app or M365 Backup Storage platform APIs. This capability allows customers and ISV apps to do a point in time restore of Entra objects to a last known good state to a rolling historical 30-day point. Advanced recovery features are currently limited to the Entra admin portal, but some user recovery actions will be possible via the M365 Backup native app UX in the M365 Admin center. Note that the existing 7-day recovery that comes with a customer's P1 & P2 licenses is already generally available and is independent of this roadmap item.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 570155,
     "title": "SharePoint: Site Skills in Copilot in SharePoint",
     "description": "The feature introduces enhanced Site Skills management capabilities, including skill editing, version control, publishing, restoration, and cross-site duplication, enabling organizations to govern and reuse skills more effectively across SharePoint sites.",
@@ -483,7 +579,7 @@
     "id": 569017,
     "title": "Microsoft Teams: Intelligent call recaps in Queues app",
     "description": "Spend less time catching up on call recordings to resolve customer issues faster. For recorded call queue calls, the Queues app now supports intelligent call recaps for recorded calls that includes AI-generated summary notes, key discussion points, and follow-up actions. Navigate to the call record in the Queues app and select the Recap tab to access.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -531,7 +627,7 @@
     "id": 568933,
     "title": "Microsoft Teams: Use Copilot Chat after a call in Queues app",
     "description": "After a recorded call is completed, use Copilot in the Queues app to quickly catch up on key details, uncover insights, and resolve customer issues faster without having to manually search through a transcript or listen back to a recording. Navigate to the unified call history in the Queues app, select the recorded call record, and launch the Copilot Chat sidecar from within the Recap tab. You can then ask Copilot to generate a summary or answer questions about specific details related to the call.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -828,7 +924,7 @@
     "title": "Outlook: New Copilot entry point in Classic Outlook",
     "description": "We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook. ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -859,7 +955,7 @@
     "id": 567891,
     "title": "Microsoft Copilot (Microsoft 365): Power BI integration in M365 Copilot",
     "description": "This release enables M365 Copilot to reason over Power BI enterprise data and returns grounded answers directly from Power BI reports and semantic models. Users can ask natural‑language questions and receive accurate answers.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": "June CY2026"
   },
@@ -948,7 +1044,7 @@
     "title": "Planner: Planner Agent chat in Basic Plans",
     "description": "Introducing built-in Planner Agent chat with natural language Q&A, smart task discovery, and in-plan task management.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -979,7 +1075,7 @@
     "id": 567469,
     "title": "Microsoft Teams: PowerPoint Live Light theme support",
     "description": "Presenting PowerPoint slides in Teams just got better. PowerPoint Live now supports light mode, giving presenters the option to present in light, dark, classic, or high contrast mode based on their preferences and system settings.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -1291,7 +1387,7 @@
     "id": 566866,
     "title": "Planner: Task Details Side Pane experience",
     "description": "The Task Details Side Pane lets you view and edit task details in a side pane while keeping your Board, Grid, or My Tasks view visible. Update tasks without losing context or switching back and forth from modal dialogs.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -1436,7 +1532,7 @@
     "title": "Microsoft Viva: Discussion Post Previews",
     "description": "Discussion post previews allow users to review how their discussion posts will appear before publishing, helping them catch formatting issues, validate content, and post with greater confidence.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -1515,7 +1611,7 @@
     "id": 566201,
     "title": "Microsoft Teams: Block all identified external bots automatically from joining your meetings",
     "description": "Extending the admin controls provided for managing external AI bots and regulating their access to your meetings, we are adding the option to automatically block all identified bots.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -1556,7 +1652,7 @@
     "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
     "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -1971,7 +2067,7 @@
     "id": 564765,
     "title": "Microsoft Purview: Data Loss Prevention - User Based Aggregation of DLP Alerts",
     "description": "Enable aggregation of DLP alerts based on common entities user even when multiple rules are matched. This feature should consolidate related alert events into a single alert object to: Reduce alert noise, simplify investigation workflows, enhance contextual understanding of violations. ",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": "July CY2026"
   },
@@ -2083,7 +2179,7 @@
     "id": 561914,
     "title": "Microsoft Teams: Mandatory pre-meeting consent",
     "description": "We are providing a new configuration experience in Teams Admin Center where tenant admins can enable and customize an explicit consent message before joining any meeting hosted in their organization.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -2756,7 +2852,7 @@
     "title": "Microsoft Copilot (Microsoft 365): Generate documents using forms in SharePoint with Power Automate",
     "description": "We are introducing a new Power Automate action that enables automated document generation using document generation (DocGen) forms in SharePoint. \nGenerate document from form (Preview) allows customers to create documents from a template by mapping data inputs to predefined template fields.\nDocuments are generated as part of an automated flow and stored in SharePoint.\nThis capability supports scenarios such as creating contracts, invoices, letters, or reports using structured templates and form-driven inputs.\nThe action works by mapping input data to template fields and returns the generated document along with file metadata such as location and status.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": "May CY2026"
   },
   {
@@ -2843,7 +2939,7 @@
     "id": 561038,
     "title": "SharePoint: Admin Center - detailed report on Everyone except external user permissions",
     "description": "The new report provides SharePoint Advanced Management admins complete item level details of permissions granted to Everyone except external user and Everyone special SharePoint groups.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -3043,7 +3139,7 @@
     "id": 560702,
     "title": "Microsoft Teams: Security Detection Report in Teams Admin Center",
     "description": "A new Security Detection Report in the Teams admin center provides a centralized view of messaging security detections, including impersonation, malicious URLs, and weaponizable file types. Admins can review detection activity in one place and export detailed data to support investigation and response. This capability helps consolidate security signals for Teams messaging scenarios.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -3412,7 +3508,7 @@
     "title": "Microsoft Copilot (Microsoft 365): Copilot Chat can now better match search results from Scanned PDFs and from text inside images embedded in Word, Excel, and PowerPoint",
     "description": "Copilot Chat can now better match search results from Scanned PDFs and from text that appears inside images embedded in Word, Excel, and PowerPoint files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -3747,7 +3843,7 @@
     "id": 558539,
     "title": "Microsoft Teams: Enhanced cross-platform join via SIP for Teams Rooms on Android",
     "description": "Enable Teams Rooms on Android to join third-party meetings via SIP, delivering seamless cross-platform interoperability. This capability ensures users can connect to external meeting services directly from Teams Rooms, maintaining a consistent and reliable meeting experience across diverse environments. Available on Teams Rooms Pro license.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -4652,7 +4748,7 @@
     "title": "Outlook: Share Word, Excel, and PowerPoint local files via the new Outlook for Windows",
     "description": "When working in an open Word, Excel, or PowerPoint file, users will now be able to send a copy of the locally stored file by email through the new Outlook for Windows.  #newoutlookforwindows",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -6027,7 +6123,7 @@
     "id": 498640,
     "title": "Microsoft Copilot (Microsoft 365): Capture voice notes in the Microsoft 365 Copilot mobile app",
     "description": "With a Microsoft 365 Copilot license, transform offline discussions into structured, actionable, and searchable content with voice notes in Copilot.",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": "July CY2026"
   },
@@ -6868,7 +6964,7 @@
     "title": "Outlook: User-initiated Copilot insights in classic Outlook ",
     "description": "Users can manually select text and ask Copilot to help provide relevant information. ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": "May CY2026"
   },
   {
@@ -9059,8 +9155,8 @@
     "id": 503144,
     "title": "Microsoft Copilot (Microsoft 365): Domain exclusion for web grounding",
     "description": "This feature will allow admins to specify a limited set of sites to exclude from web grounding in M365 Copilot and Copilot Chat #copilotcontrolsystem",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "June CY2026",
+    "status": "Rolling out",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10548,7 +10644,7 @@
     "title": "Microsoft Places: Microsoft Places Support to GCC cloud",
     "description": "Microsoft Places features will now be available in GCC cloud",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -11691,7 +11787,7 @@
     "id": 487836,
     "title": "Microsoft Copilot (Microsoft 365): Employee Self-Service Agent in M365 Copilot",
     "description": "The Employee Self-Service Agent in M365 Copilot expedites answers for the most common workplace policy-related questions and takes action on key HR and IT related tasks, connecting employees to authorized knowledge bases and HR/IT systems of record for faster resolution time and a streamlined employee experience.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "November CY2025",
     "publicPreviewDate": "August CY2025"
   },
@@ -13892,7 +13988,7 @@
     "title": "Microsoft Purview compliance portal: Information Protection - Sensitivity label grouping modernization",
     "description": "To help improve label usability and configuration, the sensitivity labeling scheme will be simplified to only consist of labels and label groupings. These new label groupings allow admins to better organize and categorize their labels (previously done via parent labels).",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -13956,7 +14052,7 @@
     "title": "Microsoft Teams: Chat for organizers and presenters in structured meetings and webinars",
     "description": "Organizers, co-organizers, and presenters can chat privately in a separate chat from attendees. This chat is available to access before, during, and after the event.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
