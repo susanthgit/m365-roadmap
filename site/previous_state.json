@@ -1,5 +1,37 @@
 [
   {
+    "id": 570468,
+    "title": "Microsoft Teams: Automatic recording and transcription choices align with admin policies",
+    "description": "Meeting organizers will only see automatic recording and transcription choices in Meeting Options that are allowed by their organization's existing meeting policies. A new Record only choice lets organizers automatically start recording without starting transcription. Depending on the organizer's policies, available choices can include Record and transcribe, Transcribe only, Record only, and Off. When both recording and transcription are disabled by policy, the automatic setting is not shown.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570467,
+    "title": "Microsoft Teams: Admins can control profanity filtering in meeting transcripts",
+    "description": "Teams administrators will be able to use a meeting policy to control whether profane words are masked in live transcription and saved meeting transcripts. Filtering remains on by default. When an organizer is assigned a policy that turns filtering off, profane words can appear without masking in both the live and saved transcript, while live captions continue to follow each participant's existing profanity setting. ",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570433,
+    "title": "Microsoft Copilot Studio: Deliver rich interactive app experiences in Copilot Studio agents",
+    "description": "Copilot Studio agents can now render rich, interactive UI inline using MCP Apps, an extension of the Model Context Protocol. When an agent calls a UI-enabled tool from a compatible MCP server, interactive experiences like sortable tables and drilldowns render directly in the conversation. Users can now explore and act on data without leaving the chat or switching tools. A plain-text fallback keeps the agent working on surfaces that can't render the UI, and makers get this simply by connecting a compliant MCP server.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 569474,
+    "title": "Microsoft Copilot Studio: Introducing an App- and Intent-First Agent Creation Experience",
+    "description": "Copilot Studio is evolving to an app-first agent creation experience. Makers start with the application their agent will work with and configure the capabilities it needs. This update brings tools and knowledge into a more unified experience, simplifying how agents are created and configured.",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 570444,
     "title": "Microsoft Viva: Viva Glint - New Survey Owner role provides access to survey results",
     "description": "When a new program is being set up in Glint, there is now an option to designate Survey Owners. Those added as Survey Owners will be able to view and manage certain aspects of the program, as well as see the results when a survey in the program closes.",
@@ -844,8 +876,8 @@
     "title": "Microsoft Purview: Data Loss Prevention - SLA Based Alert Reporting Dashboard",
     "description": "Out-of-box MTTA/MTTD/MTTR SLA Alert Reporting dashboard showing past trends, Top SITs getting exposed via DLP alerts generated. Customers can define their custom SLAs for high, med and low severity alerts and get access to dashboard showing operational performance and SLA metrics.\n",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
-    "publicPreviewDate": "August CY2026"
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": "September CY2026"
   },
   {
     "id": 568371,
@@ -1788,7 +1820,7 @@
     "title": "Microsoft Purview: Data Lifecycle Management - Azure PST Import",
     "description": "Azure PST Import is a migration method that enables PST files stored in Azure Blob Storage to be imported directly into Exchange Online mailboxes. It follows the standard two‑step Exchange Migration Service pattern: an initial analysis phase to validate and assess PST data, followed by execution of the actual migration. The process also involves creating a migration endpoint, running an analysis-only migration batch, using the analysis results to configure the final batch, and then starting the batch to import PST content into target mailboxes.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicDisclosureAvailabilityDate": "December CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -1875,7 +1907,7 @@
     "id": 564912,
     "title": "Microsoft Teams: New room optimization mode user experience in Teams desktop",
     "description": "Users can more easily use their laptop for meetings and collaboration in spaces like focus or huddle rooms that don’t yet have a Teams Rooms system. The new room optimization mode replaces shared display mode, has a new location, and enables or disables room-specific features. When room peripherals are connected, Teams can automatically select audio and video devices, enable speaker recognition and shared display, and disable voice isolation.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -1923,7 +1955,7 @@
     "id": 565215,
     "title": "Microsoft Teams: Automatic recording and transcription for Teams Call Queues",
     "description": "Administrators can enable automatic recording and transcription for Teams call queues. When enabled, calls answered by calling representatives are automatically recorded without manual action. Admins configure the feature per queue via Teams admin center or PowerShell, with controls for recording, transcription and agent access to recordings. Recordings are stored in SharePoint and available through the Queues app call history. Note: Queues app requires a Teams Premium license.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -1947,7 +1979,7 @@
     "id": 564614,
     "title": "Microsoft Teams: Meeting recap app",
     "description": "The meeting recap app brings all your meeting recaps into one place, making it easier to find, filter, and catch up. Quick filters help you surface the right meetings instantly, while audio recap lets you efficiently review multiple meetings at once. You can also browse and revisit any recap from the past 30 days.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -1955,7 +1987,7 @@
     "id": 565131,
     "title": "Microsoft Teams: Multi-line Calling on Teams Mobile",
     "description": "Make and receive calls using multiple assigned phone numbers directly from your mobile device - choose the right line for every call, with unified call history and seamless switching across all your lines.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -2004,7 +2036,7 @@
     "title": "Microsoft Purview: Information Protection - Rights Management connector – Certificate-based authentication",
     "description": "The Microsoft Rights Management (RMS) connector is moving from shared-secret authentication to certificate-based authentication, improving its security posture. With this update, administrators configure their own Microsoft Entra app registration and certificate, then use the new PowerShell module to configure the certificate for each workload (Connector, Exchange, SharePoint, and FCI). New PowerShell cmdlets handle certificate import, registry configuration, private-key permissions, and validation. As part of this change, the connector setup no longer provisions an Entra service principal or issues a shared secret on the customer's behalf. Customers should plan to register an Entra ID application and upload a certificate before installing or upgrading the connector.\n",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "January CY2027",
     "publicPreviewDate": "July CY2026"
   },
   {
@@ -2307,7 +2339,7 @@
     "id": 562050,
     "title": "Microsoft Teams: Support human interpreter listening mode in Microsoft Teams Rooms on Windows",
     "description": "Microsoft Teams Rooms on Windows now supports human interpreter listening mode in meetings where organizers enable language interpretation in Meeting options, allowing room participants to select a language and hear interpreter audio.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -2635,7 +2667,7 @@
     "id": 561604,
     "title": "Microsoft Teams: Chat panel open by default in the gallery view on Teams Rooms on Android",
     "description": "The chat panel will open by default in gallery view, allowing participants in Teams Room on Android to quickly see ongoing meeting chat when they join. Admins can configure this default device behavior, and users can close the panel in one tap during meetings. \n \n",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -2667,7 +2699,7 @@
     "id": 561648,
     "title": "Microsoft Teams: Town hall media optimization for VDI attendees",
     "description": "What’s new\nTeams now supports audio and video offloading for Town hall attendees in VDI environments that are using the new optimization. Media streams are offloaded directly to the user’s local device, improving performance and delivering a high definition viewing experience while reducing virtual desktop resource usage.\nWho it applies to\n•\tWindows endpoints only using the new VDI optimization\n•\tSupported VDI platforms:\no\tAzure Virtual Desktop and Windows 365\no\tCitrix\no\tOmnissa\no\tAmazon WorkSpaces\nWhat stays the same\nAll attendee interactivity features remain supported, including captions, DVR, reactions, streaming chat, and Q&A.\nAdditional details\nFirst party and third party eCDNs are supported. When enabled, the attendee’s endpoint establishes a direct peer to peer connection using the local device network, avoiding virtual desktop double hop traffic.\nAction required\nNo action is required if the new optimization for Microsoft Teams is already enabled.\n",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -2707,7 +2739,7 @@
     "id": 561031,
     "title": "Microsoft Teams: Enhanced bookable desk experience with Teams panel-based desk dock devices",
     "description": "Users have better experiences in flexible work environments with Microsoft Teams panel-based desk dock devices coming later this year. The Teams panel app now enables devices, such as the Yealink Linkhub, to enhance bookable desk experiences by indicating at-a-glance availability and letting visitors book directly on the device. Each device requires a Teams Shared Space license.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -2836,7 +2868,7 @@
     "title": "Microsoft Edge: Improved website compatibility with site troubleshooting controls",
     "description": "Microsoft Edge is introducing improvements to help users quickly resolve website issues directly from the browser. When a site is not functioning as expected, users may be guided to relevant troubleshooting options such as adjusting tracking prevention settings (e.g., Strict mode) and reviewing site-specific configurations. This experience surfaces relevant actions in-context to help users restore site functionality without navigating deep into settings.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -3028,7 +3060,7 @@
     "title": "Microsoft Purview: Data Lifecycle Management – Increase in expansion limit for auto expanding archive beyond 1.5TB",
     "description": "Previously, auto expanding archive mailbox expansion was supported only up to 1.5 TB, after which mailboxes would become inoperative. Archive mailboxes can now automatically expand beyond the 1.5 TB limit, ensuring uninterrupted retention and enabling scalable archive growth as storage thresholds are reached. This capability to expand archive beyond 1.5 TB will be available to customers with eligible E5 licenses.\n",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -3106,8 +3138,8 @@
   {
     "id": 560823,
     "title": "Microsoft Edge: Work Search Banner for Google",
-    "description": "When a user performs a search on google.com from a work profile, Microsoft Edge can detect whether organization-specific results are available for that query. When relevant results are found, a banner is shown with a link to explore those work results with Microsoft 365 Copilot. This builds on the existing experience already available on Bing and extends it to Google, helping users seamlessly access work-related information regardless of their search engine. Admins can control access to this feature using the EdgeWorkSearchBannerEnabled policy.",
-    "status": "In development",
+    "description": "When a user performs a search on google.com from a work profile, Microsoft Edge can detect whether organization-specific results are available for that query. When relevant results are found, a banner is shown with a link to explore those work results with Microsoft 365 Copilot. This builds on the existing experience already available on Bing and extends it to Google, helping users seamlessly access work-related information regardless of their search engine. Admins can control access to this feature using the EdgeWorkSearchBannerEnabled policy. Note: We have made the decision to cancel this planned release. We apologize for any inconvenience this may cause. ",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -3443,7 +3475,7 @@
     "id": 560323,
     "title": "Microsoft Teams: Profanity filter is disabled by default for captions",
     "description": "We are updating the default profanity filter setting for live captions from On to Off across Teams meetings, calls, events, and Microsoft Teams Rooms (MTR) devices to improve accessibility and align with EU requirements. This change will only affect users who have never configured their live captions profanity filter preference. Users who have already set their preference will keep their current setting. As a result, some users may begin seeing unfiltered profanity in live captions by default after this rollout. Users can update this preference in settings at any time.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -3505,8 +3537,8 @@
   },
   {
     "id": 559613,
-    "title": "Microsoft Copilot (Microsoft 365): Copilot Chat can now better match search results from Scanned PDFs and from text inside images embedded in Word, Excel, and PowerPoint",
-    "description": "Copilot Chat can now better match search results from Scanned PDFs and from text that appears inside images embedded in Word, Excel, and PowerPoint files — such as scanned contracts in Word, screenshots of tables in Excel, or whiteboard photos in PowerPoint — content that was previously difficult to search and find.",
+    "title": "Microsoft Copilot (Microsoft 365): Copilot Chat can now better match search results from Scanned PDFs",
+    "description": "Copilot Chat can now better match search results from Scanned PDFs on Copilot users' files they are working on — content that was previously difficult to search and find.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
@@ -3634,8 +3666,8 @@
   {
     "id": 559617,
     "title": "Microsoft Purview: Purview in Microsoft Admin Center",
-    "description": "AI and IT admins in Microsoft Admin Center can 1) gain visibility around oversharing risks and drive remediations 2) Understand how much of sensitive copilot interactions are protected and turn on Purview DLP for M365 Copilot right from there. Enables secure adoption of Copilot.",
-    "status": "In development",
+    "description": "AI and IT admins in Microsoft Admin Center can 1) gain visibility around oversharing risks and drive remediations 2) Understand how much of sensitive copilot interactions are protected and turn on Purview DLP for M365 Copilot right from there. Enables secure adoption of Copilot. Updated September 1, 2026: We are not moving forward with this change at this time. We apologize for any inconvenience. ",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
@@ -3715,7 +3747,7 @@
     "id": 559608,
     "title": "Microsoft Teams: Quick access to read items from unread-only view",
     "description": "Teams chat and channel lists can be filtered to show unread items only. When this filter is applied, hovering over a section reveals an eye icon next to the section name. Selecting the eye icon opens a list of read chats or channels within that section, allowing you to open them without leaving the unread-only view.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "May CY2026",
     "publicPreviewDate": ""
   },
@@ -3907,7 +3939,7 @@
     "id": 501120,
     "title": "Microsoft Copilot (Microsoft 365): Federated Copilot Connectors",
     "description": "Microsoft is announcing the General Availability (GA) of federated Copilot connectors for Microsoft 365 Copilot. Federated Copilot connectors enable users to securely connect Copilot to popular third‑party sources and retrieve data in real time using the Model Context Protocol (MCP). These connectors do not store or index customer data in Microsoft services; access occurs in real time using the user’s identity, while administrators retain full governance and control through the Microsoft 365 admin center. With GA, federated Copilot connectors will be supported in Researcher agent, Microsoft 365 Chat, and Agent Mode in Excel, enabling users to bring external data directly into their workflows.",
-    "status": "In development",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "April CY2026",
     "publicPreviewDate": "December CY2025"
   },
@@ -4027,7 +4059,7 @@
     "id": 558852,
     "title": "Microsoft Teams: Digital signage support for Teams panels",
     "description": "Digital signage can now be displayed on idle Teams panel devices, similar to digital signage support for Microsoft Teams Rooms front of room displays. Signage source and settings can be configured in the Pro Management portal. Available with Teams Rooms Pro or Shared space-licensed spaces.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -4091,7 +4123,7 @@
     "id": 558679,
     "title": "Microsoft Teams: Standardized preview experience for Word, PowerPoint, and Excel files",
     "description": "Microsoft Word, Microsoft PowerPoint, and Microsoft Excel files now open in a standardized preview in Teams on Android and iOS, delivering faster performance, improved reliability, and a more consistent viewing experience.",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -4788,8 +4820,8 @@
     "title": "Microsoft Purview: Data Lifecycle Management- Azure PST Import",
     "description": "Azure PST Import is a migration method that enables PST files stored in Azure Blob Storage to be imported directly into Exchange Online mailboxes. It follows the standard two‑step Exchange Migration Service pattern: an initial analysis phase to validate and assess PST data, followed by execution of the actual migration. The process also involves creating a migration endpoint, running an analysis-only migration batch, using the analysis results to configure the final batch, and then starting the batch to import PST content into target mailboxes.\n",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
-    "publicPreviewDate": "September CY2026"
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "October CY2026"
   },
   {
     "id": 557552,
@@ -5339,7 +5371,7 @@
     "id": 555235,
     "title": "Microsoft Teams: One-stop admin portal for Teams devices with Teams Rooms Pro Management",
     "description": "Admins now have a one-stop portal for inventory, health monitoring, management, and analytics for both Windows and Android devices with the Pro Management portal. Management of all Android Teams rooms, panels, and phone devices are transitioning to this portal from the Teams admin center, enabling easy, consistent, and secure management of Teams devices across all operating systems and manufacturers.\n",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -5988,7 +6020,7 @@
     "title": "Microsoft Copilot (Microsoft 365): Structured Document Generation with Forms",
     "description": "Structured Document Generation with Forms enables organizations to create, manage, and generate standardized documents at scale with built-in governance and compliance in SharePoint. Business process owners can centrally build and maintain form-driven templates -- such as contracts, agreements, proposals, and HR documents -- ensuring content stays accurate and up to date. Users can then generate the right document every time by just filling out the form, without manual formatting, versioning issues, or compliance risk, simplifying high-volume, structured document workflows across the organization.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -6692,7 +6724,7 @@
     "title": "Microsoft Edge: Tracking prevention when browsing InPrivate ",
     "description": "Microsoft Edge is unifying the tracking prevention experience for non-InPrivate and InPrivate browsing windows.  Microsoft Edge will use the same tracking prevention setting as a normal browsing window when in InPrivate mode. ",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -6747,7 +6779,7 @@
     "id": 529850,
     "title": "Microsoft Copilot (Microsoft 365): Meeting Prepare from Up Next",
     "description": "Get timely reminders in Outlook mobile to prepare for your meetings with Copilot. The Up Next card now offers a Prepare option so you can get ready with one tap.",
-    "status": "In development",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "February CY2026",
     "publicPreviewDate": ""
   },
@@ -10875,7 +10907,7 @@
     "id": 495002,
     "title": "Microsoft Teams: Slash commands for apps ",
     "description": "You can now interact with your favorite apps directly from Teams chat and channels compose box using slash commands.  Type / and start interacting with Apps and Agents, invoke workflows and more. ",
-    "status": "Rolling out",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -11012,7 +11044,7 @@
     "title": "Microsoft Purview compliance portal: Scanner data export for custom reporting",
     "description": "Learn about the state of your scanned repositories and create custom reports with the information protection scanner. Labeling, classification and protection actions on scanned files are stored in SQL tables that form a foundation to feed into custom reports.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": "May CY2026"
   },
   {
@@ -13092,7 +13124,7 @@
     "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Iphone)",
     "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively. We inadvertently marked this item as rolling out and now have updated it to be accurate.  We apologize for any inconvenience.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -13100,7 +13132,7 @@
     "title": "OneNote: Summary and Q&A in OneNote Mobile with Copilot (Android)",
     "description": "With this new Summary feature in OneNote mobile, you can create a short and fluent summary of your longer pages which will help to consume relevant information faster. With the Question and Answer at your fingertips, you can get real-time answers to your queries directly within your notes, enhancing your ability to access and utilize information quickly and effectively.",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -13457,8 +13489,8 @@
   },
   {
     "id": 409534,
-    "title": "\tMicrosoft Teams: Local PTZ for Microsoft Teams Rooms on Windows",
-    "description": "Microsoft Teams Rooms on Windows will provide native Pan-Tilt-Zoom (PTZ) controls for connected cameras that support this capability. The feature will initially contain limited support for cameras with mechanical/optical PTZ, with digital PTZ to come in the future.",
+    "title": "Microsoft Teams: Local PTZ for Microsoft Teams Rooms on Windows",
+    "description": "Microsoft Teams Rooms on Windows will provide native Pan-Tilt-Zoom (PTZ) controls for connected cameras that support this capability, whether the camera moves a physical lens or adjusts the image digitally. Controls are available when Teams Rooms can confirm the camera isn't independently framing the room.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
