@@ -1,5 +1,93 @@
 [
   {
+    "id": 572673,
+    "title": "Microsoft 365 app: Cloud Update - Extended rollback support for Monthly Enterprise Channel",
+    "description": "<p>Cloud Update is expanding rollback options for devices on Monthly Enterprise Channel. Administrators will be able to roll back devices to a release from two versions prior, with the latest available security updates for that release, and keep devices in the rolled-back state across subsequent releases until they are ready to resume updates. This provides additional time to investigate and resolve compatibility issues while maintaining security coverage and centralized control through the Microsoft 365 Apps admin center.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": "September CY2026"
+  },
+  {
+    "id": 571683,
+    "title": "Outlook: Insert Symbol",
+    "description": "<p>You can insert a variety of symbols into an email message while composing it. To add a symbol, go to the Insert tab and select Symbols.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 571674,
+    "title": "Dynamics 365 Field Service: Process subcontractor photos, completion documents, and inspection results",
+    "description": "<p>Business value</p>\n<p>Subcontractors often document completed work through photos, service reports, inspection forms, certificates, and other files. When those documents remain only in a shared mailbox, service teams must manually download, interpret, organize, and reconnect them with the work they support. Important completion evidence and inspection findings can be difficult to find when a customer, dispatcher, auditor, or future technician needs them.</p>\n<p>Processing subcontractor completion documents as part of the closeout keeps evidence and supported findings connected to the Field Service work. This improves traceability, reduces document-handling effort, and preserves a more complete operational history.</p>\n<p>Feature detail</p>\n<p>The Subcontractor Agent processes supported attachments received with a subcontractor submission, including photos, PDFs, service reports, inspection documents, and other supported completion files. It associates those files with the relevant Field Service work so authorized users can find the evidence from the operational record rather than searching the mailbox.</p>\n<p>The agent can use supported document content when preparing the closeout proposal. For an inspection or task-completion document, this can include extracting supported inspection findings, outcomes, observations, deficiencies, or task results for the internal reviewer to validate and apply to the appropriate Field Service record.</p>\n<p>The review experience keeps the original document available alongside the proposed structured information so the dispatcher, service coordinator, or other authorized reviewer can compare the extraction with the source. Unsupported, unreadable, encrypted, oversized, or potentially unsafe files are surfaced for appropriate handling instead of being represented as successfully processed.</p>\n<p>Processing an invoice, parts list, or other financial or consumption document does not by itself create, match, approve, or post a financial transaction or product-consumption record unless that behavior is separately supported.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571673,
+    "title": "Dynamics 365 Field Service: Close out bookings and work orders from subcontractor service reports",
+    "description": "<p>Business value</p>\n<p>Subcontractors commonly communicate completion through an emailed service report or a message describing the work performed. Dispatchers then have to find the correct assignment, interpret the report, update the booking and work order, and copy important closeout details into Field Service. This manual process delays operational visibility, creates inconsistent service history, and can leave completed bookings or work orders open.</p>\n<p>Using the subcontractor's service report to prepare the complete closeout gives service teams a faster and more consistent way to reconcile external work. Booking state, work-order status, and the details of the completed visit can be reviewed together before the internal records are updated.</p>\n<p>Feature detail</p>\n<p>The Subcontractor Agent processes a supported email and service report, identifies the applicable Field Service work order and active booking, and prepares a coordinated closeout proposal.</p>\n<p>The proposal can include supported booking and work-order status changes together with completion details extracted from the submission, such as the completion summary, work performed, notes, recommendations, requirements, requested follow-up, actual completion information, and supported labor-duration values.</p>\n<p>An internal dispatcher or service coordinator reviews the source submission and the proposed values, corrects or selects the supported changes as allowed, and deliberately applies them to Field Service. Coordinating the booking and work-order changes keeps scheduling records, operational status, and service history aligned.</p>\n<p>If the sender is not authorized, the work cannot be matched confidently, multiple bookings could apply, required information is missing, or the message contains no actionable closeout information, the submission is routed for human resolution rather than being silently applied.</p>\n<p>This feature closes out existing supported bookings and work orders. It does not create new follow-up work, process payroll or invoices, or automatically create parts and product-consumption records unless those capabilities are delivered separately.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571672,
+    "title": "Dynamics 365 Field Service: Work with Subcontractors without additional licenses",
+    "description": "<p>Business value</p>\n<p>Organizations often depend on subcontractors and other external service providers who do not work in the organization's Dynamics 365 environment. Purchasing and administering an additional Dynamics 365 user license for every external worker adds cost and access-management overhead, particularly when a subcontractor only needs to report progress or completion for assigned work.</p>\n<p>The Dynamics 365 Field Service Subcontractor Agent lets external workers participate in supported Field Service processes through familiar email exchanges without requiring an additional Dynamics 365 user license for each subcontractor. Internal service teams retain a governed process and a consistent system of record while making it easier to work with a broad, distributed partner network.</p>\n<p>Feature detail</p>\n<p>Configure the Subcontractor Agent to process supported messages sent to a designated mailbox. A subcontractor can respond through email with information about assigned Field Service work rather than signing in to Dynamics 365.</p>\n<p>The agent uses the approved sender, message content, and available work references to associate the submission with the relevant Field Service work. It creates a proposed update or review task for an internal dispatcher or service coordinator, who remains responsible for applying changes to operational records.</p>\n<p>Field Service administrators control mailbox setup, approved subcontractor identities, bookable-resource associations, permissions, and required service configuration. The no-additional-user-license value applies to the external subcontractor's supported email participation. Internal Dynamics 365 users, agent or service identity requirements, capacity, and other product prerequisites continue to apply.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571671,
+    "title": "Dynamics 365 Field Service: Onboard mid-lifecycle assets into maintenance plans",
+    "description": "<p>Business value</p>\n<p>Organizations often introduce maintenance management after equipment is already operating or acquire used assets with established age, usage, and service histories. Starting those assets at the beginning of a new maintenance plan produces irrelevant past activities and inaccurate future dates, while manually reconstructing every historical event requires significant effort.</p>\n<p>Mid-lifecycle onboarding allows existing assets to enter a standardized maintenance program at an appropriate point, helping organizations expand maintenance coverage without treating every asset as newly commissioned.</p>\n<p>Feature detail</p>\n<p>Apply a reusable maintenance plan template to an existing or used asset and initialize the resulting plan using the asset's current lifecycle information. Relevant inputs can include commissioning or installation date, current meter usage, known maintenance history, and the appropriate position in a sequential maintenance program.</p>\n<p>Advance through earlier template activities that no longer apply so the asset begins with the next relevant maintenance requirement. Preserve the context used during initialization so planners can understand how the starting position was determined.</p>\n<p>After initialization, the asset participates in the same scheduling, forecasting, work-order generation, completion feedback, and coverage experiences as other assets using the maintenance plan.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571670,
+    "title": "Dynamics 365 Field Service: Review and visualize an asset's maintenance schedules",
+    "description": "<p>Business value</p>\n<p>An asset can have several lines of service, each with its own maintenance schedule, recurrence pattern, and future events. When those schedules are reviewed separately, planners have difficulty understanding the asset's complete maintenance plan and how the different service requirements will play out together.</p>\n<p>A consolidated list and visual timeline give maintenance teams one place to understand the asset's planned service, investigate individual events, and identify schedules or timing that should be adjusted. This visibility supports faster, more informed planning without requiring teams to reconstruct the plan from separate records.</p>\n<p>Feature detail</p>\n<p>From an asset's maintenance plan, view all maintenance schedules for that asset in one place. Review each line of service and the schedule that controls when its maintenance activities become due, including calendar-based, usage-based, combined time-and-usage, and sequential criteria.</p>\n<p>Visualize how those schedules are expected to play out over time. The visualization brings the projected maintenance events from the asset's schedules into a chronological view so users can see how the different service lines relate to one another and when maintenance is expected.</p>\n<p>Users can select and investigate an individual maintenance event to understand the service activity, schedule, trigger, and expected timing behind it. They can then return to the relevant schedule when its criteria, recurrence, sequence, or timing needs to be changed.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571664,
+    "title": "Dynamics 365 Field Service: Create and apply reusable maintenance plans to assets",
+    "description": "<p><strong>Business value</strong></p>\n<p>Organizations can define a consistent maintenance strategy once and use it across groups of similar assets instead of designing a separate plan for every asset. This reduces setup effort, limits configuration differences across locations and teams, and provides a repeatable way to bring growing asset populations under managed maintenance.</p>\n<p>Reusable templates also make maintenance standards easier to govern. Asset and service leaders can establish the expected maintenance program for an equipment type while allowing each asset to have the plan it needs for ongoing execution.</p>\n<p><strong>Feature detail</strong></p>\n<p>Create maintenance plan templates that describe the maintenance program for an asset model, manufacturer, product, SKU, or asset category. A template brings together the maintenance activities and scheduling rules that should apply to that type of equipment.</p>\n<p>Use a template to establish a maintenance plan for one or more eligible customer assets. The resulting asset maintenance plan provides the asset-specific context used to schedule activities, forecast maintenance, and generate future work.</p>\n<p>The template and assignment experience helps users identify the appropriate standard for an asset and consistently establish maintenance coverage without rebuilding the complete maintenance definition each time.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 571663,
+    "title": "Dynamics 365 Field Service: Microsoft Copilot in Field Service Mobile app",
+    "description": "<p>Microsoft Copilot in the Dynamics 365 Field Service mobile app brings conversational AI chat capabilities directly to frontline workers. Once enabled, technicians can ask natural-language questions about Dynamics 365 Field Service data and receive contextual answers based on the app experience and their organization’s Dataverse data. With standard capabilities, Dataverse Q&amp;A supports questions such as “What is the work history of this asset?” or “Who worked on this job last?” Organizations can also extend the with custom experiences and agents available to frontline and back-office users.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "February CY2027",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570859,
+    "title": "Dynamics 365 Field Service: Enhanced visibility into work order financial performance",
+    "description": "<p>The new Work Order Cost Summary gives field teams a clearer view of how project-related work is performing by bringing estimated and actual costs, sales, and project task progress together in one place. Teams can quickly compare what was planned with what was actually delivered across products, services, and expenses.</p>\n<p>When the Work Order is associated with a Project Task, the summary also shows planned and completed task effort, allowing users to review financial performance and execution progress together.</p>\n<p>The summary recalculates automatically as the Work Order moves through key execution statuses, including Scheduled, In Progress, and Completed. Users can also select Refresh Totals at any time to recalculate the summary and review the latest Work Order and project values.</p>\n<p>By bringing Field Service execution data together with Project Operations financial and task information directly on the Work Order, teams can identify cost and execution variances earlier, make more informed decisions while work is in progress, and reduce the need to manually reconcile information across applications.</p>\n<p>This feature is available when the Field Service and Project Operations integration is enabled.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570858,
+    "title": "Dynamics 365 Field Service: Support multiple warehouse assignments for field technicians",
+    "description": "<p>Field technicians often source parts from more than one warehouse. Limiting a technician to a single warehouse can make it harder to reflect how materials are actually sourced across field operations.</p>\n<p>With this capability, you can associate each field technician with multiple warehouses and define a preferred warehouse. This gives organizations a more flexible and accurate way to manage technician-to-warehouse relationships.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 572682,
     "title": "Power Apps: Control information density in model-driven apps",
     "description": "<p>Model-driven apps now support configurable display density settings that let users choose how information is spaced throughout the application. Users can select from three density options:</p>\n<ul>\n<li>Comfortable (default)</li>\n<li>Cozy</li>\n<li>Compact<br>\n​</li>\n</ul>\n<p>Each density setting adjusts layout spacing while maintaining accessibility target-size requirements. Administrators and makers can configure default density settings at the environment and app level, while individual users can personalize the experience by selecting their preferred density. User preferences take precedence over administrator-configured defaults.<br>\n​<br>\nDisplay density requires the Header and Navigation Refresh experience to be enabled, and will be enabled by default for apps that have Header and Navigation Refresh enabled. Makers can disable display density for their apps using the app setting if needed.<br>\n​<br>\nSome controls and components may not yet support display density. These controls will continue to render using their standard spacing regardless of the selected density setting. Custom component developers can add support for display density by adopting Fluent design spacing tokens. Learn more in the documentation.<br>\n​<br>\nAvailability</p>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Impacted products</td>\n<td>All model-driven apps</td>\n</tr>\n<tr>\n<td>Release channel</td>\n<td>All</td>\n</tr>\n<tr>\n<td>Version</td>\n<td>2609.1 build</td>\n</tr>\n<tr>\n<td>Dependencies</td>\n<td>Header and navigation refresh enabled</td>\n</tr>\n<tr>\n<td>Feature activation</td>\n<td>Default on</td>\n</tr>\n</tbody>\n</table>",
@@ -236,7 +324,7 @@
     "title": "Microsoft Teams: Schedule Channel Meetings from Outlook Calendar",
     "description": "<p>Users will be able to schedule Microsoft Teams channel meetings directly from Outlook Calendar. This streamlines meeting creation and helps keep discussions and meeting content connected in the appropriate channel.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -260,7 +348,7 @@
     "title": "Microsoft Teams: Schedule Teams Channel Meeting from Win32",
     "description": "<p>Users can now schedule Teams Channel Meetings from Win32 (Outlook classic client)</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -362,10 +450,10 @@
   {
     "id": 571157,
     "title": "Microsoft Purview: DSPM-Copilot Readiness and Data Explorer",
-    "description": "<p>We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation.</p>\n<p>The readiness for Microsoft Copilot experience in Purview DSPM helps organizations assess and improve their data readiness for Microsoft Copilot. It brings together insights into sensitive data exposure, oversharing, and protection coverage, helping security teams identify risks and assess progress toward a more secure Microsoft Copilot deployment.</p>\n<p>The new data explorer experience in Purview DSPM provides a centralized investigation experience that helps organizations understand where sensitive data exists across sites, review site-level access, and explore relevant data through preset views. It brings together sites, sensitive data, permissions, and preset views, to support more efficient investigations and reduce context switching.</p>",
+    "description": "<p>We’re introducing the new readiness for Microsoft Copilot and data explorer experiences in Microsoft Purview Data Security Posture Management (DSPM). These new capabilities provide data security teams with greater visibility into their organization’s data security posture and help them assess risks, investigate findings, and prioritize remediation.</p>\n<p>The readiness for Microsoft Copilot experience in Purview DSPM helps organizations assess and improve their data readiness for Microsoft Copilot. It brings together insights into sensitive data exposure, oversharing, and protection coverage, helping security teams identify risks and assess progress toward a more secure Microsoft Copilot deployment.</p>\n<p>The new data explorer experience in Purview DSPM provides a centralized investigation experience that helps organizations understand where sensitive data exists across sites, review site-level access, and explore relevant data through preset views. It brings together sites, sensitive data, and preset views, to support more efficient investigations and reduce context switching.</p>",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "January CY2027",
-    "publicPreviewDate": "September CY2026"
+    "publicPreviewDate": "November CY2026"
   },
   {
     "id": 570844,
@@ -2146,9 +2234,9 @@
   {
     "id": 566700,
     "title": "Microsoft Teams: IntelliFrame people labels in Teams Rooms on Windows",
-    "description": "Remote meeting participants know who is in the room and better follow the conversation with new IntelliFrame people labels that identify in-room participants and provide a hover-over contact card using voice and face profiles on intelligent cameras and in the cloud. Available with Teams Rooms on Windows licensed for Teams Rooms Pro.",
+    "description": "<p>Remote meeting participants know who is in the room and better follow the conversation with new IntelliFrame people labels that identify in-room participants and provide a hover-over contact card using voice and face profiles on intelligent cameras and in the cloud. Available with Teams Rooms on Windows licensed for Teams Rooms Pro.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -2266,9 +2354,9 @@
   {
     "id": 566324,
     "title": "Microsoft Purview: Data Lifecycle Management - Adaptive Protection integration with Data Lifecycle Management",
-    "description": "Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to automatically moving users in and out of policies as their risk levels change over time. The integration with Data Lifecycle Management will automatically apply retention labels to preserve deleted emails and files based on a user’s insider risk level. ",
+    "description": "<p>Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to automatically moving users in and out of policies as their risk levels change over time. The integration with Data Lifecycle Management will automatically apply retention labels to preserve deleted emails and files based on a user’s insider risk level.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicDisclosureAvailabilityDate": "December CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -2282,9 +2370,9 @@
   {
     "id": 566322,
     "title": "OneNote: Multimodal capture in Copilot Notebooks (Windows)",
-    "description": "Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice",
+    "description": "<p>Capture on Windows helps you bring conversations and ideas from meetings, brainstorming sessions, and everyday work into Copilot Notebooks. Capture audio, images, and notes in one experience, then let Copilot turn them into structured notes with key insights, decisions, and action items, in a Copilot Notebook of your choice</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -3602,9 +3690,9 @@
   {
     "id": 560700,
     "title": "Microsoft Teams: AI-powered notes for in-person\nmeetings with Facilitator in Teams Rooms on Android",
-    "description": "In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.\n",
+    "description": "<p>In addition to capturing real-time notes and meeting outcomes during scheduled or hybrid meetings, the Facilitator agent assists you with notes, decisions and actions for in-person meetings in Teams Rooms on Android. Simply invite Facilitator with one tap of the room console. Meeting notes appear on the front of room display or touch board, are available via meeting recap when shared, and deleted if no one selected. Rest assured no data remains in the room. Available with Teams Rooms Pro.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -4826,8 +4914,8 @@
   {
     "id": 558547,
     "title": "Microsoft Purview: Data Security Investigations – analyze files tied to endpoint DLP alerts",
-    "description": "Speed up analysis of exfiltrated content by launching Data Security Investigations (DSI) from endpoint Data Loss Prevention (DLP) alerts. In DSI, define your endpoint DLP query (for example, time range, users, and endpoints). DSI then automatically gathers the related files that triggered the alerts for review (for example, UserA downloaded a file on 3/1/2026).",
-    "status": "In development",
+    "description": "<p>Speed up analysis of exfiltrated content by launching Data Security Investigations (DSI) from endpoint Data Loss Prevention (DLP) alerts. In DSI, define your endpoint DLP query (for example, time range, users, and endpoints). DSI then automatically gathers the related files that triggered the alerts for review (for example, UserA downloaded a file on 3/1/2026).</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "June CY2026"
   },
@@ -6074,9 +6162,9 @@
   {
     "id": 554934,
     "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
-    "description": "Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .",
+    "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10768,14 +10856,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 498232,
-    "title": "SharePoint: Signed Adobe & Docusign documents saved to the originating folder",
-    "description": "Documents signed via Adobe or DocuSign eSignature, when initiated through the SharePoint eSignature platform, will now be saved in the originating SharePoint folder instead of the default Apps folder. The originating folder is the folder where the starting document was  located at the point of eSignature request initiation.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "August CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 498158,
     "title": "Microsoft Entra: Improved Backup and Restore Experience for the Authenticator App on iOS",
     "description": "Users of the Microsoft Authenticator app on iOS will be able to back up account names—including Microsoft work or school accounts, Microsoft personal accounts, and third-party accounts like Amazon or Google—using iCloud and iCloud Keychain. This enables secure, end-to-end encrypted backup of account names and TOTP credentials. When setting up a new iOS device, account names will automatically appear in the app, and users can sign in to complete setup.",
@@ -13754,8 +13834,8 @@
   {
     "id": 429876,
     "title": "Microsoft Purview compliance portal: Information Protection - MIP auto-labeling for Azure SQL & Storage",
-    "description": "Extend your sensitivity labels to specific or all subscriptions within Azure Storage and Azure SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations.",
-    "status": "In development",
+    "description": "<p>Extend your sensitivity labels to specific or all subscriptions within Azure Storage and Azure SQL Server via auto-labeling policy. Clearly define labeling conditions for data sources beyond M365 without fear of it interfering with existing M365 files configurations. Updated September 24, 2026: We have decided not to move forward with this change at this time and will communicate via a new Roadmap item when we choose to proceed. We apologize for any inconvenience.</p>",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "April CY2026",
     "publicPreviewDate": "July CY2024"
   },
@@ -14034,9 +14114,9 @@
   {
     "id": 392839,
     "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Automatic data preservation for high-risk users",
-    "description": "Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to automatically moving users in and out of policies as their risk levels change over time. The integration with Data Lifecycle Management will automatically apply retention labels to preserve deleted emails and files based on a user’s insider risk level. ",
+    "description": "<p>Adaptive Protection in Microsoft Purview helps you protect your organization’s data by integrating dynamic insider risk levels, determined by data related activities, with various policy engines to automatically moving users in and out of policies as their risk levels change over time. The integration with Data Lifecycle Management will automatically apply retention labels to preserve deleted emails and files based on a user’s insider risk level.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": "June CY2024"
   },
   {
