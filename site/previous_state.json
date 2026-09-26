@@ -1,5 +1,29 @@
 [
   {
+    "id": 570967,
+    "title": "Microsoft Power Platform governance and administration: Maker Guidelines",
+    "description": "<p>The Maker guidelines feature gives organizations a direct way to share guidance with Copilot Studio makers in the flow of work. Administrators can explain which tools, models, connectors, and channels are approved for an environment and point makers to the right policy, request process, or support contact.</p>\n<p>The message appears in the Review pane alongside the agent's blockers and warnings and remains available when the agent has no issues. This gives makers a consistent place to understand organizational expectations and find help without leaving Copilot Studio.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "September CY2026"
+  },
+  {
+    "id": 570862,
+    "title": "Dynamics 365 Field Service: Support multiple payers across Work Order lines",
+    "description": "<p>Field work does not always have a single payer. A customer may be responsible for the primary service while another party, such as a warranty provider, manufacturer, partner, or other eligible billing customer, is responsible for specific products or services performed during the same visit.</p>\n<p>This capability gives service teams more flexibility during execution by allowing the billing responsibility to be determined at the individual Work Order line level rather than just requiring every transaction on the Work Order to follow the same payer.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570436,
+    "title": "PowerPoint: Async Notifications for Copilot in PowerPoint",
+    "description": "<p>Enable users to leave PowerPoint, switch devices, go offline, or end their workday while remaining confident that Copilot will notify them when work is complete or requires attention.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 572673,
     "title": "Microsoft 365 app: Cloud Update - Extended rollback support for Monthly Enterprise Channel",
     "description": "<p>Cloud Update is expanding rollback options for devices on Monthly Enterprise Channel. Administrators will be able to roll back devices to a release from two versions prior, with the latest available security updates for that release, and keep devices in the rolled-back state across subsequent releases until they are ready to resume updates. This provides additional time to investigate and resolve compatibility issues while maintaining security coverage and centralized control through the Microsoft 365 Apps admin center.</p>",
@@ -33,8 +57,8 @@
   },
   {
     "id": 571672,
-    "title": "Dynamics 365 Field Service: Work with Subcontractors without additional licenses",
-    "description": "<p>Business value</p>\n<p>Organizations often depend on subcontractors and other external service providers who do not work in the organization's Dynamics 365 environment. Purchasing and administering an additional Dynamics 365 user license for every external worker adds cost and access-management overhead, particularly when a subcontractor only needs to report progress or completion for assigned work.</p>\n<p>The Dynamics 365 Field Service Subcontractor Agent lets external workers participate in supported Field Service processes through familiar email exchanges without requiring an additional Dynamics 365 user license for each subcontractor. Internal service teams retain a governed process and a consistent system of record while making it easier to work with a broad, distributed partner network.</p>\n<p>Feature detail</p>\n<p>Configure the Subcontractor Agent to process supported messages sent to a designated mailbox. A subcontractor can respond through email with information about assigned Field Service work rather than signing in to Dynamics 365.</p>\n<p>The agent uses the approved sender, message content, and available work references to associate the submission with the relevant Field Service work. It creates a proposed update or review task for an internal dispatcher or service coordinator, who remains responsible for applying changes to operational records.</p>\n<p>Field Service administrators control mailbox setup, approved subcontractor identities, bookable-resource associations, permissions, and required service configuration. The no-additional-user-license value applies to the external subcontractor's supported email participation. Internal Dynamics 365 users, agent or service identity requirements, capacity, and other product prerequisites continue to apply.</p>",
+    "title": "Dynamics 365 Field Service: Expand your service offering through subcontractors without the onboarding overhead",
+    "description": "<p><strong>Business value</strong></p>\n<p>Subcontractors commonly communicate completion through an emailed service report or a message describing the work performed. Dispatchers then have to find the correct assignment, interpret the report, update the booking and work order, and copy important closeout details into Field Service. This manual process delays operational visibility, creates inconsistent service history, and can leave completed bookings or work orders open.</p>\n<p>Service teams can setup an agent to process subcontractor service reports to prepare a coordinated booking and work-order closeout. This supports faster reconciliation of external work and helps keep scheduling status, operational records, and service history consistent.</p>\n<p><strong>Feature detail</strong></p>\n<p>An agent in Dynamics 365 Field Service processes supported emails and service reports, identifies the applicable Field Service work order and active booking, and prepares a coordinated closeout proposal.</p>\n<p>The proposal can include supported booking and work-order status changes together with completion details extracted from the submission, such as the completion summary, work performed, notes, recommendations, requirements, requested follow-up, actual completion information, and supported labor-duration values.</p>\n<p>An internal dispatcher or service coordinator reviews the source submission and the proposed values, corrects or selects the supported changes as allowed, and applies them to Field Service. Coordinating the booking and work-order changes keeps scheduling records, operational status, and service history aligned.</p>\n<p>If the sender is not authorized, the work cannot be matched confidently, multiple bookings could apply, required information is missing, or the message contains no actionable closeout information, the submission is routed for human resolution rather than being silently applied.</p>\n<p>This feature closes out existing supported bookings and work orders. It does not create new follow-up work, process payroll or invoices, or automatically create parts and product-consumption records unless those capabilities are delivered separately.</p>",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "February CY2027",
     "publicPreviewDate": "October CY2026"
@@ -82,7 +106,7 @@
   {
     "id": 570858,
     "title": "Dynamics 365 Field Service: Support multiple warehouse assignments for field technicians",
-    "description": "<p>Field technicians often source parts from more than one warehouse. Limiting a technician to a single warehouse can make it harder to reflect how materials are actually sourced across field operations.</p>\n<p>With this capability, you can associate each field technician with multiple warehouses and define a preferred warehouse. This gives organizations a more flexible and accurate way to manage technician-to-warehouse relationships.</p>",
+    "description": "<p>Field technicians often source parts from more than one warehouse. Limiting a technician to a single warehouse can make it harder to reflect how materials are actually sourced across field operations.</p>\n<p>With this capability, administrators can assign multiple warehouses to a Bookable Resource and designate a preferred/default warehouse for the applicable legal entity. When a technician records material consumption, the warehouse can be automatically populated based on the Work Order legal entity and the technician’s configured default warehouse for that legal entity, while still allowing the technician to select another applicable warehouse when needed.</p>\n<p>This reduces manual selection for technicians, helps ensure materials are recorded against the correct warehouse and legal entity, and gives organizations more flexibility to reflect how inventory is actually managed across field operations.</p>\n<p>This capability is supported in the Integrated deployment type with Project Operations, where Field Service works with Finance and Supply Chain Management through Dual-write.</p>",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
@@ -1426,9 +1450,9 @@
   {
     "id": 568781,
     "title": "Microsoft Teams: Proximity join support for attendees in Teams events from Teams Rooms on Windows and Android",
-    "description": "Attendees can take advantage of proximity join with Teams Rooms on Windows and/or Android for fast, effortless connection to nearby room systems during Teams events, such as town halls, webinars, and structured meetings.",
+    "description": "<p>Attendees can take advantage of proximity join with Teams Rooms on Windows and/or Android for fast, effortless connection to nearby room systems during Teams events, such as town halls, webinars, and structured meetings.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -2450,9 +2474,9 @@
   {
     "id": 564969,
     "title": "Microsoft Teams: Enhanced IntelliFrame with AI data channel for intelligent cameras",
-    "description": "Teams Rooms on Windows users can now benefit from next generation IntelliFrame features on certified AI-capable cameras with on-device video processing. With IntelliFrame’s expanded AI data channel, participants experience faster active speaker framing, people recognition and labels, and more responsive meeting views—even when network conditions are limited. These capabilities are available with Teams Rooms Pro.",
+    "description": "<p>Teams Rooms on Windows users can now benefit from next generation IntelliFrame features on certified AI-capable cameras with on-device video processing. With IntelliFrame’s expanded AI data channel, participants experience faster active speaker framing, people recognition and labels, and more responsive meeting views—even when network conditions are limited. These capabilities are available with Teams Rooms Pro.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "January CY2027",
     "publicPreviewDate": ""
   },
   {
@@ -7778,8 +7802,8 @@
   {
     "id": 516577,
     "title": "Microsoft Copilot (Microsoft 365): Planner capabilities in Copilot chat (M365 Copilot)",
-    "description": "We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.",
-    "status": "In development",
+    "description": "<p>We will support creating Planner tasks and plans querying Planner information in M365 Copilot chat, allowing users to manage their tasks and plans between Copilot and Planner seamlessly.</p>",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "August CY2026"
   },
@@ -8426,9 +8450,9 @@
   {
     "id": 502520,
     "title": "Microsoft Teams: New sharing panel in meetings - improved content discovery and ease of sharing",
-    "description": "The sharing panel in today’s meetings is the default place for content discoverability and sharing.  New sharing panel UI is crafted with intent of modernising and simplifying default tasks such as window sharing, but also for easier discovery of sharing options and more discoverable file sharing.",
+    "description": "<p>The sharing panel in today’s meetings is the default place for content discoverability and sharing.  New sharing panel UI is crafted with intent of modernising and simplifying default tasks such as window sharing, but also for easier discovery of sharing options and more discoverable file sharing.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -9697,10 +9721,10 @@
   },
   {
     "id": 501451,
-    "title": "Microsoft Copilot (Microsoft 365): AI in SharePoint",
-    "description": "Simplifies SharePoint content management and ensures content is Copilot-ready by automating metadata, fixing stale content, enabling fast page creation, improving compliance, and enriching content so Copilot can deliver more accurate, grounded answers. Updated April 16: We are still in development for GA and have launched to Preview only.\n",
+    "title": "Microsoft Copilot (Microsoft 365): Copilot in SharePoint",
+    "description": "<p>Simplifies SharePoint content management and ensures content is Copilot-ready by automating metadata, fixing stale content, enabling fast page creation, improving compliance, and enriching content so Copilot can deliver more accurate, grounded answers. Updated April 16: We are still in development for GA and have launched to Preview only.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "September CY2025"
   },
   {
@@ -10498,9 +10522,9 @@
   {
     "id": 499423,
     "title": "Microsoft Edge: Ground Microsoft 365 Copilot Chat in Edge for Business in your open OneDrive and SharePoint documents",
-    "description": "Get relevant answers and insights about your open cloud documents in Copilot Chat in Edge. ",
+    "description": "<p>Get relevant answers and insights about your open cloud documents in Copilot Chat in Edge.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "April CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
