@@ -1,5 +1,85 @@
 [
   {
+    "id": 573452,
+    "title": "Microsoft Teams: Onboarding workflow for new team members",
+    "description": "<p>Help people get started faster by automatically connecting new team members to relevant channels when they join a team. Improve engagement, accelerate onboarding, and make it easier to discover important information from day one.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573451,
+    "title": "Microsoft Teams: Third-party synthetic audio and video (deepfake) detection in Microsoft Teams",
+    "description": "<p>Organizations can enhance meeting security with synthetic audio and video (deepfake) detection solutions provided by certified third-party providers. Third-party detection solutions analyze meeting media for signs of synthetic or manipulated audio and video and send detection signals to Teams, enabling integrated in-meeting experiences and controls.  Important: Synthetic media detection is performed by the third-party provider. Microsoft Teams provides the platform integration and experiences for surfacing and acting on detection signals from supported providers.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573280,
+    "title": "Outlook: Draft, edit and format emails conversationally with Copilot in Outlook",
+    "description": "<p>In Outlook, Copilot now works side by side with users to draft, refine, and format emails conversationally, powered by the same agentic capabilities available in Word, Excel, and PowerPoint.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573276,
+    "title": "Dynamics 365 Commerce: Add items to a transaction from the numpad",
+    "description": "<h2>How it works</h2>\n<p>​<br>\nQuick add reuses the existing numpad on the transaction screen, so there is no new input control to learn and no additional space consumed in the transaction grid.<br>\n​</p>\n<ol>\n<li>The associate enters a full or partial item number on the numpad.</li>\n<li>On an exact match, the item is added directly to the transaction.</li>\n<li>On a partial match, instead of navigating to the search results page, an inline dialog opens on the transaction screen listing the matching products.</li>\n<li>The associate adds an item directly from that inline list using Add to sale.<br>\n​<br>\nIf a selected product requires variant selection such as size or color, the variant selection dialog is invoked inline before the item is added. Quick add is optimized for fast, SKU-based matching and is intentionally distinct from global search, which remains the tool for exploration and rich product discovery.<br>\n​</li>\n</ol>\n<h2>Inline result experience</h2>\n<p>​</p>\n<ul>\n<li>Partial matches are shown as a list on the transaction screen, each row offering an Add to sale action.</li>\n<li>Results do not navigate to the product page by default, keeping the associate in context.</li>\n</ul>\n<p>​</p>\n<h2>Platform behavior</h2>\n<p>​</p>\n<ul>\n<li>Desktop and mobile behave consistently: exact matches add directly, partial matches show inline results.</li>\n<li>On mobile, the full-screen numpad follows the same logic.<br>\n​</li>\n</ul>\n<h2>Entry point</h2>\n<p>​<br>\nQuick add is triggered from the existing numpad on the transaction screen. There is no separate text input field, avoiding redundancy with global search and preserving screen space.<br>\n​</p>\n<h2>Enabling the feature</h2>\n<p>​</p>\n<ul>\n<li>Application: Store Commerce (Point of Sale).</li>\n<li>Quick add builds on the numpad entry experience already present on the transaction screen.<br>\n​</li>\n</ul>\n<h2>Dependencies</h2>\n<p>​</p>\n<ul>\n<li>Reuses the inline variant selector common control, shared with the Bulk add experience.</li>\n<li>Quick add and Bulk add are companion features; Bulk add covers pasting a full list of items, while Quick add covers fast single-item entry from the numpad.<br>\n​</li>\n</ul>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 573157,
+    "title": "Microsoft Teams: Impersonation Protection for Teams meetings",
+    "description": "<p>Impersonation Protection for Teams meetings helps users identify potentially deceptive participants and meeting organizers. When Teams detects a potential impersonation attempt, it surfaces warnings and risk indicators to help users recognize suspicious identities and make more informed decisions when joining or participating in a meeting.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 571682,
+    "title": "Power Apps: Modern, refreshed look for embedded model-driven apps",
+    "description": "<p>Extends the modern, refreshed look to embedded app experiences so model-driven app content retains consistent Fluent styling and interaction patterns when it appears inside another host. This was previously enabled for the monthly channel with the 2602.1 release and is now being enabled for the semiannual channel with the 2609.3 release.</p>\n<p>Availability</p>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Impacted Products</td>\n<td>All model-driven apps</td>\n</tr>\n<tr>\n<td>Release Channel</td>\n<td>Semiannual</td>\n</tr>\n<tr>\n<td>Version</td>\n<td>2609.3 build</td>\n</tr>\n<tr>\n<td>Dependencies</td>\n<td>N/A</td>\n</tr>\n<tr>\n<td>Feature Activation</td>\n<td>Default on</td>\n</tr>\n</tbody>\n</table>",
+    "status": "Launched",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 571675,
+    "title": "Dynamics 365 Field Service: Automate optimizations with Scheduling Operations Agent",
+    "description": "<p>This release expands the optimization capabilities of the Scheduling Operations Agent to include the ability to create recurring optimizations on a schedule. The agent considers the availability of the resources, their current schedules, and unscheduled requirements. It suggests a schedule that honors configured constraints and optimizes it according to the selected goal. The agent automatically runs optimizations and applies the results on the configured schedule.</p>\n<p>New capabilities include:</p>\n<ul>\n<li>Configure optimization plans to run on a recurrence schedule.</li>\n<li>Add and weight additional objectives to optimization goals.</li>\n</ul>\n<p>These capabilities build on the existing public preview of the Scheduling Operations Agent and are automatically enabled for all organizations that have the agent enabled. Learn more at <a href=\"https://aka.ms/soa\">Scheduling Operations Agent overview</a>.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "April CY2027",
+    "publicPreviewDate": "September CY2026"
+  },
+  {
+    "id": 571400,
+    "title": "Microsoft Copilot (Microsoft 365): Chat: Access to UBB models via the model selector",
+    "description": "<p>Users will be able to access models that require usage-based billing (UBB) from the model selector in Chat. Tenant admins will need to allocate credits so that users can interact with these models. If users consume their allotted credits, they will be able to request credits from their tenant admins.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 571394,
+    "title": "Microsoft Copilot (Microsoft 365): Use Dataverse Business Skills in Sales Agent",
+    "description": "<p>Business Skills are natural language instructions authored and stored in Microsoft Dataverse that teach Sales Agent how work gets done within a specific organization. Business Skills enable organizations to create natural language instructions for Sales Agent to follow, which represent their business processes, policies, and business knowledge. Business skills can represent common sales workflows such as lead qualification, pipeline reviews, account planning, opportunity scoring, account brief creation, or organization-specific sales methodologies. Sales Agent uses the instructions in Business Skills to deliver responses that align with the customer's business processes and guidance.</p>\n<p>Sellers can interact with Sales agent using natural language and receive responses that are guided by their organization's Business Skills, following admin defined sales processes, applying company specific guidance, and surface insights that reflect how the organization operations.</p>\n<p>Administrators enable the required Dataverse capabilities, create and manage Business skills within Dataverse, and control Business skill access. Business skills can be authored using natural language instructions and associated with the organization's CRM environment.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "September CY2026"
+  },
+  {
+    "id": 561040,
+    "title": "Microsoft Edge: Commercial Journeys - AI-powered task completion for Microsoft 365 Copilot users",
+    "description": "<p>Commercial Journeys helps information workers stay on top of their most important work when browsing in Microsoft Edge. Powered by AI, it proactively surfaces unfinished, new, and recurring tasks on the Copilot new tab page- with context-rich cards that explain why each task matters now. One click opens a guided execution flow that delivers ready-to-use outputs (emails, documents, presentations, and more), so users can complete their unfinished work faster with higher quality. This feature will be available to users with a Microsoft 365 Copilot Premium license in Edge.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "January CY2027",
+    "publicPreviewDate": "November CY2026"
+  },
+  {
     "id": 573244,
     "title": "Dynamics 365 Finance and Operations cross-app: Migrate finance and operations environments from Lifecycle Services to Power Platform admin center",
     "description": "<p>The self-service environment migration feature moves management of an existing finance and operations apps environment from Microsoft Dynamics Lifecycle Services to the Microsoft Power Platform admin center.</p>",
@@ -6562,9 +6642,9 @@
   {
     "id": 552598,
     "title": "Microsoft Edge: Improvements to site permissions user interfaces",
-    "description": "To better align with user expectations, site permissions are changing to look and work both in context on a website that is requesting permissions and when navigating to permissions from Settings. On a website that is requesting permissions, there are changes to the Omnibox and the Page Info dialog and permissions will be easier to see and modify in Settings.",
+    "description": "<p>To better align with user expectations, site permissions are changing to look and work both in context on a website that is requesting permissions and when navigating to permissions from Settings. On a website that is requesting permissions, there are changes to the Omnibox and the Page Info dialog and permissions will be easier to see and modify in Settings.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10752,14 +10832,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 501546,
-    "title": "Microsoft Teams: Recommended actions page in the Teams Rooms Pro Management portal",
-    "description": "The new page in the Pro Management portal provides proactive recommendations based on your organization’s environment and upcoming events that can impact devices, such as support or certification expirations. Admins are prompted to update device and account data enabling rich insights from the portal, and guidance based on space and device usage data is coming soon. This feature helps admins maintain smooth operations and plan and budget efficiently. At least one Teams Rooms Pro or Teams Shared Devices license is required for access.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "October CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 502855,
     "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Word, Excel, PowerPoint, OneNote, and Outlook for DoD",
     "description": "Easily access Copilot Chat from a side pane in Word, Excel, PowerPoint, OneNote, and Outlook. This is available for Copilot Chat users with a Microsoft 365 license and for Microsoft 365 Copilot licensed users.",
@@ -10984,14 +11056,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 501202,
-    "title": "Microsoft Teams: User reporting for incorrectly identified security concerns",
-    "description": "Microsoft Teams now allows users to report messages they believe were incorrectly flagged as security concerns. This feature is available in one-on-one chats, group and meeting chats, as well as public and private channels.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 498548,
     "title": "Microsoft Copilot (Microsoft 365): Generative-AI skills for Create in Microsoft 365 Copilot app for Government Clouds",
     "description": "Design and edit images, posters, banners, infographics, text drafts, and forms with Copilot—align them to your brand using kits built by you or your team.",
@@ -11136,27 +11200,11 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 500634,
-    "title": "Microsoft Teams: Collaborate using Pages in Channels",
-    "description": "We are bringing Pages to your Teams Channel experience. Create and collaborate using Pages directly in any of your channels.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 499889,
     "title": "Microsoft Teams: Raise hands in Town Hall",
     "description": "Currently in a Teams Town hall, attendees cannot raise their hands and share their microphone and camera as they can in a meeting. With this new update, town halls organized by users with Teams Premium will allow attendees to raise their hand like they would in a standard Teams meeting. The ability to raise a hand can signal to organizers and presenters, who can then bring attendees on screen to allow them to share their camera and microphone.",
     "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "October CY2025",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 499893,
-    "title": "Microsoft Teams: Malicious URL Protection for Teams Chat and Channels ",
-    "description": "Microsoft Teams can now detect and warn users on malicious URLs sent in Teams chat and channels, increasing protection against malware attacks.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
     "publicPreviewDate": ""
   },
   {
@@ -13992,14 +14040,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 422730,
-    "title": "Microsoft Purview compliance portal: Insider Risk Management - IRM alerts in XDR",
-    "description": "With this feature, IRM alerts and other supporting data will be available in the following Microsoft Defender XDR experiences: 1. IRM alerts will be surfaced in unified alert and Incident queue in Microsoft Defender XDR. 2. IRM alerts, Indicators, and enriched events will be available in Microsoft Defender XDR advanced hunting. Analysts can leverage KQL queries to identify potentially hidden risky patterns in data security related user activity. 3. IRM alert, Indicators, and enriched events will be exposed through Graph API. This feature can be enabled through “Share data with Microsoft Defender XDR” within Microsoft Insider Risk Management settings. To ensure privacy of the data, all IRM data in Microsoft Defender XDR can only be accessed by users with Insider risk analyst or Insider risk investigator permissions in Purview. Existing analysts accessing IRM data in purview will continue to access IRM data in Microsoft Defender XDR. IRM data in Microsoft Defender XDR does not honor anonymization. This is to enable effective correlation of IRM alerts with alerts from other solutions in Microsoft Defender XDR platform (such as Defender for Endpoint, Defender for Cloud apps, etc.). Microsoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks, such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "August CY2025",
-    "publicPreviewDate": "January CY2025"
-  },
-  {
     "id": 402185,
     "title": "Microsoft Teams: EDU tenant type selection in policy wizard",
     "description": "Admins can now select tenant type for their institution from the policy wizard. This setting can be changed anytime from the wizard.",
@@ -14542,14 +14582,6 @@
     "status": "In development",
     "publicDisclosureAvailabilityDate": "December CY2025",
     "publicPreviewDate": "June CY2023"
-  },
-  {
-    "id": 467254,
-    "title": "Microsoft Purview compliance portal: Information Protection - SharePoint Online extends library permissions to downloaded files.",
-    "description": "This new capability ties together SharePoint Online library permissions with Purview sensitivity labeling and protection. SharePoint Online document library owners can set a label on the library, automatically applying that label to all unprotected and unlabeled Word, Excel, PowerPoint, and PDF files at rest in the target library. This simplifies labeling in bulk across document libraries in an organization. This capability also helps protect files as they egress from the original document library, such as for collaboration purposes or attempted exfiltration. Files downloaded from these libraries are protected at download. Users accessing these files outside of SharePoint Online have their rights evaluated in real time against the online copy of the document. Changes to user permissions on the online copy of the document are reflected on downloaded copy, including full access removal. This provides a more streamlined way to revoke access to documents for individual users, versus revoking access on a per-document basis.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
-    "publicPreviewDate": "November CY2024"
   },
   {
     "id": 413114,
