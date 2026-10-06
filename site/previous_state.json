@@ -1,5 +1,37 @@
 [
   {
+    "id": 573699,
+    "title": "SharePoint: Advanced Management - Inactive files policy",
+    "description": "<p>SharePoint administrators can use the Inactive files policy in SharePoint Advanced Management to automatically archive files based on when they were last accessed. The public preview is available through PowerShell only. Admins can set an inactivity threshold from 6 to 48 months, scope policies to all SharePoint sites or selected sites, include or exclude file types and sites, and use What-If mode to review impact before activation. Eligible files move to the Microsoft 365 Archive cold-storage tier while remaining in place and retaining their metadata, permissions, compliance, and searchability. Microsoft 365 Archive and pay-as-you-go billing must be enabled.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 573697,
+    "title": "OneDrive: Presentation mode for PDFs in the iOS app on iPad",
+    "description": "<p>Microsoft OneDrive is introducing presentation mode in the OneDrive iOS app for users on iPad devices. Users select a new Presentation button in the PDF viewer to enter a focused, view-only experience that prevents free gesture scrolling between pages, reducing accidental page changes while presenting without moving the file to another app. The feature is not available on iPhone.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573275,
+    "title": "Dynamics 365 Commerce: Add multiple items to a transaction using bulk entry",
+    "description": "<p>Associates can trigger the <strong>Bulk add</strong> operation from the button grid on the transaction screen in Store Commerce. A drawer-based dialog opens where associates can paste or enter multiple item number and quantity pairs, with one pair specified per line.</p>\n<ul>\n<li>Supported formats include SKU x quantity, quantity x SKU, SKU quantity, quantity SKU, or SKU only (which defaults the quantity to 1).</li>\n<li>Multiple item number and quantity pairs can also be entered on a single line and separated by spaces or commas.</li>\n<li>Supported delimiters between item numbers and quantities include x, spaces, commas, and tab characters for Microsoft Excel paste scenarios. Input can also follow a CSV structure.</li>\n</ul>\n<p>Select <strong>Add to sale</strong> to process all items in a single operation.</p>\n<p>The system parses the input, resolves each item, and adds the items to the transaction. If an item requires variant selection, such as size or color, the variant selection dialog is displayed inline.</p>\n<h2>Feedback and error handling</h2>\n<ul>\n<li><strong>Success</strong>: The dialog closes and a confirmation message indicates that all items were added successfully.</li>\n<li><strong>Partial success</strong>: A warning message shows the number of items that were added and the number that failed. Failed items remain in the dialog so they can be corrected and resubmitted.</li>\n<li><strong>Failure</strong>: An error message is displayed. The dialog remains open and includes a collapsible error list that identifies the items that failed and the reason for each failure.</li>\n<li>Duplicate item numbers aren't merged and remain as separate transaction lines.</li>\n</ul>\n<h2>Entry point</h2>\n<p>The operation is accessed through the button grid, allowing merchants to add it to any button grid layout by using the existing screen layout designer.</p>\n<h2>Configuration</h2>\n<ul>\n<li><strong>Application</strong>: Store Commerce (Point of Sale)</li>\n<li><strong>Enabled by</strong>: Adding the <strong>Bulk add</strong> operation to a button grid through the screen layout designer in Commerce headquarters.</li>\n<li><strong>Setup</strong>: A store administrator or IT administrator configures a button grid layout to include the <strong>Bulk add</strong> operation. After the configuration is published, associates can access the operation from the transaction screen.</li>\n</ul>",
+    "status": "Launched",
+    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicPreviewDate": "July CY2026"
+  },
+  {
+    "id": 573267,
+    "title": "Dynamics 365 Contact Center: Quality evaluation - Recurring conversation evaluations",
+    "description": "<p>Quality Evaluation now supports recurring frequency for conversation evaluations. Previously, only event-based trigger evaluations were supported, meaning evaluations were created only when a conversation closed.<br>\nWith recurring evaluations, users can run bulk evaluations over previously closed conversations, evaluate future closed conversations, and sample selected conversations that match configured conditions. This enables ongoing quality monitoring, retrospective analysis, and targeted evaluation programs without relying solely on conversation-close events.</p>",
+    "status": "Launched",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 573452,
     "title": "Microsoft Teams: Onboarding workflow for new team members",
     "description": "<p>Help people get started faster by automatically connecting new team members to relevant channels when they join a team. Improve engagement, accelerate onboarding, and make it easier to discover important information from day one.</p>",
@@ -3138,8 +3170,8 @@
   {
     "id": 566528,
     "title": "Microsoft Purview: Data Loss Prevention - Extend Purview data security to the network layer via Entra GSA integration",
-    "description": "Extend Microsoft Purview data security controls to the network layer to detect and protect sensitive data in text and prompts by integrating with Entra Internet Access. This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, social media, collaborative platforms - while managing alerts and incidents through Purview and Microsoft Defender.",
-    "status": "In development",
+    "description": "<p>Extend Microsoft Purview data security controls to the network layer to detect and protect sensitive data in text and prompts by integrating with Entra Internet Access. This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, social media, collaborative platforms - while managing alerts and incidents through Purview and Microsoft Defender.</p>",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "July CY2026"
   },
@@ -3322,8 +3354,8 @@
   {
     "id": 566323,
     "title": "Microsoft Purview: Data Loss Prevention - File Testing Against Sensitive Information Classifiers",
-    "description": "A new feature will be introduced on the main Classification page, allowing users to test files against all available classifiers to identify the presence of sensitive information. Users will have the option to select a single classifier or run tests across all classifiers. This capability is designed to help users identify sensitive content within files and troubleshoot classification issues more efficiently. ",
-    "status": "In development",
+    "description": "<p>A new feature will be introduced on the main Classification page, allowing users to test files against all available classifiers to identify the presence of sensitive information. Users will have the option to select a single classifier or run tests across all classifiers. This capability is designed to help users identify sensitive content within files and troubleshoot classification issues more efficiently.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -3450,8 +3482,8 @@
   {
     "id": 565868,
     "title": "Microsoft Purview: Endpoint Data Loss Prevention - Protect sensitive data over FTP and SFTP with Endpoint DLP",
-    "description": "Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration while maintaining visibility and control.",
-    "status": "In development",
+    "description": "<p>Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration while maintaining visibility and control.</p>",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": "September CY2026"
   },
@@ -3658,8 +3690,8 @@
   {
     "id": 564913,
     "title": "Outlook: New Outlook for Windows for GCC-H and DoD",
-    "description": "The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments). ",
-    "status": "In development",
+    "description": "<p>The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments).</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "July CY2026"
   },
@@ -3698,8 +3730,8 @@
   {
     "id": 564970,
     "title": "Outlook: Improved PDF Preview on iOS",
-    "description": "MIP-label protected PDFs are now supported in the PDF previewer along with a built-in control's toolbar for easier navigation.",
-    "status": "Rolling out",
+    "description": "<p>MIP-label protected PDFs are now supported in the PDF previewer along with a built-in control's toolbar for easier navigation.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -4268,7 +4300,7 @@
     "title": "Microsoft Teams: Connect Teams meeting to existing Planner Plans",
     "description": "<p>Teams meetings automatically create a corresponding Planner plan to capture meeting tasks. However, when teams use meetings as their primary collaboration surface for long-running initiatives, tasks from the same project can become scattered across multiple auto-generated plans. With this capability, users can now connect Teams meetings to existing Planner plans, so all related tasks across meetings can be tracked in one place.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicDisclosureAvailabilityDate": "December CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -5378,8 +5410,8 @@
   {
     "id": 559105,
     "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
-    "description": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling.",
-    "status": "In development",
+    "description": "<p>Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": "September CY2026"
   },
@@ -5962,8 +5994,8 @@
   {
     "id": 558436,
     "title": "Microsoft Purview: Credential Scanning in Data Security Posture Agent ",
-    "description": "We're expanding the Data Security Posture Agent with a new credential scanning capability. Discover exposed credentials and data security risks across scoped locations. Assign scanning tasks to the agent, track progress across stages, and take action on prioritized findings. The agent scans selected data locations, analyzing scoped files to detect credentials, such as Microsoft Entra user credentials, private keys, and API tokens. Each finding includes a risk score, AI-generated insights, confidence score, and credential category so you can review, confirm, and act from a single task board view.",
-    "status": "In development",
+    "description": "<p>We're expanding the Data Security Posture Agent with a new credential scanning capability. Discover exposed credentials and data security risks across scoped locations. Assign scanning tasks to the agent, track progress across stages, and take action on prioritized findings. The agent scans selected data locations, analyzing scoped files to detect credentials, such as Microsoft Entra user credentials, private keys, and API tokens. Each finding includes a risk score, AI-generated insights, confidence score, and credential category so you can review, confirm, and act from a single task board view. Updated October 5, 2026: We have decided not to move forward with this change at this time. We apologize for any inconvenience.</p>",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": "March CY2026"
   },
@@ -6362,8 +6394,8 @@
   {
     "id": 555852,
     "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
-    "description": "This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.",
-    "status": "Rolling out",
+    "description": "<p>This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": ""
   },
@@ -7450,8 +7482,8 @@
   {
     "id": 548648,
     "title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
-    "description": "With Teams Rooms on Windows consoles, you can quickly book a meeting room for immediate use, helping to avoid scheduling conflicts and ensure uninterrupted spontaneous meetings. Available in Teams Rooms Pro-licensed rooms.\n",
-    "status": "Rolling out",
+    "description": "<p>With Teams Rooms on Windows consoles, you can quickly book a meeting room for immediate use, helping to avoid scheduling conflicts and ensure uninterrupted spontaneous meetings. Available in Teams Rooms Pro-licensed rooms.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "July CY2026",
     "publicPreviewDate": ""
   },
@@ -9291,7 +9323,7 @@
     "id": 522096,
     "title": "Microsoft Purview: Integration with Entra GSA Internet Access to enable sensitive file filtering at the network layer",
     "description": "<p>Extend Microsoft Purview Data Loss Prevention (DLP) policies to filter sensitive files at the network layer by integrating with Entra Global Secure Access Internet Access. This integration enables organizations to intercept and inspect files at the network layer and enforce restrictive actions based on DLP policy conditions. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, cloud storage, and content-sharing services - while managing alerts and incidents through Purview and Microsoft Defender. Updated July 17, 2026: The GA release of this item has moved. We apologize for any inconvenience.</p>",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": "November CY2025"
   },
@@ -9898,17 +9930,17 @@
   {
     "id": 503771,
     "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-H will be able to use custom engine agents",
-    "description": "Users in GCC-H will be able to use custom engine agents.",
+    "description": "<p>Users in GCC-H will be able to use custom engine agents.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "August CY2026",
+    "publicDisclosureAvailabilityDate": "December CY2026",
     "publicPreviewDate": ""
   },
   {
     "id": 516043,
     "title": "Microsoft Edge: PDF Viewer Performance Improvement and Minor Visual Updates",
-    "description": "<p>The PDF Viewer in Microsoft Edge is migrating to WebUI2, enhancing responsiveness and introducing a series of subtle visual upgrades aimed at improving overall usability and utility. This migration ensures UI coherence with the rest of the browser while maintaining the same user experience.<br>\nThe update focuses on improving underlying performance, consistency in design elements, and a smoother interaction without altering any existing workflows for users.</p>",
+    "description": "<p>The PDF Viewer in Microsoft Edge is enhancing responsiveness and introducing a series of subtle visual upgrades aimed at improving overall usability and utility. This migration ensures UI coherence with the rest of the browser while maintaining the same user experience.<br>\nThe update focuses on improving underlying performance, consistency in design elements, and a smoother interaction without altering any existing workflows for users.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10288,14 +10320,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 508520,
-    "title": "Microsoft Edge: v.142 - Tab Search",
-    "description": "Tab Search helps users stay organized by letting them quickly find and reopen recently closed tabs or search across all open ones in a single view. From the same menu, they can also enable Vertical Tabs, access the AI-powered Organize Tabs feature, and open Workspaces.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "December CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 506847,
     "title": "Microsoft Copilot (Microsoft 365): New Create module with Word, Excel and PPT templates",
     "description": "New Create module within M365 Copilot App to access Word, Excel and PPT templates.",
@@ -10340,7 +10364,7 @@
     "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
     "description": "<p>Viva Insights is creating an Agent Dashboard, designed to be a central place for leaders, delegates and analysts to understand how your organization is adopting agents. #copilotcontrolsystem</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "February CY2027",
     "publicPreviewDate": "February CY2026"
   },
   {
@@ -10421,14 +10445,6 @@
     "description": "<p>Specify and manage SharePoint sites deemed as authoritative content to enhance their relevance and ranking in Microsoft 365 Copilot Search. In the Microsoft 365 admin center, under Copilot &gt; Search &gt; Authoritative content, add and manage up to 100 SharePoint sites. #copilotcontrolsystem</p>",
     "status": "Launched",
     "publicDisclosureAvailabilityDate": "September CY2026",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 506220,
-    "title": "Microsoft Purview compliance portal: eDiscovery - Metadata Field Enhancements in Process Reporting",
-    "description": "Introducing enhancements to metadata reporting in item.csv exports and Add To Review set CSVs, including new fields such as error details, isEncrypted, and sensitivity label. These updates provide clearer, more detailed insights into items processed during export and review workflows.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "October CY2025",
     "publicPreviewDate": ""
   },
   {
@@ -11118,14 +11134,6 @@
     "status": "In development",
     "publicDisclosureAvailabilityDate": "December CY2026",
     "publicPreviewDate": ""
-  },
-  {
-    "id": 500869,
-    "title": "Microsoft Purview compliance portal: Graph APIs for Standard eDiscovery Cases",
-    "description": "Releasing Graph APIs supporting case management, search management and export for tenants with standard eDiscovery licenses.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "November CY2025",
-    "publicPreviewDate": "September CY2025"
   },
   {
     "id": 500380,
@@ -12104,14 +12112,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 494510,
-    "title": "Microsoft Copilot (Microsoft 365): Continue editing in Outlook from Copilot Chat",
-    "description": "When Copilot detects that you're trying to write an email—like saying “Draft an email to my team thanking them for their hard work on Project K”—you’ll see an “Edit in Outlook” button. The 'Edit in Outlook button will open a draft in Outlook, with the subject, message, and recipients filled in, so you can review and send it with ease.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "October CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 495833,
     "title": "Microsoft Edge: A Refreshed Profile Flyout Experience for Better Clarity and Actionability",
     "description": "We’re updating the Microsoft Edge profile flyout to deliver a cleaner, more intuitive experience. The refreshed design makes it easier to distinguish between work and personal profiles, manage credentials, and quickly access key settings—all within a polished interface that supports modern browsing needs. With streamlined sign-in, clearer profile types, and organization branding preserved, this update enables a more efficient and trustworthy experience for customers.",
@@ -12236,8 +12236,8 @@
     "title": "Microsoft Purview compliance portal: Cloud Attachments preservation for users on hold",
     "description": "<p>Enables cloud attachment preservation for users put on infinite hold so that file versions shared are preserved across any OneDrive or SharePoint site. This is a new capability which is different from the existing capability of applying label to cloud attachments and links present in OneDrive and SharePoint and shared in Exchange, Teams, Viva Engage and Copilot</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
-    "publicPreviewDate": "November CY2026"
+    "publicDisclosureAvailabilityDate": "May CY2027",
+    "publicPreviewDate": "March CY2027"
   },
   {
     "id": 494835,
@@ -12820,7 +12820,7 @@
     "title": "Microsoft Edge: Adding support for viewing Sensitivity labels applied to a Microsoft Information Protection (MIP) Protected PDF ",
     "description": "<p>Enterprise customers can view sensitivity labels applied to MIP protected PDF to be well informed of the data classification to enable them to handle such sensitive documents. This change will be available in the new PDF viewer on Microsoft Edge.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -14538,8 +14538,8 @@
   {
     "id": 139457,
     "title": "Microsoft Purview compliance portal: Data Loss Prevention - Just in time protection (JIT) on SharePoint",
-    "description": "<div><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black;\">Just-in-time\nprotection for SharePoint in Microsoft Purview DLP allows organizations to\nextend protection to unclassified files in SharePoint and apply restrictions\ndefined in DLP policies at the time of egress</span>. </div>",
-    "status": "In development",
+    "description": "<div><span>Microsoft has decided to not move forward with this feature.\n<p>Just-in-time<br>\nprotection for SharePoint in Microsoft Purview DLP allows organizations to<br>\nextend protection to unclassified files in SharePoint and apply restrictions<br>\ndefined in DLP policies at the time of egress. </p></span></div><p></p>",
+    "status": "Cancelled",
     "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": "October CY2026"
   },

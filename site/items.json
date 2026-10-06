@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-05T12:07:34.660351+00:00",
+  "generated_at": "2026-10-06T11:51:44.263243+00:00",
   "total_items": 1889,
-  "active_items": 990,
-  "delayed_items": 624,
+  "active_items": 986,
+  "delayed_items": 618,
   "changes_summary": {
-    "new_items": 0,
-    "status_changes": 0,
-    "date_changes": 0,
+    "new_items": 4,
+    "status_changes": 11,
+    "date_changes": 6,
     "updated_items": 0,
-    "removed_items": 3,
-    "unchanged": 1889
+    "removed_items": 4,
+    "unchanged": 1868
   },
   "product_categories": [
     {
@@ -24,21 +24,21 @@
       "name": "Purview & Security",
       "emoji": "🛡️",
       "color": "#E74856",
-      "count": 305
+      "count": 303
     },
     {
       "id": "admin",
       "name": "Admin & Platform",
       "emoji": "⚙️",
       "color": "#5C2D91",
-      "count": 297
+      "count": 299
     },
     {
       "id": "copilot",
       "name": "Copilot",
       "emoji": "🤖",
       "color": "#7B68EE",
-      "count": 253
+      "count": 252
     },
     {
       "id": "outlook",
@@ -66,14 +66,14 @@
       "name": "SharePoint & OneDrive",
       "emoji": "📂",
       "color": "#038387",
-      "count": 111
+      "count": 113
     },
     {
       "id": "edge-media",
       "name": "Edge & Media",
       "emoji": "🌐",
       "color": "#3C8527",
-      "count": 79
+      "count": 78
     },
     {
       "id": "intune",
@@ -91,12 +91,909 @@
     }
   ],
   "status_counts": {
+    "In development": 746,
+    "Launched": 903,
     "Rolling out": 233,
-    "In development": 752,
-    "Cancelled": 5,
-    "Launched": 899
+    "Cancelled": 7
   },
   "items": [
+    {
+      "id": 573699,
+      "title": "SharePoint: Advanced Management - Inactive files policy",
+      "description": "<p>SharePoint administrators can use the Inactive files policy in SharePoint Advanced Management to automatically archive files based on when they were last accessed. The public preview is available through PowerShell only. Admins can set an inactivity threshold from 6 to 48 months, scope policies to all SharePoint sites or selected sites, include or exclude file types and sites, and use What-If mode to review impact before activation. Eligible files move to the Microsoft 365 Archive cold-storage tier while remaining in place and retaining their metadata, permissions, compliance, and searchability. Microsoft 365 Archive and pay-as-you-go billing must be enabled.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "SharePoint"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": "https://learn.microsoft.com/en-us/powershell/module/microsoft.online.sharepoint.powershell/new-spofilearchivepolicy?view=sharepoint-ps#-lastaccessdatecriteria",
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573699",
+      "created": "2026-10-05T23:03:05",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 573697,
+      "title": "OneDrive: Presentation mode for PDFs in the iOS app on iPad",
+      "description": "<p>Microsoft OneDrive is introducing presentation mode in the OneDrive iOS app for users on iPad devices. Users select a new Presentation button in the PDF viewer to enter a focused, view-only experience that prevents free gesture scrolling between pages, reducing accidental page changes while presenting without moving the file to another app. The feature is not available on iPhone.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "OneDrive"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "iOS"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573697",
+      "created": "2026-10-05T23:03:05",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 573275,
+      "title": "Dynamics 365 Commerce: Add multiple items to a transaction using bulk entry",
+      "description": "<p>Associates can trigger the <strong>Bulk add</strong> operation from the button grid on the transaction screen in Store Commerce. A drawer-based dialog opens where associates can paste or enter multiple item number and quantity pairs, with one pair specified per line.</p>\n<ul>\n<li>Supported formats include SKU x quantity, quantity x SKU, SKU quantity, quantity SKU, or SKU only (which defaults the quantity to 1).</li>\n<li>Multiple item number and quantity pairs can also be entered on a single line and separated by spaces or commas.</li>\n<li>Supported delimiters between item numbers and quantities include x, spaces, commas, and tab characters for Microsoft Excel paste scenarios. Input can also follow a CSV structure.</li>\n</ul>\n<p>Select <strong>Add to sale</strong> to process all items in a single operation.</p>\n<p>The system parses the input, resolves each item, and adds the items to the transaction. If an item requires variant selection, such as size or color, the variant selection dialog is displayed inline.</p>\n<h2>Feedback and error handling</h2>\n<ul>\n<li><strong>Success</strong>: The dialog closes and a confirmation message indicates that all items were added successfully.</li>\n<li><strong>Partial success</strong>: A warning message shows the number of items that were added and the number that failed. Failed items remain in the dialog so they can be corrected and resubmitted.</li>\n<li><strong>Failure</strong>: An error message is displayed. The dialog remains open and includes a collapsible error list that identifies the items that failed and the reason for each failure.</li>\n<li>Duplicate item numbers aren't merged and remain as separate transaction lines.</li>\n</ul>\n<h2>Entry point</h2>\n<p>The operation is accessed through the button grid, allowing merchants to add it to any button grid layout by using the existing screen layout designer.</p>\n<h2>Configuration</h2>\n<ul>\n<li><strong>Application</strong>: Store Commerce (Point of Sale)</li>\n<li><strong>Enabled by</strong>: Adding the <strong>Bulk add</strong> operation to a button grid through the screen layout designer in Commerce headquarters.</li>\n<li><strong>Setup</strong>: A store administrator or IT administrator configures a button grid layout to include the <strong>Bulk add</strong> operation. After the configuration is published, associates can access the operation from the transaction screen.</li>\n</ul>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "July CY2026",
+      "preview_date_parsed": "2026-07",
+      "products": [
+        "Dynamics 365 Commerce"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573275",
+      "created": "2026-10-05T23:03:05",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 573267,
+      "title": "Dynamics 365 Contact Center: Quality evaluation - Recurring conversation evaluations",
+      "description": "<p>Quality Evaluation now supports recurring frequency for conversation evaluations. Previously, only event-based trigger evaluations were supported, meaning evaluations were created only when a conversation closed.<br>\nWith recurring evaluations, users can run bulk evaluations over previously closed conversations, evaluate future closed conversations, and sample selected conversations that match configured conditions. This enables ongoing quality monitoring, retrospective analysis, and targeted evaluation programs without relying solely on conversation-close events.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Dynamics 365 Contact Center",
+        "Dynamics 365 Customer Service"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573267",
+      "created": "2026-10-05T23:03:05",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 566528,
+      "title": "Microsoft Purview: Data Loss Prevention - Extend Purview data security to the network layer via Entra GSA integration",
+      "description": "<p>Extend Microsoft Purview data security controls to the network layer to detect and protect sensitive data in text and prompts by integrating with Entra Internet Access. This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, social media, collaborative platforms - while managing alerts and incidents through Purview and Microsoft Defender.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "September CY2026",
+      "is_delayed": true,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "July CY2026",
+      "preview_date_parsed": "2026-07",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566528",
+      "created": "2026-07-01T23:03:18",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 565868,
+      "title": "Microsoft Purview: Endpoint Data Loss Prevention - Protect sensitive data over FTP and SFTP with Endpoint DLP",
+      "description": "<p>Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration while maintaining visibility and control.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "September CY2026",
+      "preview_date_parsed": "2026-09",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565868",
+      "created": "2026-06-15T23:00:45",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 522096,
+      "title": "Microsoft Purview: Integration with Entra GSA Internet Access to enable sensitive file filtering at the network layer",
+      "description": "<p>Extend Microsoft Purview Data Loss Prevention (DLP) policies to filter sensitive files at the network layer by integrating with Entra Global Secure Access Internet Access. This integration enables organizations to intercept and inspect files at the network layer and enforce restrictive actions based on DLP policy conditions. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, cloud storage, and content-sharing services - while managing alerts and incidents through Purview and Microsoft Defender. Updated July 17, 2026: The GA release of this item has moved. We apologize for any inconvenience.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "September CY2026",
+      "is_delayed": true,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "November CY2025",
+      "preview_date_parsed": "2025-11",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=522096",
+      "created": "2025-10-30T23:15:09",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 558436,
+      "title": "Microsoft Purview: Credential Scanning in Data Security Posture Agent ",
+      "description": "<p>We're expanding the Data Security Posture Agent with a new credential scanning capability. Discover exposed credentials and data security risks across scoped locations. Assign scanning tasks to the agent, track progress across stages, and take action on prioritized findings. The agent scans selected data locations, analyzing scoped files to detect credentials, such as Microsoft Entra user credentials, private keys, and API tokens. Each finding includes a risk score, AI-generated insights, confidence score, and credential category so you can review, confirm, and act from a single task board view. Updated October 5, 2026: We have decided not to move forward with this change at this time. We apologize for any inconvenience.</p>",
+      "ai_summary": "",
+      "status": "Cancelled",
+      "status_emoji": "🔴",
+      "status_color": "#F44336",
+      "status_order": 3,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "March CY2026",
+      "preview_date_parsed": "2026-03",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558436",
+      "created": "2026-03-09T23:15:17",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 139457,
+      "title": "Microsoft Purview compliance portal: Data Loss Prevention - Just in time protection (JIT) on SharePoint",
+      "description": "<div><span>Microsoft has decided to not move forward with this feature.\n<p>Just-in-time<br>\nprotection for SharePoint in Microsoft Purview DLP allows organizations to<br>\nextend protection to unclassified files in SharePoint and apply restrictions<br>\ndefined in DLP policies at the time of egress. </p></span></div><p></p>",
+      "ai_summary": "",
+      "status": "Cancelled",
+      "status_emoji": "🔴",
+      "status_color": "#F44336",
+      "status_order": 3,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "November CY2026",
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=139457",
+      "created": "2023-09-19T23:09:27",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 566323,
+      "title": "Microsoft Purview: Data Loss Prevention - File Testing Against Sensitive Information Classifiers",
+      "description": "<p>A new feature will be introduced on the main Classification page, allowing users to test files against all available classifiers to identify the presence of sensitive information. Users will have the option to select a single classifier or run tests across all classifiers. This capability is designed to help users identify sensitive content within files and troubleshoot classification issues more efficiently.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "August CY2026",
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566323",
+      "created": "2026-06-18T23:00:06",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 564913,
+      "title": "Outlook: New Outlook for Windows for GCC-H and DoD",
+      "description": "<p>The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments).</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "September CY2026",
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "July CY2026",
+      "preview_date_parsed": "2026-07",
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564913",
+      "created": "2026-06-04T23:15:54",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 564970,
+      "title": "Outlook: Improved PDF Preview on iOS",
+      "description": "<p>MIP-label protected PDFs are now supported in the PDF previewer along with a built-in control's toolbar for easier navigation.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "Rolling out",
+      "previous_ga_date": "July CY2026",
+      "is_delayed": false,
+      "ga_date": "July CY2026",
+      "ga_date_parsed": "2026-07",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "iOS"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564970",
+      "created": "2026-06-02T23:00:40",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 559105,
+      "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
+      "description": "<p>Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "September CY2026",
+      "preview_date_parsed": "2026-09",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559105",
+      "created": "2026-03-31T23:15:47",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 555852,
+      "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
+      "description": "<p>This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "Rolling out",
+      "previous_ga_date": "August CY2026",
+      "is_delayed": false,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft 365",
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [
+        "admin",
+        "copilot"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555852",
+      "created": "2026-02-24T00:15:57",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 548648,
+      "title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
+      "description": "<p>With Teams Rooms on Windows consoles, you can quickly book a meeting room for immediate use, helping to avoid scheduling conflicts and ensure uninterrupted spontaneous meetings. Available in Teams Rooms Pro-licensed rooms.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "status_changed",
+      "previous_status": "Rolling out",
+      "previous_ga_date": "July CY2026",
+      "is_delayed": false,
+      "ga_date": "July CY2026",
+      "ga_date_parsed": "2026-07",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=548648",
+      "created": "2026-01-22T00:00:09",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 561490,
+      "title": "Microsoft Teams: Connect Teams meeting to existing Planner Plans",
+      "description": "<p>Teams meetings automatically create a corresponding Planner plan to capture meeting tasks. However, when teams use meetings as their primary collaboration surface for long-running initiatives, tasks from the same project can become scattered across multiple auto-generated plans. With this capability, users can now connect Teams meetings to existing Planner plans, so all related tasks across meetings can be tracked in one place.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "November CY2026",
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams",
+        "Planner"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams",
+        "admin"
+      ],
+      "platforms": [
+        "Desktop",
+        "Teams and Surface Devices"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561490",
+      "created": "2026-05-11T23:15:11",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 503771,
+      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-H will be able to use custom engine agents",
+      "description": "<p>Users in GCC-H will be able to use custom engine agents.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "August CY2026",
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC High"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=503771",
+      "created": "2025-10-17T22:00:54",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 516043,
+      "title": "Microsoft Edge: PDF Viewer Performance Improvement and Minor Visual Updates",
+      "description": "<p>The PDF Viewer in Microsoft Edge is enhancing responsiveness and introducing a series of subtle visual upgrades aimed at improving overall usability and utility. This migration ensures UI coherence with the rest of the browser while maintaining the same user experience.<br>\nThe update focuses on improving underlying performance, consistency in design elements, and a smoother interaction without altering any existing workflows for users.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Edge"
+      ],
+      "product_category": "edge-media",
+      "product_category_name": "Edge & Media",
+      "product_category_emoji": "🌐",
+      "product_category_color": "#3C8527",
+      "all_categories": [
+        "edge-media"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=516043",
+      "created": "2025-10-16T23:15:52",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 506749,
+      "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
+      "description": "<p>Viva Insights is creating an Agent Dashboard, designed to be a central place for leaders, delegates and analysts to understand how your organization is adopting agents. #copilotcontrolsystem</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "February CY2027",
+      "ga_date_parsed": "2027-02",
+      "preview_date": "February CY2026",
+      "preview_date_parsed": "2026-02",
+      "products": [
+        "Microsoft Viva",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "viva",
+      "product_category_name": "Viva",
+      "product_category_emoji": "🏢",
+      "product_category_color": "#6C33A3",
+      "all_categories": [
+        "copilot",
+        "viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=506749",
+      "created": "2025-10-01T23:01:01",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 493752,
+      "title": "Microsoft Purview compliance portal: Cloud Attachments preservation for users on hold",
+      "description": "<p>Enables cloud attachment preservation for users put on infinite hold so that file versions shared are preserved across any OneDrive or SharePoint site. This is a new capability which is different from the existing capability of applying label to cloud attachments and links present in OneDrive and SharePoint and shared in Exchange, Teams, Viva Engage and Copilot</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "December CY2026",
+      "is_delayed": false,
+      "ga_date": "May CY2027",
+      "ga_date_parsed": "2027-05",
+      "preview_date": "March CY2027",
+      "preview_date_parsed": "2027-03",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=493752",
+      "created": "2025-05-27T23:15:03",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 489232,
+      "title": "Microsoft Edge: Adding support for viewing Sensitivity labels applied to a Microsoft Information Protection (MIP) Protected PDF ",
+      "description": "<p>Enterprise customers can view sensitivity labels applied to MIP protected PDF to be well informed of the data classification to enable them to handle such sensitive documents. This change will be available in the new PDF viewer on Microsoft Edge.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Edge"
+      ],
+      "product_category": "edge-media",
+      "product_category_name": "Edge & Media",
+      "product_category_emoji": "🌐",
+      "product_category_color": "#3C8527",
+      "all_categories": [
+        "edge-media"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=489232",
+      "created": "2025-04-14T23:15:33",
+      "modified": "2026-10-05T23:03:05"
+    },
     {
       "id": 382643,
       "title": "Microsoft Viva: Search in Viva Connections on iOS and Android tablet",
@@ -251,8 +1148,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "admin",
-        "teams"
+        "teams",
+        "admin"
       ],
       "platforms": [
         "Desktop"
@@ -1133,8 +2030,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -3265,8 +4162,8 @@
       "product_category_color": "#6264A7",
       "all_categories": [
         "teams",
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -3357,8 +4254,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "viva"
+        "viva",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -3443,8 +4340,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "outlook",
         "teams",
+        "outlook",
         "copilot"
       ],
       "platforms": [
@@ -5240,8 +6137,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -5332,8 +6229,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Mac"
@@ -5808,8 +6705,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
         "teams",
+        "sharepoint",
         "copilot"
       ],
       "platforms": [
@@ -6851,8 +7748,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Android",
@@ -7097,50 +7994,6 @@
       "modified": "2026-07-08T23:11:07"
     },
     {
-      "id": 564970,
-      "title": "Outlook: Improved PDF Preview on iOS",
-      "description": "MIP-label protected PDFs are now supported in the PDF previewer along with a built-in control's toolbar for easier navigation.",
-      "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "July CY2026",
-      "ga_date_parsed": "2026-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "iOS"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564970",
-      "created": "2026-06-02T23:00:40",
-      "modified": "2026-07-09T23:00:39"
-    },
-    {
       "id": 558935,
       "title": "Microsoft Viva: New Post Creation Experience in Viva Enage",
       "description": "In Viva Engage, we've simplified how to create posts. The new post creation experience makes it easier and faster to share in Viva Engage with a cleaner, more intuitive publishing experience. It brings clearer layout, better accessibility, and smarter organization of tools—so you can focus on creating great posts without extra clicks or clutter.",
@@ -7313,52 +8166,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562341",
       "created": "2026-05-14T23:15:59",
-      "modified": "2026-07-28T22:43:45"
-    },
-    {
-      "id": 548648,
-      "title": "Microsoft Teams: Ad-hoc room reservation from Teams Rooms on Windows console",
-      "description": "With Teams Rooms on Windows consoles, you can quickly book a meeting room for immediate use, helping to avoid scheduling conflicts and ensure uninterrupted spontaneous meetings. Available in Teams Rooms Pro-licensed rooms.\n",
-      "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "July CY2026",
-      "ga_date_parsed": "2026-07",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Teams and Surface Devices"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=548648",
-      "created": "2026-01-22T00:00:09",
       "modified": "2026-07-28T22:43:45"
     },
     {
@@ -7588,55 +8395,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=560813",
       "created": "2026-04-24T22:00:04",
-      "modified": "2026-08-03T22:55:03"
-    },
-    {
-      "id": 555852,
-      "title": "Microsoft Copilot (Microsoft 365): Branded footer in the Microsoft 365 Copilot app",
-      "description": "This update introduces a co-branding experience in the Microsoft 365 Copilot app that helps organizations present an admin approved visual identifier directly within the Chat screen. Specifically, the experience enables administrators to leverage the organization-supported logo already managed in the Microsoft Admin Center theming settings and display it in the footer of the Chat screen, paired with a fixed label: “Approved by”.",
-      "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft 365",
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [
-        "admin",
-        "copilot"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555852",
-      "created": "2026-02-24T00:15:57",
       "modified": "2026-08-03T22:55:03"
     },
     {
@@ -12592,8 +13350,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "viva"
+        "viva",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -12719,8 +13477,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "viva"
+        "viva",
+        "copilot"
       ],
       "platforms": [
         "Android",
@@ -14298,8 +15056,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Developer",
@@ -17705,48 +18463,6 @@
       "modified": "2025-11-21T00:00:57"
     },
     {
-      "id": 139457,
-      "title": "Microsoft Purview compliance portal: Data Loss Prevention - Just in time protection (JIT) on SharePoint",
-      "description": "<div><span style=\"font-size:11.0pt;font-family:&quot;Calibri&quot;,sans-serif;color:black;\">Just-in-time\nprotection for SharePoint in Microsoft Purview DLP allows organizations to\nextend protection to unclassified files in SharePoint and apply restrictions\ndefined in DLP policies at the time of egress</span>. </div>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "October CY2026",
-      "preview_date_parsed": "2026-10",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=139457",
-      "created": "2023-09-19T23:09:27",
-      "modified": "2025-11-21T00:00:57"
-    },
-    {
       "id": 529852,
       "title": "Microsoft Purview: Communication Compliance- Alert improvements",
       "description": "Communication Compliance is improving the capabilities and customization of policy alerts. Admins will be able to customize the alert frequency per policy as well as adjust the email alerts frequency and recipients within the policy creation wizard. \nMicrosoft Purview Communication Compliance provides the tools to help organizations detect regulatory compliance violations (for example SEC or FINRA), such as sensitive or confidential information, harassing or threatening language, and sharing of adult content. Built with privacy by design, usernames are pseudonymized by default, role-based access controls are built in, investigators are opted in by an admin, and audit logs are in place to ensure user-level privacy.",
@@ -21147,9 +21863,9 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
+        "teams",
         "sharepoint",
         "admin",
-        "teams",
         "outlook"
       ],
       "platforms": [
@@ -21623,8 +22339,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -23164,49 +23880,6 @@
       "modified": "2026-06-04T23:15:54"
     },
     {
-      "id": 564913,
-      "title": "Outlook: New Outlook for Windows for GCC-H and DoD",
-      "description": "The new Microsoft Outlook for Windows will be available for US Government clouds (GCC-H and DoD sovereign environments). ",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "July CY2026",
-      "preview_date_parsed": "2026-07",
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=564913",
-      "created": "2026-06-04T23:15:54",
-      "modified": "2026-06-04T23:15:54"
-    },
-    {
       "id": 555891,
       "title": "Microsoft Copilot (Microsoft 365): Reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation",
       "description": "You can now reference an email with Work IQ when using Edit with Copilot in PowerPoint to create a presentation.",
@@ -23718,48 +24391,6 @@
       "modified": "2026-06-16T23:00:10"
     },
     {
-      "id": 558436,
-      "title": "Microsoft Purview: Credential Scanning in Data Security Posture Agent ",
-      "description": "We're expanding the Data Security Posture Agent with a new credential scanning capability. Discover exposed credentials and data security risks across scoped locations. Assign scanning tasks to the agent, track progress across stages, and take action on prioritized findings. The agent scans selected data locations, analyzing scoped files to detect credentials, such as Microsoft Entra user credentials, private keys, and API tokens. Each finding includes a risk score, AI-generated insights, confidence score, and credential category so you can review, confirm, and act from a single task board view.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "March CY2026",
-      "preview_date_parsed": "2026-03",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558436",
-      "created": "2026-03-09T23:15:17",
-      "modified": "2026-06-16T23:00:10"
-    },
-    {
       "id": 475859,
       "title": "Microsoft Purview compliance portal: Insider Risk Management - Microsoft Fabric risk indicators in Insider Risk Management",
       "description": "With this update, Insider Risk Management extends its risk detection capabilities to Microsoft Fabric products by offering ready-to-use risk indicators based on activities that may lead to a data security incident in Power BI. Organizations can use these new indicators in data theft and data leaks policies.  \n\nMicrosoft Purview Insider Risk Management correlates various signals to identify potential malicious or inadvertent insider risks such as IP theft, data leakage, and security violations. Insider Risk Management enables customers to create policies based on their own internal policies, governance, and organizational requirements. Built with privacy by design, users are pseudonymized by default, and role-based access controls and audit logs are in place to help ensure user-level privacy.",
@@ -23926,49 +24557,6 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558565",
       "created": "2026-04-02T23:15:15",
       "modified": "2026-06-17T23:15:06"
-    },
-    {
-      "id": 566323,
-      "title": "Microsoft Purview: Data Loss Prevention - File Testing Against Sensitive Information Classifiers",
-      "description": "A new feature will be introduced on the main Classification page, allowing users to test files against all available classifiers to identify the presence of sensitive information. Users will have the option to select a single classifier or run tests across all classifiers. This capability is designed to help users identify sensitive content within files and troubleshoot classification issues more efficiently. ",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566323",
-      "created": "2026-06-18T23:00:06",
-      "modified": "2026-06-18T23:00:06"
     },
     {
       "id": 566321,
@@ -24789,48 +25377,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566867",
-      "created": "2026-07-01T23:03:18",
-      "modified": "2026-07-01T23:03:18"
-    },
-    {
-      "id": 566528,
-      "title": "Microsoft Purview: Data Loss Prevention - Extend Purview data security to the network layer via Entra GSA integration",
-      "description": "Extend Microsoft Purview data security controls to the network layer to detect and protect sensitive data in text and prompts by integrating with Entra Internet Access. This integration enables organizations to intercept and inspect text and AI interactions at the network layer, enforce restrictive actions based on DLP policies, and detect risky user activity through Insider Risk Management. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, social media, collaborative platforms - while managing alerts and incidents through Purview and Microsoft Defender.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "July CY2026",
-      "preview_date_parsed": "2026-07",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566528",
       "created": "2026-07-01T23:03:18",
       "modified": "2026-07-01T23:03:18"
     },
@@ -26705,48 +27251,6 @@
       "modified": "2026-07-23T23:27:16"
     },
     {
-      "id": 559105,
-      "title": "Microsoft Purview: Information Protection - Apply default SharePoint library labels to data at rest",
-      "description": "Enables auto‑labeling of existing SharePoint files to match the default sensitivity label configured on their document library. This helps organizations close labeling gaps for data at rest and ensure consistent, secure‑by‑default protection across SharePoint libraries—without relying on manual user labeling.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "September CY2026",
-      "preview_date_parsed": "2026-09",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=559105",
-      "created": "2026-03-31T23:15:47",
-      "modified": "2026-07-23T23:27:16"
-    },
-    {
       "id": 502541,
       "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Improved discovery of Copilot connector sources in Microsoft 365 Copilot (optionally add chat) with Content Source filter(s)",
       "description": "Improved discovery of Copilot connector sources in Microsoft 365 Copilot (optionally add chat) with Content Source filter(s).",
@@ -27389,47 +27893,6 @@
       "modified": "2026-07-29T23:07:26"
     },
     {
-      "id": 503771,
-      "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] Users in GCC-H will be able to use custom engine agents",
-      "description": "Users in GCC-H will be able to use custom engine agents.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC High"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=503771",
-      "created": "2025-10-17T22:00:54",
-      "modified": "2026-07-31T21:54:12"
-    },
-    {
       "id": 568785,
       "title": "Microsoft Purview: Adaptive Scope evaluation control with recipient and site owner lifecycle status",
       "description": "Microsoft Purview Adaptive Scopes will provide administrators with explicit control over lifecycle-state evaluation for recipients and site owners, helping ensure policy targeting and scope membership remain aligned with organizational requirements.",
@@ -27624,8 +28087,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -28593,51 +29056,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=568076",
       "created": "2026-08-11T22:53:53",
-      "modified": "2026-08-11T22:53:53"
-    },
-    {
-      "id": 565868,
-      "title": "Microsoft Purview: Endpoint Data Loss Prevention - Protect sensitive data over FTP and SFTP with Endpoint DLP",
-      "description": "Endpoint DLP support for FTP and SFTP enables organizations to monitor and protect sensitive data transferred from managed endpoints using FTP and SFTP, helping prevent unauthorized data exfiltration while maintaining visibility and control.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "September CY2026",
-      "preview_date_parsed": "2026-09",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565868",
-      "created": "2026-06-15T23:00:45",
       "modified": "2026-08-11T22:53:53"
     },
     {
@@ -32908,91 +33326,6 @@
       "modified": "2026-09-03T22:50:06"
     },
     {
-      "id": 516043,
-      "title": "Microsoft Edge: PDF Viewer Performance Improvement and Minor Visual Updates",
-      "description": "<p>The PDF Viewer in Microsoft Edge is migrating to WebUI2, enhancing responsiveness and introducing a series of subtle visual upgrades aimed at improving overall usability and utility. This migration ensures UI coherence with the rest of the browser while maintaining the same user experience.<br>\nThe update focuses on improving underlying performance, consistency in design elements, and a smoother interaction without altering any existing workflows for users.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Edge"
-      ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=516043",
-      "created": "2025-10-16T23:15:52",
-      "modified": "2026-09-03T22:50:06"
-    },
-    {
-      "id": 506749,
-      "title": "Microsoft Viva: Copilot Analytics - Agent Dashboard.",
-      "description": "<p>Viva Insights is creating an Agent Dashboard, designed to be a central place for leaders, delegates and analysts to understand how your organization is adopting agents. #copilotcontrolsystem</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "February CY2026",
-      "preview_date_parsed": "2026-02",
-      "products": [
-        "Microsoft Viva",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
-      "all_categories": [
-        "copilot",
-        "viva"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=506749",
-      "created": "2025-10-01T23:01:01",
-      "modified": "2026-09-03T22:50:06"
-    },
-    {
       "id": 570439,
       "title": "Microsoft Teams: QR code protection in Teams messaging",
       "description": "<p>Microsoft Teams will provide additional protection for QR codes shared by external users in messages. Images containing QR codes from external senders will be obscured by default and require users to reveal them before viewing or scanning. This helps reduce the risk of phishing and fraud by encouraging more deliberate interaction with QR code content.</p>",
@@ -33589,48 +33922,6 @@
       "modified": "2026-09-08T22:57:21"
     },
     {
-      "id": 522096,
-      "title": "Microsoft Purview: Integration with Entra GSA Internet Access to enable sensitive file filtering at the network layer",
-      "description": "<p>Extend Microsoft Purview Data Loss Prevention (DLP) policies to filter sensitive files at the network layer by integrating with Entra Global Secure Access Internet Access. This integration enables organizations to intercept and inspect files at the network layer and enforce restrictive actions based on DLP policy conditions. It helps prevent sensitive data from being shared with untrusted cloud applications through browsers, apps, APIs, add-ins, and more - including generative AI platforms, cloud storage, and content-sharing services - while managing alerts and incidents through Purview and Microsoft Defender. Updated July 17, 2026: The GA release of this item has moved. We apologize for any inconvenience.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "November CY2025",
-      "preview_date_parsed": "2025-11",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=522096",
-      "created": "2025-10-30T23:15:09",
-      "modified": "2026-09-08T22:57:21"
-    },
-    {
       "id": 392838,
       "title": "Microsoft Purview compliance portal: Data Lifecycle Management - Introduction of secure workflow to bypass legal holds and retention policies",
       "description": "<p>The first release of Priority cleanup enables admins to create a recurring exception to delete items under a broader retention policy and/or legal hold on Exchange workload. Creating a Priority cleanup will require a separate security role, multiple approvers, and will have a complete audit trail.</p>",
@@ -33837,51 +34128,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561204",
       "created": "2026-05-27T23:15:50",
-      "modified": "2026-09-09T22:36:54"
-    },
-    {
-      "id": 561490,
-      "title": "Microsoft Teams: Connect Teams meeting to existing Planner Plans",
-      "description": "<p>Teams meetings automatically create a corresponding Planner plan to capture meeting tasks. However, when teams use meetings as their primary collaboration surface for long-running initiatives, tasks from the same project can become scattered across multiple auto-generated plans. With this capability, users can now connect Teams meetings to existing Planner plans, so all related tasks across meetings can be tracked in one place.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams",
-        "Planner"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "admin",
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Teams and Surface Devices"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=561490",
-      "created": "2026-05-11T23:15:11",
       "modified": "2026-09-09T22:36:54"
     },
     {
@@ -34166,8 +34412,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -34492,47 +34738,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=542181",
       "created": "2025-12-17T00:15:13",
-      "modified": "2026-09-11T22:10:10"
-    },
-    {
-      "id": 489232,
-      "title": "Microsoft Edge: Adding support for viewing Sensitivity labels applied to a Microsoft Information Protection (MIP) Protected PDF ",
-      "description": "<p>Enterprise customers can view sensitivity labels applied to MIP protected PDF to be well informed of the data classification to enable them to handle such sensitive documents. This change will be available in the new PDF viewer on Microsoft Edge.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Edge"
-      ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=489232",
-      "created": "2025-04-14T23:15:33",
       "modified": "2026-09-11T22:10:10"
     },
     {
@@ -35776,8 +35981,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -37225,8 +37430,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop"
@@ -37713,48 +37918,6 @@
       "modified": "2026-09-23T22:59:12"
     },
     {
-      "id": 571687,
-      "title": "Microsoft Teams: Add alternate text to images shared from OneDrive and SharePoint",
-      "description": "<p>Improve accessibility by adding alternate text to images shared in Teams from OneDrive and SharePoint, helping users better understand visual content</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571687",
-      "created": "2026-09-23T22:59:12",
-      "modified": "2026-09-23T22:59:12"
-    },
-    {
       "id": 571669,
       "title": "Dynamics 365 Field Service: Optimize asset maintenance schedules using completed service",
       "description": "<p>Business value</p>\n<p>Asset maintenance is most effective when service intervals reflect how equipment is actually used and maintained. Static schedules that continue from an assumed date or meter value can cause an organization to service an asset more often than necessary after early maintenance or wait too long after late, partial, or usage-intensive service.</p>\n<p>Feeding completed maintenance activities, actual completion dates, and meter readings back into the maintenance plan recalibrates future requirements around the asset's real operating and service history. This closed-loop approach helps organizations avoid both over-maintenance and under-maintenance, balancing asset reliability and availability with labor, parts, and service costs.</p>\n<p>Feature detail</p>\n<p>Completed maintenance is used as a planning input, not only recorded as service history. When maintenance work is completed, the system evaluates which planned maintenance activities were fulfilled and feeds the actual completion date and relevant meter readings back into the asset's maintenance plan. The plan uses those results as the new basis for calculating the next applicable maintenance requirement.</p>\n<p>For calendar-based maintenance, the next event is recalculated from the completed service and the plan's recurrence rules. For usage-based maintenance, the next threshold is calculated from the asset's meter value when the activity was completed. For criteria that combine time and usage, the plan continues to evaluate both conditions from the updated maintenance baseline. Sequential plans advance according to the activities that were actually completed.</p>\n<p>The optimized plan then supplies updated due dates and activities to maintenance coverage views, demand forecasts, and future work-order generation. As additional maintenance is completed, the feedback loop keeps the schedule aligned with the asset's evolving usage and service history.</p>",
@@ -38171,8 +38334,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Android",
@@ -39319,8 +39482,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -39933,8 +40096,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop"
@@ -41763,50 +41926,6 @@
       "modified": "2026-10-01T23:00:07"
     },
     {
-      "id": 565216,
-      "title": "Microsoft Teams: Intelligent call delegation",
-      "description": "<p>Incoming Teams calls don't wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams",
-        "copilot"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565216",
-      "created": "2026-09-30T23:31:03",
-      "modified": "2026-10-01T23:00:07"
-    },
-    {
       "id": 571692,
       "title": "Microsoft Edge: Updated performance information in tab hover cards",
       "description": "<p>Microsoft Edge is updating tab hover cards to provide clearer information about tab memory usage and memory savings when inactive tabs are discarded. Users will also have separate settings for tab-preview images and memory-usage information.</p>",
@@ -41889,48 +42008,6 @@
       "modified": "2026-10-01T23:00:07"
     },
     {
-      "id": 493752,
-      "title": "Microsoft Purview compliance portal: Cloud Attachments preservation for users on hold",
-      "description": "<p>Enables cloud attachment preservation for users put on infinite hold so that file versions shared are preserved across any OneDrive or SharePoint site. This is a new capability which is different from the existing capability of applying label to cloud attachments and links present in OneDrive and SharePoint and shared in Exchange, Teams, Viva Engage and Copilot</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "December CY2026",
-      "ga_date_parsed": "2026-12",
-      "preview_date": "November CY2026",
-      "preview_date_parsed": "2026-11",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=493752",
-      "created": "2025-05-27T23:15:03",
-      "modified": "2026-10-01T23:00:07"
-    },
-    {
       "id": 492622,
       "title": "Microsoft 365: The Next Generation of File & Folder Sharing",
       "description": "<p>We're now introducing the third generation of the Microsoft 365 sharing experience designed to make collaboration simpler, smarter, and more secure by default. At the heart of this update is the new hero link, a single, powerful link that controls access to your files. Whether you copy a link, share via email, or send the URL from your browser, you now have a seamless and consistent way to share and stay in control of your files.</p>",
@@ -41960,9 +42037,9 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
+        "admin",
         "sharepoint",
-        "office-apps",
-        "admin"
+        "office-apps"
       ],
       "platforms": [
         "Android",
@@ -42026,50 +42103,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573452",
-      "created": "2026-10-02T22:01:21",
-      "modified": "2026-10-02T22:01:21"
-    },
-    {
-      "id": 573451,
-      "title": "Microsoft Teams: Third-party synthetic audio and video (deepfake) detection in Microsoft Teams",
-      "description": "<p>Organizations can enhance meeting security with synthetic audio and video (deepfake) detection solutions provided by certified third-party providers. Third-party detection solutions analyze meeting media for signs of synthetic or manipulated audio and video and send detection signals to Teams, enabling integrated in-meeting experiences and controls.  Important: Synthetic media detection is performed by the third-party provider. Microsoft Teams provides the platform integration and experiences for surfacing and acting on detection signals from supported providers.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573451",
       "created": "2026-10-02T22:01:21",
       "modified": "2026-10-02T22:01:21"
     },
@@ -42153,48 +42186,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573276",
-      "created": "2026-10-02T22:01:21",
-      "modified": "2026-10-02T22:01:21"
-    },
-    {
-      "id": 573157,
-      "title": "Microsoft Teams: Impersonation Protection for Teams meetings",
-      "description": "<p>Impersonation Protection for Teams meetings helps users identify potentially deceptive participants and meeting organizers. When Teams detects a potential impersonation attempt, it surfaces warnings and risk indicators to help users recognize suspicious identities and make more informed decisions when joining or participating in a meeting.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Desktop",
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573157",
       "created": "2026-10-02T22:01:21",
       "modified": "2026-10-02T22:01:21"
     },
@@ -42456,6 +42447,186 @@
       "modified": "2026-10-02T22:01:21"
     },
     {
+      "id": 573451,
+      "title": "Microsoft Teams: Third-party synthetic audio and video (deepfake) detection in Microsoft Teams",
+      "description": "<p>Organizations can enhance meeting security with synthetic audio and video (deepfake) detection solutions provided by certified third-party providers. Third-party detection solutions analyze meeting media for signs of synthetic or manipulated audio and video and send detection signals to Teams, enabling integrated in-meeting experiences and controls.  Important: Synthetic media detection is performed by the third-party provider. Microsoft Teams provides the platform integration and experiences for surfacing and acting on detection signals from supported providers.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573451",
+      "created": "2026-10-02T22:01:21",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 573157,
+      "title": "Microsoft Teams: Impersonation Protection for Teams meetings",
+      "description": "<p>Impersonation Protection for Teams meetings helps users identify potentially deceptive participants and meeting organizers. When Teams detects a potential impersonation attempt, it surfaces warnings and risk indicators to help users recognize suspicious identities and make more informed decisions when joining or participating in a meeting.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573157",
+      "created": "2026-10-02T22:01:21",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 565216,
+      "title": "Microsoft Teams: Intelligent call delegation",
+      "description": "<p>Incoming Teams calls don't wait for a break in your day. Intelligent call delegation provides AI-powered calling assistance so you can focus on the conversations that matter most. It answers calls and gathers context, helping you decide whether to pick up and engage the caller. It can also schedule follow-up appointments through an integration with Microsoft Bookings so you can reconnect with callers at a more convenient time.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams",
+        "copilot"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=565216",
+      "created": "2026-09-30T23:31:03",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
+      "id": 571687,
+      "title": "Microsoft Teams: Add alternate text to images shared from OneDrive and SharePoint",
+      "description": "<p>Improve accessibility by adding alternate text to images shared in Teams from OneDrive and SharePoint, helping users better understand visual content</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Desktop",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571687",
+      "created": "2026-09-23T22:59:12",
+      "modified": "2026-10-05T23:03:05"
+    },
+    {
       "id": 553594,
       "title": "Built‑in AI Interpreter for Calls on Teams Phone Devices",
       "description": "<p>With AI Interpreter, Teams Phone Devices provide real‑time language interpretation directly within the call experience. Users can participate naturally in multilingual conversations while the device interprets spoken audio, reducing language barriers and supporting clearer communication in everyday calling scenarios. Updated September 22, 2026: We have decided not to move forward with this change at this time. A planned future release will be communicated separately once timelines are available. We apologize for any inconvenience.</p>",
@@ -42664,181 +42835,6 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567000",
       "created": "2026-07-08T23:10:57",
       "modified": "2026-09-28T22:58:08"
-    },
-    {
-      "id": 508520,
-      "title": "Microsoft Edge: v.142 - Tab Search",
-      "description": "Tab Search helps users stay organized by letting them quickly find and reopen recently closed tabs or search across all open ones in a single view. From the same menu, they can also enable Vertical Tabs, access the AI-powered Organize Tabs feature, and open Workspaces.",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "December CY2025",
-      "ga_date_parsed": "2025-12",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Edge"
-      ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=508520",
-      "created": "2025-10-02T23:15:34",
-      "modified": "2025-12-05T23:45:06"
-    },
-    {
-      "id": 506220,
-      "title": "Microsoft Purview compliance portal: eDiscovery - Metadata Field Enhancements in Process Reporting",
-      "description": "Introducing enhancements to metadata reporting in item.csv exports and Add To Review set CSVs, including new fields such as error details, isEncrypted, and sensitivity label. These updates provide clearer, more detailed insights into items processed during export and review workflows.",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2025",
-      "ga_date_parsed": "2025-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=506220",
-      "created": "2025-09-24T23:15:27",
-      "modified": "2025-12-05T23:45:06"
-    },
-    {
-      "id": 500869,
-      "title": "Microsoft Purview compliance portal: Graph APIs for Standard eDiscovery Cases",
-      "description": "Releasing Graph APIs supporting case management, search management and export for tenants with standard eDiscovery licenses.",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2025",
-      "ga_date_parsed": "2025-11",
-      "preview_date": "September CY2025",
-      "preview_date_parsed": "2025-09",
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=500869",
-      "created": "2025-08-19T23:15:40",
-      "modified": "2025-12-05T23:45:06"
-    },
-    {
-      "id": 494510,
-      "title": "Microsoft Copilot (Microsoft 365): Continue editing in Outlook from Copilot Chat",
-      "description": "When Copilot detects that you're trying to write an email—like saying “Draft an email to my team thanking them for their hard work on Project K”—you’ll see an “Edit in Outlook” button. The 'Edit in Outlook button will open a draft in Outlook, with the subject, message, and recipients filled in, so you can review and send it with ease.",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2025",
-      "ga_date_parsed": "2025-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)",
-        "Outlook"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "outlook",
-        "copilot"
-      ],
-      "platforms": [
-        "Desktop",
-        "Developer",
-        "Linux",
-        "Mac",
-        "Teams and Surface Devices",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=494510",
-      "created": "2025-06-05T23:00:34",
-      "modified": "2025-12-05T23:45:06"
     },
     {
       "id": 525363,
@@ -43250,8 +43246,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -44023,8 +44019,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -44583,8 +44579,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
         "admin",
+        "sharepoint",
         "copilot"
       ],
       "platforms": [
@@ -46062,9 +46058,9 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
+        "admin",
         "office-apps",
-        "copilot",
-        "admin"
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -46740,8 +46736,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -47390,8 +47386,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -49215,8 +49211,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -50622,8 +50618,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -52583,8 +52579,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Desktop"
@@ -53947,8 +53943,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "sharepoint",
-        "teams"
+        "teams",
+        "sharepoint"
       ],
       "platforms": [
         "Desktop",
@@ -56716,8 +56712,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "office-apps",
-        "admin"
+        "admin",
+        "office-apps"
       ],
       "platforms": [
         "Web"
@@ -57614,8 +57610,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -59844,8 +59840,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -61274,8 +61270,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "office-apps",
         "outlook",
+        "office-apps",
         "copilot"
       ],
       "platforms": [
@@ -61664,8 +61660,8 @@
       "product_category_color": "#3C8527",
       "all_categories": [
         "edge-media",
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -61837,8 +61833,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
-        "admin"
+        "admin",
+        "sharepoint"
       ],
       "platforms": [
         "Web"
@@ -62141,8 +62137,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "copilot",
-        "purview"
+        "purview",
+        "copilot"
       ],
       "platforms": [
         "Web"
@@ -63382,8 +63378,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "sharepoint",
         "admin",
+        "sharepoint",
         "office-apps"
       ],
       "platforms": [
@@ -67062,8 +67058,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -70276,9 +70272,9 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
+        "admin",
         "office-apps",
         "copilot",
-        "admin",
         "purview"
       ],
       "platforms": [
@@ -75135,8 +75131,8 @@
       "product_category_emoji": "📧",
       "product_category_color": "#0078D4",
       "all_categories": [
-        "outlook",
-        "copilot"
+        "copilot",
+        "outlook"
       ],
       "platforms": [
         "Android",
@@ -75309,8 +75305,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "admin",
-        "teams"
+        "teams",
+        "admin"
       ],
       "platforms": [
         "Desktop",
