@@ -1,5 +1,77 @@
 [
   {
+    "id": 574365,
+    "title": "Dynamics 365 Project Operations: Import task - Public API support",
+    "description": "<p>Public APIs for the Import tasks capability enable customers and partners to programmatically import tasks from one project into another. Organizations can call these APIs from custom applications, integrations, or automated workflows instead of requiring a user to initiate each import manually.</p>\n<p>The APIs support repeatable project-creation and planning scenarios, such as populating new projects with tasks from templates or previously completed projects. Customers can incorporate task imports into their existing project provisioning and automation processes.</p>",
+    "status": "Rolling out",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 574364,
+    "title": "Dynamics 365 Sales: Choose the data sources AI-powered Data Enrichment uses, including CRM notes",
+    "description": "<p>AI-powered Data Enrichment now lets admins choose which data sources the agent uses to enrich records. Outlook emails, Teams meetings, and the new CRM notes source each have their own control toggle, and the agent keeps running as long as at least one source is toggled on. Admins no longer need to connect every permission before they create the agent. With CRM notes, the agent extracts insights from manual notes added to supported records and uses them to enrich those records, with no tenant admin consent needed to use CRM notes. Only notes added by users with a Dynamics 365 Sales Premium license are used, and Dataverse search is needed only for emails and Teams meetings, since notes are already linked to their records.</p>\n<p>These control toggles are available automatically. Admins can turn each source on or off in the Agent behavior section of the Data Enrichment settings. Outlook emails and Teams meetings stay off until their permissions are connected, and connecting a permission never turns a source on by itself. For organizations already using the agent, CRM notes is off by default and a banner lets admins know it's available. For new organizations, CRM notes is on by default.</p>",
+    "status": "Rolling out",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 574362,
+    "title": "Microsoft Teams: Pro Management portal Analytics & Reports Design Refresh",
+    "description": "<p>We are refreshing the way we organize the Analytics &amp; Reports area in the Pro Management portal to make it more user-friendly.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 574119,
+    "title": "Dynamics 365 Finance: Improved Matrix visual performance for large table",
+    "description": "<p>Business Performance Planning introduce Virtualization to optimizes how the Matrix visual renders large planning datasets. Rather than loading and displaying the entire dataset at once, the visual progressively renders the rows and columns needed as users scroll, expand, collapse, and navigate through the Matrix. This reduces the amount of data processed by the browser at any one time and helps maintain visual responsiveness at scale.</p>",
+    "status": "Launched",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 574110,
+    "title": "Microsoft Teams: Events now support up to 20,000 registrations, making it easier to reach and engage larger audiences at scale",
+    "description": "<p>Connect with more attendees than ever before with Teams Events, now supporting up to 20,000 registrations for organizers with valid Attendee packs.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573704,
+    "title": "Dynamics 365 Supply Chain Management: Procurement Agent - Customize the Procurement Agent supplier follow-up criteria",
+    "description": "<p>Organizations often use business-specific data and criteria to determine when suppliers require follow-up on purchase orders. The Procurement Agent will enable buyers to extend supplier follow-up criteria using related standard, extended, and custom table data. Buyers can add table joins and use fields from those tables as filter conditions, providing greater flexibility to determine which purchase order lines qualify for supplier follow-up based on their organization’s processes and data.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 573220,
+    "title": "Microsoft Copilot (Microsoft 365): Scheduling with Copilot",
+    "description": "<p>Users can now schedule appointments and meetings directly from chat. Simply ask Copilot to create an appointment or schedule a meeting with colleagues, and it will find available times, book rooms, draft agendas, and send invites—all within the chat experience.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 570669,
+    "title": "Microsoft Copilot Studio: Discover and use shared plugins in Copilot Studio",
+    "description": "<p>Copilot Studio now connects to Microsoft's shared plugin registry, making it easier for makers to discover and use plugins, connectors, and other available capabilities. This integration provides a more consistent way to extend agents with capabilities across Microsoft's AI ecosystem.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": "October CY2026"
+  },
+  {
+    "id": 570442,
+    "title": "Outlook: Improved SharePoint file experience in file picker in Outlook mobile apps",
+    "description": "<p>Users can more easily work with SharePoint files in Outlook by saving email attachments directly to SharePoint and searching across SharePoint sites for files from the file picker.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicPreviewDate": ""
+  },
+  {
     "id": 574115,
     "title": "Outlook: Upcoming visual improvements and a more consistent Outlook experience",
     "description": "<p>The first updates will focus on visual details, such as icons, spacing and alignment. Users of classic Outlook for Windows will begin seeing refinements to familiar mail and calendar surfaces. The initial visual updates are intended to improve clarity and consistency without changing how users perform their tasks.</p>",
@@ -13,7 +85,7 @@
     "description": "<p>When a Teams Rooms on Android device acts as an organizer, co-organizer, or presenter in a structured meeting or webinar, you have access to the private chat for event management known as the Event Group. You can also switch to a separate chat with attendees, enabling smooth event experiences for all. Available in Teams Rooms Pro-licensed rooms.</p>",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "November CY2026",
-    "publicPreviewDate": "October CY2026"
+    "publicPreviewDate": ""
   },
   {
     "id": 574106,
@@ -1883,7 +1955,7 @@
     "id": 570439,
     "title": "Microsoft Teams: QR code protection in Teams messaging",
     "description": "<p>Microsoft Teams will provide additional protection for QR codes shared by external users in messages. Images containing QR codes from external senders will be obscured by default and require users to reveal them before viewing or scanning. This helps reduce the risk of phishing and fraud by encouraging more deliberate interaction with QR code content.</p>",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
@@ -1899,7 +1971,7 @@
     "id": 570467,
     "title": "Microsoft Teams: Admins can control profanity filtering in meeting transcripts",
     "description": "<p>Teams administrators will be able to use a meeting policy to control whether profane words are masked in live transcription and saved meeting transcripts. Filtering remains on by default. When an organizer is assigned a policy that turns filtering off, profane words can appear without masking in both the live and saved transcript, while live captions continue to follow each participant's existing profanity setting.</p>",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "October CY2026",
     "publicPreviewDate": ""
   },
@@ -2082,8 +2154,8 @@
   {
     "id": 569930,
     "title": "Microsoft Copilot Studio: Conversational configuration of connectors in Copilot Studio",
-    "description": "Configure the connectors your agent needs, with a simple in-chat sign-in instead of a full settings experience.",
-    "status": "In development",
+    "description": "<p>Configure the connectors your agent needs, with a simple in-chat sign-in instead of a full settings experience.</p>",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2026",
     "publicPreviewDate": ""
   },
@@ -4338,8 +4410,8 @@
   {
     "id": 561922,
     "title": "Universal Print: Universal Print Portal",
-    "description": "You can release your secure print jobs by scanning a QR code at any printer and access your print workflows from a browser on any device, all signed in with your Microsoft 365 account.",
-    "status": "Rolling out",
+    "description": "<p>You can release your secure print jobs by scanning a QR code at any printer and access your print workflows from a browser on any device, all signed in with your Microsoft 365 account.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "August CY2026",
     "publicPreviewDate": "July CY2026"
   },
@@ -4450,8 +4522,8 @@
   {
     "id": 562018,
     "title": "SharePoint: AI overview for SharePoint News posts in the SharePoint app for Teams",
-    "description": "Users will be able access an AI generated audio summary of SharePoint News posts in the SharePoint app for Teams (Viva Connections).",
-    "status": "Rolling out",
+    "description": "<p>Users will be able access an AI generated audio summary of SharePoint News posts in the SharePoint app for Teams (Viva Connections).</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
   },
@@ -5042,9 +5114,9 @@
   {
     "id": 560541,
     "title": "SharePoint: Governance Reviews Dashboard for Site Owners",
-    "description": "Site owners have a critical role to play in ensuring accuracy of site information, including the site's necessity, its owners, members, permissions, and sharing settings. We’re introducing the Governance Reviews Dashboard in Private Preview, a centralized view where site owners can see all pending site governance reviews (inactivity, ownership, attestation) across the sites they own.\nThe dashboard shows required actions, due timelines, and site enforcement status and allows site owners to take action directly from one place. Combined with consolidated policy notifications, it replaces multiple emails with a single, actionable governance surface. ",
+    "description": "<p>Site owners have a critical role to play in ensuring accuracy of site information, including the site's necessity, its owners, members, permissions, and sharing settings. We’re introducing the Governance Reviews Dashboard in Private Preview, a centralized view where site owners can see all pending site governance reviews (inactivity, ownership, attestation) across the sites they own.<br>\nThe dashboard shows required actions, due timelines, and site enforcement status and allows site owners to take action directly from one place. Combined with consolidated policy notifications, it replaces multiple emails with a single, actionable governance surface.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "June CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -7562,8 +7634,8 @@
   {
     "id": 552592,
     "title": "Microsoft Copilot (Microsoft 365): Simplifying Content in the Input Box",
-    "description": "When users insert content in a prompt using 'Add Work Content' under the Plus menu, the content will only appear as a pill in the Input Box UI and will not be repeated as part of the user's prompt. This helps to simplify the Input Box and reserve it for prompt creation. Updated April 22, 2026: We are moving this item back to In Development and will be relaunching after further updates. We apologize for any inconvenience. ",
-    "status": "Rolling out",
+    "description": "<p>When users insert content in a prompt using 'Add Work Content' under the Plus menu, the content will only appear as a pill in the Input Box UI and will not be repeated as part of the user's prompt. This helps to simplify the Input Box and reserve it for prompt creation. Updated April 22, 2026: We are moving this item back to In Development and will be relaunching after further updates. We apologize for any inconvenience.</p>",
+    "status": "Launched",
     "publicDisclosureAvailabilityDate": "May CY2026",
     "publicPreviewDate": ""
   },
@@ -8394,9 +8466,9 @@
   {
     "id": 536577,
     "title": "Microsoft Edge: Enterprise New Tab Page experience",
-    "description": "A modern experience for the New Tab Page (NTP) on Microsoft Edge for Business.",
+    "description": "<p>A modern experience for the New Tab Page (NTP) on Microsoft Edge for Business.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
   {
@@ -10817,10 +10889,10 @@
   },
   {
     "id": 499898,
-    "title": "Microsoft Copilot (Microsoft 365): Viva Engage - Agents in communities",
-    "description": "Agents in Viva Engage communities supports communities by answering questions, facilitating knowledge sharing, citing sources, and scaling expertise.",
+    "title": "Microsoft Copilot (Microsoft 365): Viva Engage - Community Agent",
+    "description": "<p>Community Agent helps members get answers to questions in Viva Engage communities using community knowledge and connected sources. Community admins can choose to require human review before answers are posted or allow automatic posting.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "September CY2026",
+    "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": "September CY2025"
   },
   {
@@ -15092,7 +15164,7 @@
     "title": "Microsoft Purview compliance portal: Data Loss Prevention - Optical character recognition (OCR) support for endpoint",
     "description": "<div>Optical character recognition (OCR) support will detect sensitive content in images and subsequently apply data loss prevention (DLP) policies to prevent exfiltration of that sensitive data on your Windows endpoint devices. This release supports key file types like JPG, JPEG, PNG, TIFF, BMP and PDF (image only PDF). </div>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "October CY2026",
+    "publicDisclosureAvailabilityDate": "March CY2027",
     "publicPreviewDate": ""
   },
   {
