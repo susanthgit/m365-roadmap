@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-28T11:07:05.932433+00:00",
-  "total_items": 2210,
-  "active_items": 1147,
-  "delayed_items": 525,
+  "generated_at": "2026-10-29T11:21:55.637844+00:00",
+  "total_items": 2219,
+  "active_items": 1153,
+  "delayed_items": 523,
   "changes_summary": {
-    "new_items": 8,
-    "status_changes": 9,
+    "new_items": 9,
+    "status_changes": 2,
     "date_changes": 8,
-    "updated_items": 0,
+    "updated_items": 1,
     "removed_items": 0,
-    "unchanged": 2185
+    "unchanged": 2199
   },
   "product_categories": [
     {
@@ -17,7 +17,7 @@
       "name": "Admin & Platform",
       "emoji": "⚙️",
       "color": "#5C2D91",
-      "count": 565
+      "count": 573
     },
     {
       "id": "teams",
@@ -38,7 +38,7 @@
       "name": "Copilot",
       "emoji": "🤖",
       "color": "#7B68EE",
-      "count": 292
+      "count": 293
     },
     {
       "id": "outlook",
@@ -91,32 +91,32 @@
     }
   ],
   "status_counts": {
-    "In development": 904,
-    "Rolling out": 235,
-    "Cancelled": 8,
-    "Launched": 1063
+    "Rolling out": 240,
+    "In development": 905,
+    "Launched": 1066,
+    "Cancelled": 8
   },
   "items": [
     {
-      "id": 577869,
-      "title": "Power Automate: AI-assisted UI Automation repair",
-      "description": "<p>A new agentic debug run feature will be available in the flow designer. The UI automation repair interface launches while the flow is running, validating each selector used in the flow. It then proposes a new selector in case an existing one does not work as expected, after the user captures the respective element for reference.</p>",
+      "id": 576606,
+      "title": "Dynamics 365 Contact Center: Use bullseye routing with user groups to orchestrate conversations",
+      "description": "<p>Bullseye routing with user groups enables a tiered assignment strategy that automatically expands the pool of eligible representatives as conversation wait time increases. Rather than assigning from a fixed pool or waiting for overflow rules to trigger, this approach progressively widens availability in concentric rings—starting with the best-fit representatives and expanding outward as needed.</p>\n<p>Administrators configure this scenario by associating user groups with a queue and defining wait time thresholds for each tier. For example:</p>\n<ul>\n<li>0–30 seconds: Assign to Tier 1 specialists (primary user group)</li>\n<li>30–60 seconds: Expand to include Tier 2 representatives (secondary user group)</li>\n<li>60+ seconds: Include all available representatives (tertiary user group)</li>\n</ul>\n<p>Conversation orchestration monitors each conversation's wait time and automatically expands the eligible pool when thresholds are reached. This process ensures that customers are matched with the most qualified available representative, while preventing excessive wait times when the primary pool is at capacity.</p>\n<p>Key benefits:</p>\n<ul>\n<li><strong>Best-fit first</strong>: Prioritizes the most qualified representatives before expanding to broader pools.</li>\n<li><strong>Automatic expansion</strong>: No manual intervention required—wait time thresholds trigger expansion automatically.</li>\n<li><strong>Configurable tiers</strong>: Define as many user group tiers as needed, with custom wait time thresholds for each.</li>\n<li><strong>Seamless integration</strong>: Works alongside other conversation orchestration scenarios like dynamic priority escalation and overflow based on representative availability.</li>\n</ul>",
       "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
       "change_type": "new",
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "March CY2027",
-      "ga_date_parsed": "2027-03",
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
       "preview_date": "July CY2026",
       "preview_date_parsed": "2026-07",
       "products": [
-        "Power Automate",
-        "Microsoft Copilot (Microsoft 365)"
+        "Microsoft Copilot (Microsoft 365)",
+        "Dynamics 365 Contact Center"
       ],
       "product_category": "copilot",
       "product_category_name": "Copilot",
@@ -136,29 +136,29 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577869",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576606",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 577859,
-      "title": "Power Pages: Track Power Pages performance and usage with monitor hub",
-      "description": "<p>Power Pages is integrated into the monitor hub. This integration empowers site owners, makers, and administrators to access performance and usage insights directly within the monitor hub of the Power Platform admin center.</p>\n<p><strong>Metrics available</strong></p>\n<p>The following metrics will be surfaced in monitor hub:<br>\n•\t<strong>Session count</strong>: Tracks the number of sessions.<br>\n•\t<strong>Session duration:</strong> Measures the average time spent in a session.<br>\n•\t<strong>Page load time:</strong> Captures the time it takes for a web page to fully load (P75).<br>\n•\t<strong>Error rate</strong>: Measures the percentage of requests where pages become unresponsive or return component-level errors.<br>\n<strong>Additional capabilities</strong><br>\nAdditional capabilities include trend visualization and the ability to download detailed reports for further analysis</p>",
+      "id": 575278,
+      "title": "Microsoft Contact Center Intelligence: Universal connector for self-service omnichannel agents",
+      "description": "<p>Bring Microsoft AI to the contact center platform of your choice with the Universal Connector. Organizations can now integrate Microsoft self-service voice and chat agents with virtually any contact center using a simple API-based approach. The Universal Connector enables seamless handoff from AI agents to human representatives while preserving the full conversation context, ensuring a connected and personalized customer experience across every interaction.<br>\nThis flexibility allows organizations to modernize at their own pace by bringing AI-powered experiences to their existing contact center investments without requiring a costly migration or platform replacement. Whether supporting voice or chat experiences, customers can quickly extend intelligent self-service capabilities while maintaining continuity across AI and human-assisted engagements.</p>",
       "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
       "change_type": "new",
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
       "preview_date": "October CY2026",
       "preview_date_parsed": "2026-10",
       "products": [
-        "Power Pages"
+        "Microsoft Contact Center Intelligence"
       ],
       "product_category": "admin",
       "product_category_name": "Admin & Platform",
@@ -176,37 +176,36 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577859",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575278",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 577841,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot app mode handoffs",
-      "description": "<p>The Chat experience in the Copilot app will suggest a better-fit mode based on the user's prompt, if applicable. For example, it will suggest Cowork or other supported modes as they become available. Users will see a suggestion card after they send a prompt in Chat, with an explanation of the better-fit mode and an option for the user to switch to the suggested mode. Their chat conversation will be attached to the prompt in the new mode to maintain context.</p>",
+      "id": 574113,
+      "title": "Dynamics 365 Contact Center: Historical analytics",
+      "description": "<p>Contact Center historical analytics provides out-of-box historical reporting for Dynamics 365 Contact Center, built on a shared analytics foundation. It moves reporting from heavier workload-specific Power BI models toward a shared analytics foundation with conformed facts, shared dimensions, pre-built aggregations, and common definitions across conversations, sessions, agents, queues, channels, CSAT, handle time, and operational KPIs. Customers can continue using out-of-box Power BI reports while gaining extensibility through Fabric, Direct Lake, SQL, Spark, and custom lakehouse models.</p>",
       "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
       "change_type": "new",
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "Microsoft Copilot (Microsoft 365)"
+        "Dynamics 365 Contact Center",
+        "Dynamics 365 Customer Service"
       ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Web"
       ],
@@ -217,37 +216,36 @@
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577841",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574113",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 577180,
-      "title": "Microsoft Edge: Allow users to translate PDF documents into their preferred language",
-      "description": "<p>Users will be able to translate full PDF documents directly within the native PDF viewer in Microsoft Edge. The translated document opens in a new tab, making it easier to access content in their preferred language.  Admins can control availability to this feature using the TranslateEnabled policy.</p>",
+      "id": 574112,
+      "title": "Dynamics 365 Customer Service: Shared analytics for historical reporting",
+      "description": "<p>Dynamics 365 Customer Service provides out-of-the-box historical reporting built on a shared analytics foundation: a scalable, open, and AI-ready data foundation for Customer Experience and AI analytics scenarios across Dynamics 365. It uses a lakehouse-based architecture that can scale with data volume, supports curated analytics datasets for direct querying, and enables consistent reporting and semantic definitions across reports, agents, and copilots.</p>",
       "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
       "change_type": "new",
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "Microsoft Edge"
+        "Dynamics 365 Contact Center",
+        "Dynamics 365 Customer Service"
       ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media"
-      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Web"
       ],
@@ -258,14 +256,14 @@
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577180",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=574112",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 577176,
-      "title": "Microsoft Teams: Decline a call with a message on Mobile",
-      "description": "<p>Users can quickly decline an incoming Teams call and send a predefined message to the caller at the same time. From the incoming call screen, users can select a message such as letting the caller know they're unavailable or will call back, providing helpful context without having to answer the call or separately open a chat.</p>",
+      "id": 577864,
+      "title": "Dynamics 365 Project Operations: Analyze project plans with what-if scenarios",
+      "description": "<p>What if scenario modeling enables you to simulate changes to a project plan and evaluate their impact before committing to them. Available for both Project Operations core and Project Operations connect with ERP deployment types, this capability can be enabled through Feature Control and allows you to: - Create and manage multiple versions of the Work Breakdown Structure (WBS). - Modify key planning variables, including schedule, scope, effort, and resources. - Analyze the impact of changes across one or more planning variables in real time. - Compare alternative scenarios, identify the optimal plan, and apply selected changes to the original project plan.</p>",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -275,80 +273,38 @@
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "December CY2026",
-      "ga_date_parsed": "2026-12",
-      "preview_date": "",
-      "preview_date_parsed": null,
+      "ga_date": "July CY2027",
+      "ga_date_parsed": "2027-07",
+      "preview_date": "January CY2027",
+      "preview_date_parsed": "2027-01",
       "products": [
-        "Microsoft Teams"
+        "Dynamics 365 Project Operations"
       ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577176",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 576277,
-      "title": "Microsoft Viva: Insights and Copilot Analytics in DoD",
-      "description": "<p>Microsoft Viva Insights and Copilot Analytics are coming to the Microsoft 365 Department of Defense (DoD) environment, providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the DoD environment.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "new",
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Viva"
-      ],
-      "product_category": "viva",
-      "product_category_name": "Viva",
-      "product_category_emoji": "🏢",
-      "product_category_color": "#6C33A3",
-      "all_categories": [
-        "viva"
-      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Web"
       ],
       "cloud_instances": [
-        "DoD"
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC"
       ],
       "release_phases": [
-        "General Availability"
+        "General Availability",
+        "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576277",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577864",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 575275,
-      "title": "Microsoft Contact Center Intelligence: Knowledge",
-      "description": "<p>Knowledge sources ground your agent's responses in enterprise data. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. By using knowledge sources, your agents can provide relevant information and insights for your customers.</p>\n<p>You can incorporate knowledge sources into agents during their initial creation, or add them after the agent is created.</p>\n<p>Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the Knowledge page, or at the topic level, with a generative answers node in an agent topic.</p>",
+      "id": 575290,
+      "title": "Microsoft Contact Center AI: Insights and quality ",
+      "description": "<ul>\n<li><p>Gain visibility into AI interactions, conversation trends, and customer  engagement​</p>\n</li>\n<li><p>Measure self-service effectiveness through containment, escalations, transfers, and resolution outcomes​</p>\n</li>\n<li><p>Monitor operational health and proactively identify customer experience risks​</p>\n</li>\n<li><p>Uncover customer friction points and optimize journeys using conversation insights​</p>\n</li>\n<li><p>Improve AI quality and compliance with configurable QA coverage and automated evaluations​</p>\n</li>\n<li><p>Detect hallucinations, failed verifications, policy violations, and escalation drivers​</p>\n</li>\n</ul>",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -381,14 +337,14 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575275",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575290",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 571679,
-      "title": "Dynamics 365 Supply Chain Management: Improve rental operations and fulfillment",
-      "description": "<p>As organizations expand beyond one-time asset sales to rental, leasing, and servitization business models, new rental management capabilities help them manage and monetize the assets they build, own, and operate throughout the rental lifecycle. In Dynamics 365 Supply Chain Management, organizations can manage availability and reservations, fulfillment, delivery and pickup, inspections, and returns. These capabilities can help improve fleet utilization, reduce idle time, and streamline the movement of fleet items between locations, jobsites, and customers. Together, connected rental processes across supply chain, service, and finance can help organizations reduce operational costs, improve asset utilization, and generate value throughout the life of an asset.</p>",
+      "id": 575274,
+      "title": "Microsoft Contact Center Intelligence: Tools",
+      "description": "<p>Tools are building blocks that let your agent interact with external systems. Tools expand what your agent can do, and your agent can perform various actions in response to user requests or autonomous triggers. Each tool represents a specific capability that your agent can perform. For example, you can equip your agent with tools that perform tasks like:</p>\n<p>Send emails by using the Office 365 Outlook connector<br>\nCheck the current weather conditions and forecasts<br>\nRead and write data from Dataverse<br>\nRead and post messages to Teams</p>",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -398,14 +354,12 @@
       "previous_status": null,
       "previous_ga_date": null,
       "is_delayed": false,
-      "ga_date": "August CY2027",
-      "ga_date_parsed": "2027-08",
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
       "preview_date": "October CY2026",
       "preview_date_parsed": "2026-10",
       "products": [
-        "Dynamics 365 Field Service",
-        "Dynamics 365 Finance",
-        "Dynamics 365 Supply Chain Management"
+        "Microsoft Contact Center Intelligence"
       ],
       "product_category": "admin",
       "product_category_name": "Admin & Platform",
@@ -423,105 +377,94 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571679",
-      "created": "2026-10-27T23:05:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575274",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 570647,
-      "title": "SharePoint: Changes to the FAQ web part authoring experience",
-      "description": "<p>The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration.</p>",
+      "id": 575272,
+      "title": "Dynamics 365 Contact Center: Reroute conversations to the right queue automatically",
+      "description": "<p>Service representatives can reroute a live voice or messaging conversation when they realize they aren't the right person to help. The representative updates the conversation details, or the details of a linked case, contact, or account, and then selects Reroute. The conversation goes back through classification and route-to-queue rules and is assigned to the right queue automatically, so representatives don't need to know routing rules or choose a queue themselves. The customer stays connected throughout, and the next representative receives the conversation with its full history and updated context. Admins choose whether to turn on Reroute for their contact center.</p>",
       "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "October CY2026",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
       "is_delayed": false,
       "ga_date": "October CY2026",
       "ga_date_parsed": "2026-10",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
-        "SharePoint"
+        "Dynamics 365 Contact Center"
       ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Web"
       ],
       "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC"
+        "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570647",
-      "created": "2026-09-09T22:36:54",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575272",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 569214,
-      "title": "Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD",
-      "description": "<p>Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly.</p>",
+      "id": 573265,
+      "title": "Dynamics 365 Business Central: Expense Agent mobile app",
+      "description": "<p>The Expense Agent mobile app for Dynamics 365 Business Central extends expense capture to iOS and Android mobile devices by enabling employees to submit receipts directly from their phone or using native share functionality.</p>\n<p>Employees can take a photo of a receipt with their phone camera or select an existing image or document, and share it with Expense Agent mobile app. They can also capture multiple receipts directly from the mobile app and process them automatically. The Expense Agent mobile app processes the input, extracts relevant information, and automatically creates expense entries without requiring additional manual steps.</p>\n<p>The mobile experience provides a full-featured interface aligned with the web app, allowing employees to review, modify, and complete expense details before submission, but also full approval experience. Employees can manage individual expenses and entire expense reports directly from their mobile device, ensuring flexibility and control regardless of location. The key Dynamics 365 Business Central expense management capabilities, such as capture, validation, review, and submission are available on the Expense Agent mobile app supporting end-to-end workflows in a consistent and user-friendly way.</p>\n<p>The Expense Agent mobile app also works in offline mode where you can capture your receipts even if you are not connected to your environment, and once when you have an internet connection, agent will process all of them.<br>\nThe Expense Agent mobile app was in testing mode, but now it is in public preview and you can download it from app stores.</p>\n<p>This mobile app was in testing mode, but now you can download it from stores.</p>",
       "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "October CY2026",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": "new",
+      "previous_status": null,
+      "previous_ga_date": null,
       "is_delayed": false,
       "ga_date": "October CY2026",
       "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
       "products": [
-        "Microsoft Teams",
-        "Microsoft Copilot (Microsoft 365)"
+        "Dynamics 365 Business Central"
       ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams",
-        "copilot"
-      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
+        "iOS"
       ],
       "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
+        "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
-        "General Availability"
+        "General Availability",
+        "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569214",
-      "created": "2026-09-01T22:59:38",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573265",
+      "created": "2026-10-28T23:04:31",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 568931,
-      "title": "OneDrive: Manage access to the OneDrive Photos Desktop experience",
-      "description": "<p>OneDrive is adding administrative controls for the Photos experience on Windows. Organizations can manage whether users sign in with personal Microsoft accounts. These controls help IT teams align OneDrive Photos with their access, data governance, and device-management requirements.</p>",
+      "id": 572683,
+      "title": "OneDrive: Updated placement of the Create or upload button for Web",
+      "description": "<p>OneDrive for the web is updating the placement of the Create or upload button to provide a more consistent file experience across OneDrive and SharePoint. The button will move from the left navigation pane to the right side of the page, bringing familiar navigation from SharePoint document libraries to OneDrive.</p>\n<p>The available options for creating files and folders or uploading content will remain unchanged.</p>",
       "ai_summary": "",
       "status": "Rolling out",
       "status_emoji": "🔵",
@@ -529,10 +472,10 @@
       "status_order": 1,
       "change_type": "status_changed",
       "previous_status": "In development",
-      "previous_ga_date": "August CY2026",
-      "is_delayed": true,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
@@ -546,121 +489,75 @@
         "sharepoint"
       ],
       "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=568931",
-      "created": "2026-08-07T21:45:15",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 567670,
-      "title": "Microsoft Copilot (Microsoft 365): Use Agent 365 agents within Microsoft 365 Copilot Chat and Declarative Agents",
-      "description": "<p>Agents that are published to Agents 365 are already managed in the Microsoft 365 Admin Center. If the agent implements the Agent2Agent protocol, it can be used as a connected agent for the agents that users build in Agent Builder or Copilot Studio.</p>",
-      "ai_summary": "",
-      "status": "Rolling out",
-      "status_emoji": "🔵",
-      "status_color": "#2196F3",
-      "status_order": 1,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "August CY2026",
-      "is_delayed": true,
-      "ga_date": "August CY2026",
-      "ga_date_parsed": "2026-08",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
         "Web"
       ],
       "cloud_instances": [
         "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
-        "General Availability"
+        "General Availability",
+        "Targeted Release"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567670",
-      "created": "2026-07-17T22:12:56",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=572683",
+      "created": "2026-09-30T23:31:03",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 529843,
-      "title": "Microsoft Copilot (Microsoft 365): Suggested References in Copilot Notebooks",
-      "description": "<p>Users can now quickly enrich their Copilot Notebook with relevant Suggested References based on recent user work activity. Update: This roadmap item is no longer accurate and will be removed from the roadmap. We apologize for any inconvenience.</p>",
-      "ai_summary": "",
-      "status": "Cancelled",
-      "status_emoji": "🔴",
-      "status_color": "#F44336",
-      "status_order": 3,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "January CY2026",
-      "is_delayed": false,
-      "ga_date": "January CY2026",
-      "ga_date_parsed": "2026-01",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft 365 app",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [
-        "admin",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=529843",
-      "created": "2025-12-19T23:00:49",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 568932,
-      "title": "Microsoft Teams: Collect information with list form in Workflows",
-      "description": "<p>Starts a workflow with a form to collect the information you need to run the rest of your workflow.</p>",
+      "id": 569475,
+      "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
+      "description": "<p>Enables sharing of agents with other makers in the new Microsoft Copilot harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.</p>",
       "ai_summary": "",
       "status": "Launched",
       "status_emoji": "🟢",
       "status_color": "#4CAF50",
       "status_order": 4,
       "change_type": "status_changed",
-      "previous_status": "Rolling out",
-      "previous_ga_date": "September CY2026",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
       "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "September CY2026",
+      "preview_date_parsed": "2026-09",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569475",
+      "created": "2026-08-27T22:38:48",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 573156,
+      "title": "Microsoft Teams: Start side conversations during meetings",
+      "description": "<p>Keep collaboration moving without disrupting the main discussion. Start and continue one-to-one or small-group conversations directly from a meeting to ask questions, coordinate next steps, share information, and collaborate in parallel while staying engaged in the conversation, reducing context switching and helping teams stay focused and productive.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "November CY2026",
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
       "preview_date": "",
       "preview_date_parsed": null,
       "products": [
@@ -681,151 +578,24 @@
         "Web"
       ],
       "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
       ],
       "release_phases": [
         "General Availability",
         "Targeted Release"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=568932",
-      "created": "2026-08-11T22:53:53",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573156",
+      "created": "2026-10-01T23:00:07",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 569022,
-      "title": "Outlook: Microsoft Purview Label Inheritance from Email Attachments",
-      "description": "<p>When composing an email in Outlook for Mac, Microsoft Purview sensitivity labels can be automatically applied or recommended based on the sensitivity labels of attached files. This helps users consistently protect sensitive information, reduces manual labeling effort, and supports organizational compliance requirements by aligning email protection with the sensitivity of attached content.</p>",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569022",
-      "created": "2026-08-07T21:45:15",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 569021,
-      "title": "Outlook: Purview Label Inheritance from Email Attachment for iOS and Android",
-      "description": "<p>Outlook for iOS and Android will support Microsoft Purview sensitivity label inheritance from attachments. When users attach files with sensitivity labels, Outlook can automatically apply or recommend an email sensitivity label based on organizational policy settings. This helps organizations maintain consistent data classification and protection while reducing manual labeling effort.</p>",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569021",
-      "created": "2026-08-07T21:45:15",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 555240,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Search Helps You Discover People",
-      "description": "<p>Now Copilot Search can return matching people for your broader people search queries. Allowing you to discover, disambiguate, and explore known and new people to contact. Discover Whether you're looking for people with a specific skill like \"Project leadership\" or \"Artificial Intelligence\" Copilot Search can help you explore potential contacts through the People data source. Disambiguate When there are multiple people matching in exact name, email, or alias Copilot Search will help you disambiguate through a new carousel on the main results page alongside other relevant results.</p>",
-      "ai_summary": "",
-      "status": "Launched",
-      "status_emoji": "🟢",
-      "status_color": "#4CAF50",
-      "status_order": 4,
-      "change_type": "status_changed",
-      "previous_status": "Rolling out",
-      "previous_ga_date": "February CY2026",
-      "is_delayed": false,
-      "ga_date": "February CY2026",
-      "ga_date_parsed": "2026-02",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "copilot",
-      "product_category_name": "Copilot",
-      "product_category_emoji": "🤖",
-      "product_category_color": "#7B68EE",
-      "all_categories": [
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555240",
-      "created": "2026-02-06T00:00:51",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 570844,
-      "title": "Microsoft Purview: Unified Classification Management Experience",
-      "description": "<p>The Unified Classification Management Experience unifies every classifier in Microsoft Purview—Sensitive Information Types (SITs), Exact Data Match (EDM), fingerprint SITs, and trainable classifiers—into one place to discover, create, validate, and manage classifiers.</p>",
+      "id": 573239,
+      "title": "Dynamics 365 Field Service: Preserve actual booking End Time when completion is recorded later",
+      "description": "<p><strong>Business value</strong></p>\n<p>Technicians do not always record booking completion at the moment work ends. They may update the booking later because of connectivity, customer-facing responsibilities, or end-of-day administration. When the later administrative action replaces the booking End Time, the recorded duration can extend beyond the work that was actually performed and affect downstream journals, time entries, labor costs, actuals, and work-order completion reporting.</p>\n<p>Field Service administrators can choose whether completion by the booked resource automatically changes the booking End Time. Organizations whose technicians complete bookings later can preserve the existing or explicitly supplied work end, helping booking duration and downstream time and cost records remain aligned with when the work occurred.</p>\n<p><strong>Feature detail</strong></p>\n<p>Use the organization-level <strong>Set End Time on booked resource completion</strong> setting in Field Service settings to control the automatic End Time update.</p>\n<ul>\n<li>With the setting set to <strong>Yes</strong>, which is the default, current behavior is preserved. When the booked resource completes a booking without supplying End Time, Field Service sets End Time to the completion time and recalculates Duration.</li>\n<li>With the setting set to <strong>No</strong>, Field Service preserves End Time and Duration when the booked resource completes the booking unless the completion request explicitly supplies a different End Time.</li>\n<li>Completion by another user or an integration continues to preserve End Time for either setting value.</li>\n</ul>\n<p>When the setting is No and the booked resource completes the booking, Field Service uses the retained or supplied End Time as the effective Completed booking timestamp. This keeps timestamp-derived booking journals and automatic time entries aligned with the recorded work end. Dataverse audit fields continue to show when the completion was submitted.</p>\n<p>The setting applies to future completion transitions and does not rewrite historical bookings. It does not change the booking-status lifecycle, invoice generation, or the existing Work Order Completed On calculation, which continues to use the latest eligible booking End Time.</p>",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -833,12 +603,55 @@
       "status_order": 2,
       "change_type": "date_changed",
       "previous_status": "In development",
-      "previous_ga_date": "November CY2026",
+      "previous_ga_date": "February CY2027",
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "December CY2026",
+      "preview_date_parsed": "2026-12",
+      "products": [
+        "Dynamics 365 Field Service"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573239",
+      "created": "2026-09-30T23:31:03",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 571306,
+      "title": "Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only",
+      "description": "<p>Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
       "is_delayed": false,
       "ga_date": "January CY2027",
       "ga_date_parsed": "2027-01",
-      "preview_date": "October CY2026",
-      "preview_date_parsed": "2026-10",
+      "preview_date": "",
+      "preview_date_parsed": null,
       "products": [
         "Microsoft Purview"
       ],
@@ -856,288 +669,17 @@
         "Worldwide (Standard Multi-Tenant)"
       ],
       "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570844",
-      "created": "2026-09-15T23:00:36",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 569719,
-      "title": "Outlook: Purview DLP Wait-on-Send Support for Mac",
-      "description": "<p>Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with flexible control over the user experience.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
         "General Availability"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569719",
-      "created": "2026-08-24T22:41:12",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571306",
+      "created": "2026-09-18T22:00:04",
+      "modified": "2026-10-28T23:04:31"
     },
     {
-      "id": 569718,
-      "title": "Outlook: Purview DLP Wait-on-Send Support for Outlook mobile apps",
-      "description": "<p>Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with flexible control over the user experience.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Android",
-        "iOS"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569718",
-      "created": "2026-08-24T22:41:12",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 569717,
-      "title": "Outlook: Purview Data Loss Prevention support for Calendar Events in Outlook for Mac",
-      "description": "<p>Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) policies for calendar events. Organizations can detect and help prevent the sharing of sensitive information in meeting subjects, descriptions, and invite content through policy tips, user remediation, and policy enforcement. This provides consistent compliance protection across email and calendar experiences on Mac devices.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "September CY2026",
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "outlook"
-      ],
-      "platforms": [
-        "Mac"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569717",
-      "created": "2026-08-20T22:38:45",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 567007,
-      "title": "Outlook: New Copilot entry point in Classic Outlook",
-      "description": "<p>We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "October CY2026",
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "copilot",
-        "outlook"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "Current Channel",
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567007",
-      "created": "2026-07-22T22:41:54",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 557563,
-      "title": "OneDrive: Improved max path error experience on desktop",
-      "description": "<p>OneDrive desktop sync users now get clearer, more actionable guidance when file paths exceed the supported 520-character limit. The updated experience shows exactly how many characters a path is over the limit and offers a guided flow to rename or move the affected items so they can sync.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "October CY2026",
-      "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "OneDrive"
-      ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
-      "platforms": [
-        "Desktop"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557563",
-      "created": "2026-03-04T00:00:25",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 554934,
-      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
-      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": "date_changed",
-      "previous_status": "In development",
-      "previous_ga_date": "October CY2026",
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Outlook",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "outlook",
-      "product_category_name": "Outlook & Exchange",
-      "product_category_emoji": "📧",
-      "product_category_color": "#0078D4",
-      "all_categories": [
-        "copilot",
-        "outlook"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=554934",
-      "created": "2026-02-05T00:15:27",
-      "modified": "2026-10-27T23:05:02"
-    },
-    {
-      "id": 506743,
-      "title": "Microsoft 365: PAYGO consumption-based meter for your extra SharePoint storage needs",
-      "description": "<p>Use the new PAYGO consumption-based meter to pay for your extra SharePoint storage needs. This reduces the operational overhead associated with purchasing extra storage packs and more seamlessly integrates with Microsoft 365 Archive.</p>",
+      "id": 570648,
+      "title": "Microsoft Teams: Analytics for desk utilization on Teams Pro Management portal",
+      "description": "<p>Teams admins can access utilization analytics for Teams bookable desks on Teams Pro Management portal, similar to analytics provided for meeting rooms on the portal today. For utilization analytics to be enabled, a desk needs to have one or more peripheral device associated, and the desk needs to be licensed with Teams Shared Space license or Teams Shared Space - Single Space license.</p>",
       "ai_summary": "",
       "status": "In development",
       "status_emoji": "🟡",
@@ -1147,20 +689,228 @@
       "previous_status": "In development",
       "previous_ga_date": "November CY2026",
       "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570648",
+      "created": "2026-09-09T22:36:54",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 566864,
+      "title": "Microsoft Edge: Ask Copilot about an image",
+      "description": "<p>Ask Copilot about an image in Edge enables users to instantly analyze images from the web by sending them directly to Copilot from the Edge context menu, making it easy to ask questions, gain insights, and understand visual content without leaving their browsing experience. Admins can control availability to this feature using the EdgeEntraCopilotPageContext and Microsoft365CopilotChatIconEnabled policies.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "October CY2026",
+      "is_delayed": false,
       "ga_date": "January CY2027",
       "ga_date_parsed": "2027-01",
-      "preview_date": "June CY2026",
-      "preview_date_parsed": "2026-06",
+      "preview_date": "",
+      "preview_date_parsed": null,
       "products": [
-        "Microsoft 365"
+        "Microsoft Edge",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "edge-media",
+      "product_category_name": "Edge & Media",
+      "product_category_emoji": "🌐",
+      "product_category_color": "#3C8527",
+      "all_categories": [
+        "edge-media",
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566864",
+      "created": "2026-07-01T23:03:18",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 562992,
+      "title": "Microsoft Purview: Endpoint Data Loss Prevention – Ability to protect files stored in the excluded folders in Windows",
+      "description": "<p>Endpoint DLP now extends protection to files stored in commonly excluded Windows folders, including Temp and AppData. This helps improve coverage by detecting and protecting sensitive data in these locations.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "December CY2026",
+      "is_delayed": false,
+      "ga_date": "February CY2027",
+      "ga_date_parsed": "2027-02",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562992",
+      "created": "2026-05-26T22:45:59",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 490738,
+      "title": "Microsoft 365 Admin Center: Usage reports - Message consumption for Pay-as-you-go experiences in Copilot Chat.",
+      "description": "<p>A new report to help IT admins manage costs for billed messages that are Pay-as-you-go enabled for Copilot Chat. Reporting includes drill down of billed messages per user, per billing policy, per agent-level and agent-user level pair. #copilotcontrolsystem</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "September CY2026",
+      "is_delayed": false,
+      "ga_date": "April CY2027",
+      "ga_date_parsed": "2027-04",
+      "preview_date": "May CY2025",
+      "preview_date_parsed": "2025-05",
+      "products": [
+        "Microsoft 365 Admin Center",
+        "Microsoft Copilot (Microsoft 365)"
       ],
       "product_category": "admin",
       "product_category_name": "Admin & Platform",
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "admin"
+        "admin",
+        "copilot"
       ],
+      "platforms": [],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=490738",
+      "created": "2025-04-23T16:15:28",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 336046,
+      "title": "Microsoft Purview compliance portal: Communication Compliance - Enhanced Policy Conditions",
+      "description": "<p>Three updates are coming to enhance policy conditions. First, our updated policy conditions enable the detection of messages sent and received both to and from external email addresses, allowing you to identify specific instances of information being shared with external contacts. Secondly, with the new OR condition capability, you can combine multiple conditions within the same policy, creating custom logic to suit your unique compliance requirements. Lastly, to make policy creation and updates a seamless process, we've introduced the ability to test conditions before implementing them. By using sample messages, you can evaluate how your conditions will perform and fine-tune them to align with your compliance goals.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "date_changed",
+      "previous_status": "In development",
+      "previous_ga_date": "November CY2025",
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=336046",
+      "created": "2023-12-14T23:30:55",
+      "modified": "2026-10-28T23:04:31"
+    },
+    {
+      "id": 576272,
+      "title": "Copilot Studio: Computer Use for web browsing on Microsoft Copilot Harness",
+      "description": "<p>Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the Microsoft Copilot harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can then use that information and those files alongside other tools to complete end-to-end workflows, extending their reach beyond configured knowledge sources and API-based integrations.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": "updated",
+      "previous_status": "In development",
+      "previous_ga_date": "January CY2027",
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "November CY2026",
+      "preview_date_parsed": "2026-11",
+      "products": [
+        "Microsoft Copilot Studio"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
       "platforms": [
         "Web"
       ],
@@ -1172,9 +922,9 @@
         "Preview"
       ],
       "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=506743",
-      "created": "2025-09-26T22:15:02",
-      "modified": "2026-10-27T23:05:02"
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576272",
+      "created": "2026-10-19T23:15:15",
+      "modified": "2026-10-28T20:19:16"
     },
     {
       "id": 382643,
@@ -1288,8 +1038,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "teams",
-        "admin"
+        "admin",
+        "teams"
       ],
       "platforms": [
         "Desktop"
@@ -3908,8 +3658,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -8188,8 +7938,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -9747,8 +9497,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "viva",
-        "sharepoint"
+        "sharepoint",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -10658,8 +10408,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -11328,6 +11078,182 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567318",
       "created": "2026-07-07T23:01:01",
       "modified": "2026-10-26T23:15:50"
+    },
+    {
+      "id": 570647,
+      "title": "SharePoint: Changes to the FAQ web part authoring experience",
+      "description": "<p>The SharePoint FAQ web part will provide a standard, non-AI experience for manually creating, editing, and managing FAQs. The AI-assisted FAQ creation and import will move to the Copilot in SharePoint authoring experience, where authors can use natural-language prompts and selected grounding sources to generate FAQ content that is saved to the compatible FAQ web part. Existing FAQ web parts and their content will continue to render without migration.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "SharePoint"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570647",
+      "created": "2026-09-09T22:36:54",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569214,
+      "title": "Microsoft Teams: Copilot Chat for chats, channels, calls, and meetings in GCC, GCC High, and DoD",
+      "description": "<p>Copilot Chat will soon be available across chats, channels, calls, and meetings, helping users stay informed and catch up quickly.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "October CY2026",
+      "ga_date_parsed": "2026-10",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams",
+        "copilot"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569214",
+      "created": "2026-09-01T22:59:38",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 568931,
+      "title": "OneDrive: Manage access to the OneDrive Photos Desktop experience",
+      "description": "<p>OneDrive is adding administrative controls for the Photos experience on Windows. Organizations can manage whether users sign in with personal Microsoft accounts. These controls help IT teams align OneDrive Photos with their access, data governance, and device-management requirements.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": true,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "OneDrive"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=568931",
+      "created": "2026-08-07T21:45:15",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 567670,
+      "title": "Microsoft Copilot (Microsoft 365): Use Agent 365 agents within Microsoft 365 Copilot Chat and Declarative Agents",
+      "description": "<p>Agents that are published to Agents 365 are already managed in the Microsoft 365 Admin Center. If the agent implements the Agent2Agent protocol, it can be used as a connected agent for the agents that users build in Agent Builder or Copilot Studio.</p>",
+      "ai_summary": "",
+      "status": "Rolling out",
+      "status_emoji": "🔵",
+      "status_color": "#2196F3",
+      "status_order": 1,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": true,
+      "ga_date": "August CY2026",
+      "ga_date_parsed": "2026-08",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567670",
+      "created": "2026-07-17T22:12:56",
+      "modified": "2026-10-27T23:05:02"
     },
     {
       "id": 396287,
@@ -13446,8 +13372,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -13489,8 +13415,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -13616,8 +13542,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -16411,49 +16337,6 @@
       "modified": "2025-09-22T23:00:43"
     },
     {
-      "id": 336046,
-      "title": "Microsoft Purview compliance portal: Communication Compliance - Enhanced Policy Conditions",
-      "description": "Three updates are coming to enhance policy conditions. First, our updated policy conditions enable the detection of messages sent and received both to and from external email addresses, allowing you to identify specific instances of information being shared with external contacts. Secondly, with the new OR condition capability, you can combine multiple conditions within the same policy, creating custom logic to suit your unique compliance requirements. Lastly, to make policy creation and updates a seamless process, we've introduced the ability to test conditions before implementing them. By using sample messages, you can evaluate how your conditions will perform and fine-tune them to align with your compliance goals.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "November CY2025",
-      "ga_date_parsed": "2025-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=336046",
-      "created": "2023-12-14T23:30:55",
-      "modified": "2025-09-23T23:15:02"
-    },
-    {
       "id": 502551,
       "title": "Microsoft Purview compliance portal: Unique Counting of EDM Matches",
       "description": "Providing a new mode to count EDM Matches where each row is counted once in addition to the current behavior where each primary element is counted once",
@@ -16605,8 +16488,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -18848,8 +18731,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "viva",
-        "sharepoint"
+        "sharepoint",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -19355,8 +19238,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -20603,48 +20486,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558940",
       "created": "2026-03-23T23:15:39",
-      "modified": "2026-03-23T23:15:39"
-    },
-    {
-      "id": 490738,
-      "title": "Microsoft 365 Admin Center: Usage reports - Message consumption for Pay-as-you-go experiences in Copilot Chat.",
-      "description": "A new report to help IT admins manage costs for billed messages that are Pay-as-you-go enabled for Copilot Chat. Reporting includes drill down of billed messages per user, per billing policy, per agent-level and agent-user level pair. #copilotcontrolsystem",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": true,
-      "ga_date": "September CY2026",
-      "ga_date_parsed": "2026-09",
-      "preview_date": "May CY2025",
-      "preview_date_parsed": "2025-05",
-      "products": [
-        "Microsoft 365 Admin Center",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [
-        "admin",
-        "copilot"
-      ],
-      "platforms": [],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=490738",
-      "created": "2025-04-23T16:15:28",
       "modified": "2026-03-23T23:15:39"
     },
     {
@@ -25763,8 +25604,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "viva",
-        "sharepoint"
+        "sharepoint",
+        "viva"
       ],
       "platforms": [
         "Desktop"
@@ -28292,46 +28133,6 @@
       "modified": "2026-08-27T22:38:48"
     },
     {
-      "id": 569475,
-      "title": "Microsoft Copilot Studio: Agent Sharing amongst makers",
-      "description": "Enables sharing of agents with other makers in the new GHCP harness. Makers can grant other makers Agent Viewer (view analytics/evaluations only) or Editor (view, edit, configure, share, publish) access to an agent, with auto-assigned security roles.",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "September CY2026",
-      "preview_date_parsed": "2026-09",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569475",
-      "created": "2026-08-27T22:38:48",
-      "modified": "2026-08-28T17:54:55"
-    },
-    {
       "id": 519573,
       "title": "Universal Print: audit logging",
       "description": "I can access Universal Print audit records of key administrator and user activities, such as print job submissions, configuration changes, and printer registrations. Audit records will be available in Microsoft Purview’s Unified Audit Log for compliance and long-term record-keeping. ",
@@ -29491,8 +29292,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -30056,47 +29857,6 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571199",
       "created": "2026-09-14T23:03:47",
-      "modified": "2026-09-14T23:03:47"
-    },
-    {
-      "id": 562992,
-      "title": "Microsoft Purview: Endpoint Data Loss Prevention – Ability to protect files stored in the excluded folders in Windows",
-      "description": "<p>Endpoint DLP now extends protection to files stored in commonly excluded Windows folders, including Temp and AppData. This helps improve coverage by detecting and protecting sensitive data in these locations.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "December CY2026",
-      "ga_date_parsed": "2026-12",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=562992",
-      "created": "2026-05-26T22:45:59",
       "modified": "2026-09-14T23:03:47"
     },
     {
@@ -31060,49 +30820,6 @@
       "modified": "2026-09-17T23:00:45"
     },
     {
-      "id": 566864,
-      "title": "Microsoft Edge: Ask Copilot about an image",
-      "description": "<p>Ask Copilot about an image in Edge enables users to instantly analyze images from the web by sending them directly to Copilot from the Edge context menu, making it easy to ask questions, gain insights, and understand visual content without leaving their browsing experience. Admins can control availability to this feature using the EdgeEntraCopilotPageContext and Microsoft365CopilotChatIconEnabled policies.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Edge",
-        "Microsoft Copilot (Microsoft 365)"
-      ],
-      "product_category": "edge-media",
-      "product_category_name": "Edge & Media",
-      "product_category_emoji": "🌐",
-      "product_category_color": "#3C8527",
-      "all_categories": [
-        "edge-media",
-        "copilot"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=566864",
-      "created": "2026-07-01T23:03:18",
-      "modified": "2026-09-17T23:00:45"
-    },
-    {
       "id": 554938,
       "title": "Microsoft Edge: Enhanced Autofill",
       "description": "<p>For desktop users, Microsoft Edge can now autofill additional document types—including passports, driver’s licenses, and other specialized forms—on top of your saved addresses.</p>",
@@ -31350,47 +31067,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571307",
-      "created": "2026-09-18T22:00:04",
-      "modified": "2026-09-18T22:00:04"
-    },
-    {
-      "id": 571306,
-      "title": "Microsoft Purview: Data Lifecycle Management-Legacy Teams retention policies covering Copilot will be treated as Teams-only",
-      "description": "<p>Some existing retention policies scoped to Microsoft Teams may currently also apply to Microsoft 365 Copilot interactions. As part of an upcoming change, these legacy Teams retention policies will be converted to—and treated as—Teams-only policies. They will no longer implicitly govern Copilot workloads.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Purview"
-      ],
-      "product_category": "purview",
-      "product_category_name": "Purview & Security",
-      "product_category_emoji": "🛡️",
-      "product_category_color": "#E74856",
-      "all_categories": [
-        "purview"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571306",
       "created": "2026-09-18T22:00:04",
       "modified": "2026-09-18T22:00:04"
     },
@@ -32195,47 +31871,6 @@
       ],
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570843",
-      "created": "2026-09-09T22:36:54",
-      "modified": "2026-09-22T22:57:16"
-    },
-    {
-      "id": 570648,
-      "title": "Microsoft Teams: Analytics for desk utilization on Teams Pro Management portal",
-      "description": "<p>Teams admins can access utilization analytics for Teams bookable desks on Teams Pro Management portal, similar to analytics provided for meeting rooms on the portal today. For utilization analytics to be enabled, a desk needs to have one or more peripheral device associated, and the desk needs to be licensed with Teams Shared Space license or Teams Shared Space - Single Space license.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570648",
       "created": "2026-09-09T22:36:54",
       "modified": "2026-09-22T22:57:16"
     },
@@ -34700,90 +34335,6 @@
       "modified": "2026-09-30T23:31:03"
     },
     {
-      "id": 573239,
-      "title": "Dynamics 365 Field Service: Preserve actual booking End Time when completion is recorded later",
-      "description": "<p><strong>Business value</strong></p>\n<p>Technicians do not always record booking completion at the moment work ends. They may update the booking later because of connectivity, customer-facing responsibilities, or end-of-day administration. When the later administrative action replaces the booking End Time, the recorded duration can extend beyond the work that was actually performed and affect downstream journals, time entries, labor costs, actuals, and work-order completion reporting.</p>\n<p>Field Service administrators can choose whether completion by the booked resource automatically changes the booking End Time. Organizations whose technicians complete bookings later can preserve the existing or explicitly supplied work end, helping booking duration and downstream time and cost records remain aligned with when the work occurred.</p>\n<p><strong>Feature detail</strong></p>\n<p>Use the organization-level <strong>Set End Time on booked resource completion</strong> setting in Field Service settings to control the automatic End Time update.</p>\n<ul>\n<li>With the setting set to <strong>Yes</strong>, which is the default, current behavior is preserved. When the booked resource completes a booking without supplying End Time, Field Service sets End Time to the completion time and recalculates Duration.</li>\n<li>With the setting set to <strong>No</strong>, Field Service preserves End Time and Duration when the booked resource completes the booking unless the completion request explicitly supplies a different End Time.</li>\n<li>Completion by another user or an integration continues to preserve End Time for either setting value.</li>\n</ul>\n<p>When the setting is No and the booked resource completes the booking, Field Service uses the retained or supplied End Time as the effective Completed booking timestamp. This keeps timestamp-derived booking journals and automatic time entries aligned with the recorded work end. Dataverse audit fields continue to show when the completion was submitted.</p>\n<p>The setting applies to future completion transitions and does not rewrite historical bookings. It does not change the booking-status lifecycle, invoice generation, or the existing Work Order Completed On calculation, which continues to use the latest eligible booking End Time.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "February CY2027",
-      "ga_date_parsed": "2027-02",
-      "preview_date": "October CY2026",
-      "preview_date_parsed": "2026-10",
-      "products": [
-        "Dynamics 365 Field Service"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573239",
-      "created": "2026-09-30T23:31:03",
-      "modified": "2026-09-30T23:31:03"
-    },
-    {
-      "id": 572683,
-      "title": "OneDrive: Updated placement of the Create or upload button for Web",
-      "description": "<p>OneDrive for the web is updating the placement of the Create or upload button to provide a more consistent file experience across OneDrive and SharePoint. The button will move from the left navigation pane to the right side of the page, bringing familiar navigation from SharePoint document libraries to OneDrive.</p>\n<p>The available options for creating files and folders or uploading content will remain unchanged.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "October CY2026",
-      "ga_date_parsed": "2026-10",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "OneDrive"
-      ],
-      "product_category": "sharepoint",
-      "product_category_name": "SharePoint & OneDrive",
-      "product_category_emoji": "📂",
-      "product_category_color": "#038387",
-      "all_categories": [
-        "sharepoint"
-      ],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=572683",
-      "created": "2026-09-30T23:31:03",
-      "modified": "2026-09-30T23:31:03"
-    },
-    {
       "id": 571678,
       "title": "Dynamics 365 Customer Service: Service tools, skills and plugins are now available for Cowork, Code and Scout",
       "description": "<p>The updated Service application brings Dynamics 365 Customer Service context, actions, and guided workflows into supported Copilot experiences, including Chat, Cowork, Code, and Scout. Customer service teams can work with service information and take supported actions in the flow of work, reducing the need to switch to Dynamics 365.</p>\n<p>First-party tools delivered through the Service package on Dynamics 365 MCP respect Dynamics 365 business logic and the user's existing permissions on each call. The package provides a governed foundation for the supported tools and skills. Availability is tracked separately for each experience.</p>",
@@ -35795,55 +35346,6 @@
       "modified": "2026-10-02T22:01:21"
     },
     {
-      "id": 573156,
-      "title": "Microsoft Teams: Start side conversations during meetings",
-      "description": "<p>Keep collaboration moving without disrupting the main discussion. Start and continue one-to-one or small-group conversations directly from a meeting to ask questions, coordinate next steps, share information, and collaborate in parallel while staying engaged in the conversation, reducing context switching and helping teams stay focused and productive.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "November CY2026",
-      "ga_date_parsed": "2026-11",
-      "preview_date": "",
-      "preview_date_parsed": null,
-      "products": [
-        "Microsoft Teams"
-      ],
-      "product_category": "teams",
-      "product_category_name": "Teams",
-      "product_category_emoji": "💬",
-      "product_category_color": "#6264A7",
-      "all_categories": [
-        "teams"
-      ],
-      "platforms": [
-        "Android",
-        "Desktop",
-        "iOS",
-        "Mac",
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)",
-        "GCC",
-        "GCC High",
-        "DoD"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Targeted Release"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=573156",
-      "created": "2026-10-01T23:00:07",
-      "modified": "2026-10-02T22:01:21"
-    },
-    {
       "id": 552598,
       "title": "Microsoft Edge: Improvements to site permissions user interfaces",
       "description": "<p>To better align with user expectations, site permissions are changing to look and work both in context on a website that is requesting permissions and when navigating to permissions from Settings. On a website that is requesting permissions, there are changes to the Omnibox and the Page Info dialog and permissions will be easier to see and modify in Settings.</p>",
@@ -36085,8 +35587,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "teams",
-        "admin"
+        "admin",
+        "teams"
       ],
       "platforms": [
         "Desktop",
@@ -36212,8 +35714,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -38074,8 +37576,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -39688,8 +39190,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -40547,8 +40049,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -43598,46 +43100,6 @@
       "modified": "2026-10-19T23:15:15"
     },
     {
-      "id": 576272,
-      "title": "Copilot Studio: Computer Use for web browsing on GitHub Copilot Harness",
-      "description": "<p>Enable Microsoft Copilot Studio agents to browse and interact with websites as a native capability powered by the GitHub Copilot Harness. Using natural-language instructions, agents can navigate web pages, extract information, and download files. Agents can then use that information and those files alongside other tools to complete end-to-end workflows, extending their reach beyond configured knowledge sources and API-based integrations.</p>",
-      "ai_summary": "",
-      "status": "In development",
-      "status_emoji": "🟡",
-      "status_color": "#FF9800",
-      "status_order": 2,
-      "change_type": null,
-      "previous_status": null,
-      "previous_ga_date": null,
-      "is_delayed": false,
-      "ga_date": "January CY2027",
-      "ga_date_parsed": "2027-01",
-      "preview_date": "November CY2026",
-      "preview_date_parsed": "2026-11",
-      "products": [
-        "Microsoft Copilot Studio"
-      ],
-      "product_category": "admin",
-      "product_category_name": "Admin & Platform",
-      "product_category_emoji": "⚙️",
-      "product_category_color": "#5C2D91",
-      "all_categories": [],
-      "platforms": [
-        "Web"
-      ],
-      "cloud_instances": [
-        "Worldwide (Standard Multi-Tenant)"
-      ],
-      "release_phases": [
-        "General Availability",
-        "Preview"
-      ],
-      "more_info_link": null,
-      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576272",
-      "created": "2026-10-19T23:15:15",
-      "modified": "2026-10-19T23:15:15"
-    },
-    {
       "id": 574128,
       "title": "Dynamics 365 Business Central: Ecommerce - [US] Match Shopify tax lines to tax jurisdictions",
       "description": "<h2>Business Value</h2>\n<p>Reduce repetitive tax setup when you import Shopify orders that contain multiple United States tax jurisdictions. Shopify Tax Matching suggests how free-text tax lines map to configured tax jurisdictions and keeps you in control of exceptions before you create sales documents.</p>\n<h2>Details</h2>\n<p>The Shopify Tax Matching capability is available in public preview for organizations in the United States that use the Shopify connector. When standard tax-area mapping doesn't resolve an imported order, the capability uses AI to suggest tax jurisdictions based on Shopify tax-line titles and rates, configured tax jurisdictions, and limited ship-to location information.</p>\n<p>You can review each suggestion, confidence level, explanation, and rate before approving the final mapping. Configure which matches require review and whether the capability can create missing tax jurisdictions and tax areas. Unidentified jurisdictions and rate differences always require review.</p>\n<p>Shopify Tax Matching maps imported tax descriptions to tax setup. It doesn't calculate tax, determine tax liability, file tax returns, or replace professional tax advice.</p>",
@@ -44691,8 +44153,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -44782,8 +44244,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -46067,8 +45529,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "teams",
-        "admin"
+        "admin",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -46114,8 +45576,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "teams",
-        "admin"
+        "admin",
+        "teams"
       ],
       "platforms": [
         "Android",
@@ -48816,6 +48278,336 @@
       "modified": "2026-10-26T23:15:50"
     },
     {
+      "id": 577869,
+      "title": "Power Automate: AI-assisted UI Automation repair",
+      "description": "<p>A new agentic debug run feature will be available in the flow designer. The UI automation repair interface launches while the flow is running, validating each selector used in the flow. It then proposes a new selector in case an existing one does not work as expected, after the user captures the respective element for reference.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "March CY2027",
+      "ga_date_parsed": "2027-03",
+      "preview_date": "July CY2026",
+      "preview_date_parsed": "2026-07",
+      "products": [
+        "Power Automate",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577869",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 577859,
+      "title": "Power Pages: Track Power Pages performance and usage with monitor hub",
+      "description": "<p>Power Pages is integrated into the monitor hub. This integration empowers site owners, makers, and administrators to access performance and usage insights directly within the monitor hub of the Power Platform admin center.</p>\n<p><strong>Metrics available</strong></p>\n<p>The following metrics will be surfaced in monitor hub:<br>\n•\t<strong>Session count</strong>: Tracks the number of sessions.<br>\n•\t<strong>Session duration:</strong> Measures the average time spent in a session.<br>\n•\t<strong>Page load time:</strong> Captures the time it takes for a web page to fully load (P75).<br>\n•\t<strong>Error rate</strong>: Measures the percentage of requests where pages become unresponsive or return component-level errors.<br>\n<strong>Additional capabilities</strong><br>\nAdditional capabilities include trend visualization and the ability to download detailed reports for further analysis</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "Power Pages"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577859",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 577841,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot app mode handoffs",
+      "description": "<p>The Chat experience in the Copilot app will suggest a better-fit mode based on the user's prompt, if applicable. For example, it will suggest Cowork or other supported modes as they become available. Users will see a suggestion card after they send a prompt in Chat, with an explanation of the better-fit mode and an option for the user to switch to the suggested mode. Their chat conversation will be attached to the prompt in the new mode to maintain context.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577841",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 577180,
+      "title": "Microsoft Edge: Allow users to translate PDF documents into their preferred language",
+      "description": "<p>Users will be able to translate full PDF documents directly within the native PDF viewer in Microsoft Edge. The translated document opens in a new tab, making it easier to access content in their preferred language.  Admins can control availability to this feature using the TranslateEnabled policy.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Edge"
+      ],
+      "product_category": "edge-media",
+      "product_category_name": "Edge & Media",
+      "product_category_emoji": "🌐",
+      "product_category_color": "#3C8527",
+      "all_categories": [
+        "edge-media"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577180",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 577176,
+      "title": "Microsoft Teams: Decline a call with a message on Mobile",
+      "description": "<p>Users can quickly decline an incoming Teams call and send a predefined message to the caller at the same time. From the incoming call screen, users can select a message such as letting the caller know they're unavailable or will call back, providing helpful context without having to answer the call or separately open a chat.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "December CY2026",
+      "ga_date_parsed": "2026-12",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=577176",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 576277,
+      "title": "Microsoft Viva: Insights and Copilot Analytics in DoD",
+      "description": "<p>Microsoft Viva Insights and Copilot Analytics are coming to the Microsoft 365 Department of Defense (DoD) environment, providing eligible organizations with privacy-protected, role-based analytics experiences to help them understand Microsoft 365 Copilot adoption, usage, and impact. Viva Insights also provides data-driven behavioral insights into how employees collaborate, helping organizations improve productivity and wellbeing within the DoD environment.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Viva"
+      ],
+      "product_category": "viva",
+      "product_category_name": "Viva",
+      "product_category_emoji": "🏢",
+      "product_category_color": "#6C33A3",
+      "all_categories": [
+        "viva"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576277",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 575275,
+      "title": "Microsoft Contact Center Intelligence: Knowledge",
+      "description": "<p>Knowledge sources ground your agent's responses in enterprise data. When you add knowledge sources, agents can use enterprise data from Power Platform, Dynamics 365 data, websites, and external systems. By using knowledge sources, your agents can provide relevant information and insights for your customers.</p>\n<p>You can incorporate knowledge sources into agents during their initial creation, or add them after the agent is created.</p>\n<p>Published agents that contain knowledge use the configured knowledge sources to ground the published agent. You can incorporate knowledge at the agent level, in the Knowledge page, or at the topic level, with a generative answers node in an agent topic.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "Microsoft Contact Center Intelligence"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=575275",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 571679,
+      "title": "Dynamics 365 Supply Chain Management: Improve rental operations and fulfillment",
+      "description": "<p>As organizations expand beyond one-time asset sales to rental, leasing, and servitization business models, new rental management capabilities help them manage and monetize the assets they build, own, and operate throughout the rental lifecycle. In Dynamics 365 Supply Chain Management, organizations can manage availability and reservations, fulfillment, delivery and pickup, inspections, and returns. These capabilities can help improve fleet utilization, reduce idle time, and streamline the movement of fleet items between locations, jobsites, and customers. Together, connected rental processes across supply chain, service, and finance can help organizations reduce operational costs, improve asset utilization, and generate value throughout the life of an asset.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "August CY2027",
+      "ga_date_parsed": "2027-08",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "Dynamics 365 Field Service",
+        "Dynamics 365 Finance",
+        "Dynamics 365 Supply Chain Management"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=571679",
+      "created": "2026-10-27T23:05:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
       "id": 577174,
       "title": "Microsoft Teams: Workflow to automatically add tag members to relevant channels",
       "description": "<p>Associate channels with a tag so members are automatically added to those channels when they join the tag. This helps teams keep channel membership in sync with evolving groups, reduces manual management, and ensures members have access to the conversations and content most relevant to their role.</p>",
@@ -48906,6 +48698,360 @@
       "more_info_link": null,
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=576198",
       "created": "2026-10-14T23:01:02",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 570844,
+      "title": "Microsoft Purview: Unified Classification Management Experience",
+      "description": "<p>The Unified Classification Management Experience unifies every classifier in Microsoft Purview—Sensitive Information Types (SITs), Exact Data Match (EDM), fingerprint SITs, and trainable classifiers—into one place to discover, create, validate, and manage classifiers.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "October CY2026",
+      "preview_date_parsed": "2026-10",
+      "products": [
+        "Microsoft Purview"
+      ],
+      "product_category": "purview",
+      "product_category_name": "Purview & Security",
+      "product_category_emoji": "🛡️",
+      "product_category_color": "#E74856",
+      "all_categories": [
+        "purview"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=570844",
+      "created": "2026-09-15T23:00:36",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569719,
+      "title": "Outlook: Purview DLP Wait-on-Send Support for Mac",
+      "description": "<p>Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with flexible control over the user experience.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569719",
+      "created": "2026-08-24T22:41:12",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569718,
+      "title": "Outlook: Purview DLP Wait-on-Send Support for Outlook mobile apps",
+      "description": "<p>Outlook for iOS and Android will support Microsoft Purview Data Loss Prevention (DLP) wait-on-send policies. Organizations can require a DLP evaluation before an email is sent and configure how long users must wait for policy evaluation to complete. This helps ensure sensitive information is inspected against organizational policies before messages leave the organization while providing administrators with flexible control over the user experience.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569718",
+      "created": "2026-08-24T22:41:12",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569717,
+      "title": "Outlook: Purview Data Loss Prevention support for Calendar Events in Outlook for Mac",
+      "description": "<p>Outlook for Mac will support Microsoft Purview Data Loss Prevention (DLP) policies for calendar events. Organizations can detect and help prevent the sharing of sensitive information in meeting subjects, descriptions, and invite content through policy tips, user remediation, and policy enforcement. This provides consistent compliance protection across email and calendar experiences on Mac devices.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569717",
+      "created": "2026-08-20T22:38:45",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 567007,
+      "title": "Outlook: New Copilot entry point in Classic Outlook",
+      "description": "<p>We've introduced a new experience for Copilot in the apps—a consistent entry point across apps that sits above your work and understands the context beneath it. Rather than scattering touchpoints across the interface, it anchors Copilot as one connected system across Microsoft 365, surfacing relevant actions that help you stay in flow. With this release, we are rolling out this new experience - already available across other Outlook endpoints, as well as in Word, Excel and PowerPoint - to classic Outlook.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "copilot",
+        "outlook"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "Current Channel",
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=567007",
+      "created": "2026-07-22T22:41:54",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 557563,
+      "title": "OneDrive: Improved max path error experience on desktop",
+      "description": "<p>OneDrive desktop sync users now get clearer, more actionable guidance when file paths exceed the supported 520-character limit. The updated experience shows exactly how many characters a path is over the limit and offers a guided flow to rename or move the affected items so they can sync.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "OneDrive"
+      ],
+      "product_category": "sharepoint",
+      "product_category_name": "SharePoint & OneDrive",
+      "product_category_emoji": "📂",
+      "product_category_color": "#038387",
+      "all_categories": [
+        "sharepoint"
+      ],
+      "platforms": [
+        "Desktop"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=557563",
+      "created": "2026-03-04T00:00:25",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 554934,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Chat in Outlook expands to reason over inbox, calendar, and enterprise data",
+      "description": "<p>Copilot Chat in Outlook expanding to support reasoning over a user's entire inbox, calendar and other enterprise data for Microsoft 365 Copilot Chat users (without a Microsoft 365 Copilot license) .</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "November CY2026",
+      "ga_date_parsed": "2026-11",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "copilot",
+        "outlook"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=554934",
+      "created": "2026-02-05T00:15:27",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 506743,
+      "title": "Microsoft 365: PAYGO consumption-based meter for your extra SharePoint storage needs",
+      "description": "<p>Use the new PAYGO consumption-based meter to pay for your extra SharePoint storage needs. This reduces the operational overhead associated with purchasing extra storage packs and more seamlessly integrates with Microsoft 365 Archive.</p>",
+      "ai_summary": "",
+      "status": "In development",
+      "status_emoji": "🟡",
+      "status_color": "#FF9800",
+      "status_order": 2,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2027",
+      "ga_date_parsed": "2027-01",
+      "preview_date": "June CY2026",
+      "preview_date_parsed": "2026-06",
+      "products": [
+        "Microsoft 365"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [
+        "admin"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Preview"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=506743",
+      "created": "2025-09-26T22:15:02",
       "modified": "2026-10-27T23:05:02"
     },
     {
@@ -49208,6 +49354,49 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=558595",
       "created": "2026-03-30T23:00:38",
       "modified": "2026-10-26T23:15:50"
+    },
+    {
+      "id": 529843,
+      "title": "Microsoft Copilot (Microsoft 365): Suggested References in Copilot Notebooks",
+      "description": "<p>Users can now quickly enrich their Copilot Notebook with relevant Suggested References based on recent user work activity. Update: This roadmap item is no longer accurate and will be removed from the roadmap. We apologize for any inconvenience.</p>",
+      "ai_summary": "",
+      "status": "Cancelled",
+      "status_emoji": "🔴",
+      "status_color": "#F44336",
+      "status_order": 3,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "January CY2026",
+      "ga_date_parsed": "2026-01",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft 365 app",
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "admin",
+      "product_category_name": "Admin & Platform",
+      "product_category_emoji": "⚙️",
+      "product_category_color": "#5C2D91",
+      "all_categories": [
+        "admin",
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=529843",
+      "created": "2025-12-19T23:00:49",
+      "modified": "2026-10-27T23:05:02"
     },
     {
       "id": 506753,
@@ -49794,8 +49983,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "iOS"
@@ -49837,8 +50026,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "iOS",
@@ -50181,8 +50370,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Teams and Surface Devices",
@@ -50517,8 +50706,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -50606,8 +50795,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -51256,8 +51445,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -51764,8 +51953,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "iOS"
@@ -53081,8 +53270,8 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -53506,8 +53695,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -57408,8 +57597,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "intune",
-        "admin"
+        "admin",
+        "intune"
       ],
       "platforms": [
         "Desktop"
@@ -58169,8 +58358,8 @@
       "product_category_emoji": "📂",
       "product_category_color": "#038387",
       "all_categories": [
-        "viva",
-        "sharepoint"
+        "sharepoint",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -59027,8 +59216,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Desktop",
@@ -60797,8 +60986,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Teams and Surface Devices",
@@ -61991,8 +62180,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -62035,8 +62224,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -62346,8 +62535,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -62990,8 +63179,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -64494,8 +64683,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -65140,9 +65329,9 @@
       "product_category_emoji": "🤖",
       "product_category_color": "#7B68EE",
       "all_categories": [
-        "outlook",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "outlook"
       ],
       "platforms": [
         "Desktop",
@@ -65530,8 +65719,8 @@
       "product_category_color": "#3C8527",
       "all_categories": [
         "edge-media",
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -66007,8 +66196,8 @@
       "product_category_emoji": "🛡️",
       "product_category_color": "#E74856",
       "all_categories": [
-        "purview",
-        "copilot"
+        "copilot",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -69889,8 +70078,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -71068,8 +71257,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -71283,8 +71472,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "purview",
-        "office-apps"
+        "office-apps",
+        "purview"
       ],
       "platforms": [
         "Web"
@@ -71716,8 +71905,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -72187,8 +72376,8 @@
       "product_category_emoji": "⚙️",
       "product_category_color": "#5C2D91",
       "all_categories": [
-        "viva",
-        "admin"
+        "admin",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -73236,8 +73425,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -73618,8 +73807,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -74142,10 +74331,10 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "purview",
         "admin",
         "copilot",
-        "office-apps"
+        "office-apps",
+        "purview"
       ],
       "platforms": [
         "Android",
@@ -74671,8 +74860,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -74930,8 +75119,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -75101,8 +75290,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "viva",
-        "teams"
+        "teams",
+        "viva"
       ],
       "platforms": [
         "Android",
@@ -79175,8 +79364,8 @@
       "product_category_emoji": "💬",
       "product_category_color": "#6264A7",
       "all_categories": [
-        "teams",
-        "admin"
+        "admin",
+        "teams"
       ],
       "platforms": [
         "Desktop",
@@ -79479,8 +79668,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -80033,8 +80222,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -80292,8 +80481,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -80728,8 +80917,8 @@
       "product_category_emoji": "🏢",
       "product_category_color": "#6C33A3",
       "all_categories": [
-        "viva",
-        "copilot"
+        "copilot",
+        "viva"
       ],
       "platforms": [
         "Web"
@@ -85697,8 +85886,8 @@
       "product_category_emoji": "📊",
       "product_category_color": "#D83B01",
       "all_categories": [
-        "purview",
-        "office-apps"
+        "office-apps",
+        "purview"
       ],
       "platforms": [
         "Android",
@@ -94038,6 +94227,182 @@
       "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=545896",
       "created": "2026-01-09T00:00:20",
       "modified": "2026-10-26T23:15:50"
+    },
+    {
+      "id": 568932,
+      "title": "Microsoft Teams: Collect information with list form in Workflows",
+      "description": "<p>Starts a workflow with a form to collect the information you need to run the rest of your workflow.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Teams"
+      ],
+      "product_category": "teams",
+      "product_category_name": "Teams",
+      "product_category_emoji": "💬",
+      "product_category_color": "#6264A7",
+      "all_categories": [
+        "teams"
+      ],
+      "platforms": [
+        "Android",
+        "Desktop",
+        "iOS",
+        "Mac",
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability",
+        "Targeted Release"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=568932",
+      "created": "2026-08-11T22:53:53",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569022,
+      "title": "Outlook: Microsoft Purview Label Inheritance from Email Attachments",
+      "description": "<p>When composing an email in Outlook for Mac, Microsoft Purview sensitivity labels can be automatically applied or recommended based on the sensitivity labels of attached files. This helps users consistently protect sensitive information, reduces manual labeling effort, and supports organizational compliance requirements by aligning email protection with the sensitivity of attached content.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Mac"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569022",
+      "created": "2026-08-07T21:45:15",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 569021,
+      "title": "Outlook: Purview Label Inheritance from Email Attachment for iOS and Android",
+      "description": "<p>Outlook for iOS and Android will support Microsoft Purview sensitivity label inheritance from attachments. When users attach files with sensitivity labels, Outlook can automatically apply or recommend an email sensitivity label based on organizational policy settings. This helps organizations maintain consistent data classification and protection while reducing manual labeling effort.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "September CY2026",
+      "ga_date_parsed": "2026-09",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Outlook"
+      ],
+      "product_category": "outlook",
+      "product_category_name": "Outlook & Exchange",
+      "product_category_emoji": "📧",
+      "product_category_color": "#0078D4",
+      "all_categories": [
+        "outlook"
+      ],
+      "platforms": [
+        "Android",
+        "iOS"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)",
+        "GCC",
+        "GCC High",
+        "DoD"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=569021",
+      "created": "2026-08-07T21:45:15",
+      "modified": "2026-10-27T23:05:02"
+    },
+    {
+      "id": 555240,
+      "title": "Microsoft Copilot (Microsoft 365): Copilot Search Helps You Discover People",
+      "description": "<p>Now Copilot Search can return matching people for your broader people search queries. Allowing you to discover, disambiguate, and explore known and new people to contact. Discover Whether you're looking for people with a specific skill like \"Project leadership\" or \"Artificial Intelligence\" Copilot Search can help you explore potential contacts through the People data source. Disambiguate When there are multiple people matching in exact name, email, or alias Copilot Search will help you disambiguate through a new carousel on the main results page alongside other relevant results.</p>",
+      "ai_summary": "",
+      "status": "Launched",
+      "status_emoji": "🟢",
+      "status_color": "#4CAF50",
+      "status_order": 4,
+      "change_type": null,
+      "previous_status": null,
+      "previous_ga_date": null,
+      "is_delayed": false,
+      "ga_date": "February CY2026",
+      "ga_date_parsed": "2026-02",
+      "preview_date": "",
+      "preview_date_parsed": null,
+      "products": [
+        "Microsoft Copilot (Microsoft 365)"
+      ],
+      "product_category": "copilot",
+      "product_category_name": "Copilot",
+      "product_category_emoji": "🤖",
+      "product_category_color": "#7B68EE",
+      "all_categories": [
+        "copilot"
+      ],
+      "platforms": [
+        "Web"
+      ],
+      "cloud_instances": [
+        "Worldwide (Standard Multi-Tenant)"
+      ],
+      "release_phases": [
+        "General Availability"
+      ],
+      "more_info_link": null,
+      "roadmap_url": "https://www.microsoft.com/microsoft-365/roadmap?id=555240",
+      "created": "2026-02-06T00:00:51",
+      "modified": "2026-10-27T23:05:02"
     }
   ]
 }
