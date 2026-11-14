@@ -1,5 +1,109 @@
 [
   {
+    "id": 579917,
+    "title": "Dynamics 365 Project Operations: Enable caching of role prices when pricing estimates",
+    "description": "<p>Project Operations calculates cost and sales estimates for resource assignments, including daily, time-phased estimates. These calculations can repeatedly use the same role-pricing information across assignments and dates.</p>\n<p>With this feature enabled, Project Operations caches and reuses applicable role prices, markups, and price overrides within each estimate-pricing operation. This reduces repeated pricing lookups, helping improve responsiveness when calculating or updating estimates, particularly for larger projects.</p>\n<p>The cache is scoped to the pricing operation and is recreated for subsequent operations. The feature is intended to improve performance without changing pricing rules or calculated results.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 579915,
+    "title": "Dynamics 365 Project Operations: Cancel actual from entry journals",
+    "description": "<p>The <strong>Entry Journal Actual Cancellation</strong> feature enables users to cancel actuals created by confirming entry journals. Users select eligible actuals, review them in a system-generated correction journal, and confirm the journal to create reversing actuals. The original actuals are marked <strong>Adjusted</strong>, preserving the original transactions and their reversal history rather than deleting them.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 580452,
+    "title": "Microsoft Teams: Chat for organizers and presenters in structured meetings and webinars in GCC High and DoD",
+    "description": "<p>Organizers, co-organizers, and presenters can chat privately in a separate chat from attendees. This chat is available to access before, during, and after the event.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 579980,
+    "title": "Dynamics 365 Business Central: Copilot and agents - Fill forms faster with Autofill - Auto paste",
+    "description": "<p>Save time entering information into Business Central with Auto paste. Building on Autofill, Auto paste uses AI to identify relevant information from text or HTML copied to your clipboard and map it to the appropriate fields on a Business Central page.</p>\n<p><strong>Benefits</strong></p>\n<p>Reduce manual data entry when bringing information from external sources into Business Central.<br>\nPopulate multiple relevant fields from copied content instead of copying and pasting individual values.<br>\nExtend AI-assisted data entry to more everyday Business Central workflows.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "April CY2027",
+    "publicPreviewDate": "December CY2026"
+  },
+  {
+    "id": 579973,
+    "title": "Dynamics 365 Project Operations: Enable multiple addresses for accounts",
+    "description": "<p>Enable multiple addresses for customer accounts and use the appropriate invoice and delivery addresses across project quotations, project contracts, and project invoices. Users can select from existing customer addresses or create new addresses when needed. Selected addresses flow through the project lifecycle and are synchronized between Dataverse and Dynamics 365 Finance</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "May CY2027",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 579899,
+    "title": "Power Apps: Use the modernized Personal settings experience",
+    "description": "<p>The <strong>Personal settings</strong> experience in model-driven apps has been modernized with clearer organization, updated navigation, and a more consistent design.</p>\n<p>Users can select a button to return to the classic <strong>Personal settings</strong> experience if needed.</p>\n<h3>Availability</h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Release Channel</td>\n<td>Weekly</td>\n</tr>\n<tr>\n<td>Version</td>\n<td>2611.4</td>\n</tr>\n<tr>\n<td>Applies to</td>\n<td>Model-driven apps</td>\n</tr>\n<tr>\n<td>Feature Scope</td>\n<td>Users (enabled by default)</td>\n</tr>\n</tbody>\n</table>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 578907,
+    "title": "Dynamics 365 Project Operations: Use item requirements from stocked material estimates",
+    "description": "<p>Confirm demand on a stocked material estimate in Dataverse to create an item requirement in finance and operations. This connects material estimates to supply chain processes for procurement and proactive planning, rather than limiting them to materials already on hand.</p>\n<p>In Dataverse, you can request packing-slip posting or cancellation, close the remaining quantity on the item requirement, and check processing results. Finance and operations processes the inventory movement and project cost, and material usage information returns to Dataverse.</p>\n<p>An administrator or maker enables or configures the capability for users. This feature applies to the Project Operations connected with ERP deployment type.</p>\n<h2>Availability</h2>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Release Channel</td>\n<td>Monthly</td>\n</tr>\n<tr>\n<td>Version</td>\n<td>UR78 / 10.0.52</td>\n</tr>\n<tr>\n<td>Applies to</td>\n<td>Model-driven apps</td>\n</tr>\n<tr>\n<td>Feature Scope</td>\n<td>Users (enabled by admins or makers)</td>\n</tr>\n</tbody>\n</table>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "June CY2027",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 577854,
+    "title": "Dynamics 365 Finance: Build reports with Project to profit data model",
+    "description": "<p>Project to Profit value chain mainly contains business processes:</p>\n<ul>\n<li>Govern projects</li>\n<li>Manage project contracts</li>\n<li>Manage project resources and schedule</li>\n<li>Manage project delivery</li>\n<li>Manage project financials</li>\n<li>Monitor and analyze project performance</li>\n</ul>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2027",
+    "publicPreviewDate": "June CY2027"
+  },
+  {
+    "id": 579977,
+    "title": "Microsoft Copilot (Microsoft 365): Discover and act on recommended lead and opportunity actions in Sales agent",
+    "description": "<p>Sellers can discover and act on lead and opportunity recommendations that are already prioritized for them in Sales agent. A single prioritized list helps sellers see what needs attention without monitoring each agent separately or prioritizing the actions themselves. Sellers can review each recommended action, understand its details and business context, and take action from the same experience.</p>\n<p>The initial release focuses on lead outreach actions from Sales qualification agent and opportunity risk actions from Sales opportunity agent. Sellers can discover leads that need outreach and opportunities that need attention, review the recommended next step and its context, and act to move customer conversations and opportunities forward.</p>\n<p>Recommended actions will be turned on by default. Additional agents, including custom agents, are a future direction and are not part of this initial release commitment.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "November CY2026",
+    "publicPreviewDate": ""
+  },
+  {
+    "id": 578908,
+    "title": "Dynamics 365 Project Operations: Subcontracting UI Improvement",
+    "description": "<p>Some of the most commonly used business processes that project managers perform during subcontract management include the following tasks:</p>\n<p>Modify subcontract line<br>\nTrack subcontract usage<br>\nMonitor billing progress for subcontracts<br>\nCurrently, project managers need to use multiple forms and interfaces to access these business processes. This complexity increases when project managers manage vendors and subcontracts across various projects.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "August CY2027",
+    "publicPreviewDate": "September CY2025"
+  },
+  {
+    "id": 577875,
+    "title": "Dynamics 365 Project Operations: Expense and material budget lines to have project end date as budget line end date during import",
+    "description": "<p>Project managers frequently create budgets by importing material and expense estimates. Currently, the imported budget lines default the end date to the same value as the start date, requiring users to manually update each budget line to reflect the actual project duration. This additional step increases planning effort, introduces the risk of incorrect dates, and creates a poor user experience, particularly for projects with a large number of material and expense estimates. By automatically defaulting the budget line end date to the project end date, the budgeting process becomes faster, more intuitive, and better aligned with typical project planning practices. This is for Dynamics 365 Project Operations core and connected with ERP deployment types.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "August CY2027",
+    "publicPreviewDate": "March CY2027"
+  },
+  {
+    "id": 577749,
+    "title": "Dynamics 365 Commerce: Configure quick operations on the transaction screen",
+    "description": "<p><strong>Applies to</strong>: Point of Sale (Store Commerce)</p>\n<p><strong>Setup</strong>: Store admin configures the control in the Commerce headquarters screen layout designer.</p>\n<p>You can add a new <strong>Quick Operations control</strong> to the transaction screen layout in the headquarters screen layout designer.</p>\n<ul>\n<li>Display a configurable set of operations in a purpose-built experience instead of a generic button grid. For example, include manual discount amount, manual discount percentage, transaction comments, and customer purchase order numbers.</li>\n<li>Configure operations per screen layout. The control respects POS permissions and hides or disables actions based on user access. Operations use the same workflows as the button grid.</li>\n<li>Configure control attributes in the screen layout designer to include custom fields and operations. This capability lets merchants surface extension fields alongside built-in operations.</li>\n<li>Provide a graceful empty state when no operations are configured.</li>\n</ul>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicPreviewDate": "July CY2026"
+  },
+  {
+    "id": 577400,
+    "title": "Dynamics 365 Finance: Enable Project and Item Requirement delivery address",
+    "description": "<p>Enable Project and Item Requirement Delivery Address Management</p>\n<p>This feature extends delivery address capabilities within integrated Project Operations by introducing delivery address support on Project, Project Task, and Material Estimate records. Delivery addresses can be selected from customer addresses, defaulted through the project hierarchy, and synchronized between Dataverse and Finance and Operations.</p>\n<p>The enhancement also ensures that delivery addresses are correctly resolved and populated on Item Requirements regardless of how they are created, whether from Item Forecasts, Project Purchase Orders, or directly from Projects. This provides a consistent and controlled address management experience across project planning, procurement, and fulfillment processes.</p>",
+    "status": "In development",
+    "publicDisclosureAvailabilityDate": "January CY2028",
+    "publicPreviewDate": "January CY2027"
+  },
+  {
     "id": 579982,
     "title": "Dynamics 365 Customer Insights - Journeys: Create event experience that match your business structure by supporting leads, contacts, or both​",
     "description": "<p>Align event registrations with the way your organization manages customer data. By supporting lead-based registration journeys and existing matching rules, you can avoid unnecessary Contact creation, improve data quality, and ensure event attendees follow the same lead management process used across your business.​</p>\n<ul>\n<li>Configure event registration forms to create or update Contacts, Leads, or both Leads and Contacts ​</li>\n<li>Apply existing matching, deduplication, and update rules to event registrations for more consistent and accurate customer data.​</li>\n<li>Register attendees without requiring a Contact record, enabling lead-only registration scenarios and sales-driven qualification processes.​</li>\n</ul>",
@@ -4283,7 +4387,7 @@
     "id": 573157,
     "title": "Microsoft Teams: Impersonation Protection for Teams meetings",
     "description": "<p>Impersonation Protection for Teams meetings helps users identify potentially deceptive participants and meeting organizers. When Teams detects a potential impersonation attempt, it surfaces warnings and risk indicators to help users recognize suspicious identities and make more informed decisions when joining or participating in a meeting.</p>",
-    "status": "In development",
+    "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "November CY2026",
     "publicPreviewDate": ""
   },
@@ -5516,7 +5620,7 @@
     "title": "Microsoft Teams: Express face enrollment",
     "description": "<p>Express face enrollment makes it easier for users to create a face profile in Teams by using their camera during eligible meetings, after they opt in. Once enrolled, users can be recognized in supported Teams Rooms experiences, helping identify who is in the room and improving downstream meeting experiences such as Copilot and recap. Admins can enable or disable the feature for their organization.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicDisclosureAvailabilityDate": "February CY2027",
     "publicPreviewDate": ""
   },
   {
@@ -5700,7 +5804,7 @@
     "title": "Microsoft Teams: Two presenters can share their screens or windows simultaneously in meetings",
     "description": "<p>Two presenters can share a screen or window at the same time in a Teams meeting. Participants can see both shared content streams simultaneously, making it easier to compare and discuss content from different presenters.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicDisclosureAvailabilityDate": "January CY2027",
     "publicPreviewDate": ""
   },
   {
@@ -9508,7 +9612,7 @@
     "title": "Microsoft Teams: Facilitator detects and answers questions",
     "description": "<p>Facilitator now automatically detects open questions raised during a Teams meeting and offers to help answer them using web search. When a participant asks a question (e.g., “What is an LLM?”) and no one answers, Facilitator posts a prompt offering to find an answer. Participants can select “Yes” to have the agent retrieve and share the information.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicDisclosureAvailabilityDate": "February CY2027",
     "publicPreviewDate": ""
   },
   {
@@ -11194,9 +11298,9 @@
   {
     "id": 508526,
     "title": "Microsoft Copilot (Microsoft 365): Microsoft 365 Copilot Search Supports SharePoint Online Custom Properties Search",
-    "description": "Discover and find people through Microsoft 365 Copilot Search based on your company's custom profile properties from SharePoint Online.",
+    "description": "<p>Discover and find people through Microsoft 365 Copilot Search based on your company's custom profile properties from SharePoint Online.</p>",
     "status": "In development",
-    "publicDisclosureAvailabilityDate": "December CY2026",
+    "publicDisclosureAvailabilityDate": "June CY2027",
     "publicPreviewDate": ""
   },
   {
@@ -12170,7 +12274,7 @@
   {
     "id": 537269,
     "title": "Microsoft Teams: Express voice enrollment in Microsoft Teams",
-    "description": "<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, just go to the recognition tab in Teams settings and opt-in to enroll your voice simply by speaking during a meeting.&nbsp; Admins can enable or disable this feature.</p>",
+    "description": "<p>Express voice enrollment makes registering your voice in Teams fast and easy. Your profile enables features like voice isolation, speaker recognition, identification in a meeting room and transcripts, and enhanced meeting recaps and insights from Microsoft 365 Copilot. If you don’t yet have a voice profile, just go to the recognition tab in Teams settings and opt-in to enroll your voice from audio during your Teams meetings. Admins can enable or disable this feature.</p>",
     "status": "Launched",
     "publicDisclosureAvailabilityDate": "June CY2026",
     "publicPreviewDate": ""
@@ -13064,14 +13168,6 @@
     "publicPreviewDate": "November CY2025"
   },
   {
-    "id": 505436,
-    "title": "Microsoft Copilot (Microsoft 365): Knowledge templates support for ServiceNow Knowledge Connector",
-    "description": "Earlier ServiceNow Knowledge connector did not support ingestion of content for articles created using templates in ServiceNow. But now ServiceNow Knowledge connector supports ingestion of knowledge articles based on out-of-the-box templates like FAQ, How to, What is, etc. & even custom templates used by the customers in their organization.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "December CY2025",
-    "publicPreviewDate": "November CY2025"
-  },
-  {
     "id": 525366,
     "title": "Microsoft Edge: v.145 - Securely enable AI generated applications",
     "description": "Leverage the latest AI advancements to build prototypes, learning applications or interactive reports using your favorite tools in Edge without worrying about your data. This extension enables apps to leverage some new security improvements for safely executing AI generated code.",
@@ -13291,22 +13387,6 @@
     "id": 502534,
     "title": "Microsoft Copilot (Microsoft 365): [Copilot Extensibility] [Search UX] Custom filter support for data sources on Copilot Search",
     "description": "1. Allow IT admins to customize filters at a data source level.\n2. IT admins can add/delete a filter at data source level.\n",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "December CY2025",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 523208,
-    "title": "Outlook: Collapsible Automatic Replies on Outlook for iOS",
-    "description": "Now when users receive multiple automatic replies at once, they appear collapsed in the reading pane by default. Users can then expand to see all the automatic replies if desired.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "December CY2025",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 523207,
-    "title": "Outlook: Collapsible Automatic Replies on Outlook for Android",
-    "description": "Now when users receive multiple automatic replies at once, they appear collapsed in the reading pane by default. Users can then expand to see all the automatic replies if desired.",
     "status": "Launched",
     "publicDisclosureAvailabilityDate": "December CY2025",
     "publicPreviewDate": ""
@@ -15184,14 +15264,6 @@
     "publicPreviewDate": "September CY2025"
   },
   {
-    "id": 499421,
-    "title": "Microsoft Viva: Enhancement to Copilot studio agents report ",
-    "description": "Following further review, this feature continues in development. We apologize for any inconvenience. Enhancement to Copilot studio agents report (Preview) 1. Addition of Weekly active user count 2. Report aggregation changed to weekly to main consistency with other reports\n",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "November CY2025",
-    "publicPreviewDate": "August CY2025"
-  },
-  {
     "id": 499154,
     "title": "Microsoft Intune: Intune Suite - Unattended Remote Help for Windows - Remote Sign-in",
     "description": "Remotely access devices over the cloud without requiring end user involvement by signing in with credentials.",
@@ -16216,14 +16288,6 @@
     "publicPreviewDate": ""
   },
   {
-    "id": 490055,
-    "title": "Microsoft Teams: Silent test call",
-    "description": "Silent Test enables IT administrators to proactively run synthetic Teams call simulations to specific subnets, helping assess network readiness and detect potential issues before they impact users, ensuring a seamless communication experience.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
-    "publicPreviewDate": ""
-  },
-  {
     "id": 490064,
     "title": "OneDrive: Prompt for permitted users to sign in to OneDrive app with personal Microsoft account",
     "description": "Users have long been able to use personal Microsoft accounts with the OneDrive app on corporate Windows devices—unless restricted by admin policy. This new feature introduces a prompt only when a personal account is already signed in on the device, encouraging users to also sign in to the OneDrive app with that account. Administrators who have already restricted personal accounts on corporate devices can continue to manage this as before. Organizations that have already disabled personal OneDrive accounts on corporate devices with the DisablePersonalSync policy will not see this prompt. Administrators can also suppress it using the DisableNewAccountDetection policy. More information on configuring policies can be found here:",
@@ -16277,14 +16341,6 @@
     "description": "Copilot includes a summary at the top of key statistics from your Word document.",
     "status": "In development",
     "publicDisclosureAvailabilityDate": "August CY2025",
-    "publicPreviewDate": ""
-  },
-  {
-    "id": 485733,
-    "title": "Microsoft Purview Information Protection: Doc library default labeling for SharePoint Online and Copilot",
-    "description": "This new capability further integrates SharePoint Online with Purview sensitivity labeling. SharePoint Online document library owners can set a new type of default label on the library, which automatically applies that label to all unprotected Word, Excel, PowerPoint, and PDF files within the library. This simplifies labeling in bulk across document libraries in an organization, enriches DLP and Copilot with signal to allow admins to monitor and restrict access to this content, and enables inheritance of sensitivity labels to output artifacts in Copilot. #copilotcontrolsystem",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "September CY2025",
     "publicPreviewDate": ""
   },
   {
@@ -17622,14 +17678,6 @@
     "status": "Rolling out",
     "publicDisclosureAvailabilityDate": "September CY2025",
     "publicPreviewDate": ""
-  },
-  {
-    "id": 410245,
-    "title": "Microsoft 365: Multi-Geo In-Region Routing",
-    "description": "Multi-Geo In-Region Routing (IRR) enables customers to control the routing of inbound emails. Using IRR, customers can set the geo-region that inbound mail should be routed to for specific Accepted Domains.",
-    "status": "Launched",
-    "publicDisclosureAvailabilityDate": "October CY2025",
-    "publicPreviewDate": "October CY2025"
   },
   {
     "id": 408537,
